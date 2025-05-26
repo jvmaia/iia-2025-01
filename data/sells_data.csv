@@ -1,0 +1,5001 @@
+client,location,product,quantity
+Ana,PAD-DF,Pimentão,59
+Ana,PAD-DF,Tangerina,82
+Ana,PAD-DF,Alface,83
+Ana,PAD-DF,Acerola,0
+Ana,PAD-DF,Tangerina,89
+Ana,PAD-DF,Maracujá,85
+Ana,PAD-DF,Abacate,69
+Ana,PAD-DF,Milho doce,97
+Ana,PAD-DF,Abacate,65
+Ana,PAD-DF,Limão,91
+Ana,PAD-DF,Milho doce,68
+Ana,PAD-DF,Abacaxi,9
+Ana,PAD-DF,Repolho,60
+Ana,PAD-DF,Acerola,1
+Ana,PAD-DF,Milho doce,86
+Ana,PAD-DF,Cebola,54
+Ana,PAD-DF,Limão,89
+Ana,PAD-DF,Tangerina,58
+Ana,PAD-DF,Limão,64
+Ana,PAD-DF,Cebola,51
+Ana,PAD-DF,Acerola,8
+Ana,PAD-DF,Milho doce,90
+Ana,PAD-DF,Alface,96
+Ana,PAD-DF,Tangerina,97
+Ana,PAD-DF,Acerola,8
+Ana,PAD-DF,Cenoura,94
+Ana,PAD-DF,Milho doce,84
+Ana,PAD-DF,Cenoura,72
+Ana,PAD-DF,Milho doce,74
+Ana,PAD-DF,Mandioca,70
+Ana,PAD-DF,Uva,51
+Ana,PAD-DF,Cebolinha,5
+Ana,PAD-DF,Repolho,70
+Ana,PAD-DF,Mandioca,95
+Ana,PAD-DF,Abacate,66
+Ana,PAD-DF,Cebolinha,5
+Ana,PAD-DF,Abacate,55
+Ana,PAD-DF,Mandioca,70
+Ana,PAD-DF,Pepino,91
+Ana,PAD-DF,Abacate,99
+Ana,PAD-DF,Pimentão,57
+Ana,PAD-DF,Pepino,56
+Ana,PAD-DF,Uva Vinífera,58
+Ana,PAD-DF,Pepino,73
+Ana,PAD-DF,Acerola,1
+Ana,PAD-DF,Pimentão,85
+Ana,PAD-DF,Repolho,90
+Ana,PAD-DF,Repolho,96
+Ana,PAD-DF,Maracujá,58
+Ana,PAD-DF,Pepino,71
+Ana,PAD-DF,Abacate,75
+Ana,PAD-DF,Tangerina,54
+Ana,PAD-DF,Abacaxi,10
+Ana,PAD-DF,Tangerina,97
+Ana,PAD-DF,Abacaxi,10
+Ana,PAD-DF,Uva,96
+Ana,PAD-DF,Alho,5
+Ana,PAD-DF,Milho doce,94
+Ana,PAD-DF,Abacaxi,8
+Ana,PAD-DF,Cebolinha,7
+Ana,PAD-DF,Maracujá,59
+Ana,PAD-DF,Abacate,74
+Ana,PAD-DF,Tangerina,79
+Ana,PAD-DF,Repolho,78
+Ana,PAD-DF,Cebolinha,3
+Ana,PAD-DF,Repolho,73
+Ana,PAD-DF,Uva Vinífera,80
+Ana,PAD-DF,Abacaxi,0
+Ana,PAD-DF,Uva,75
+Ana,PAD-DF,Uva,80
+Ana,PAD-DF,Acerola,2
+Ana,PAD-DF,Milho doce,64
+Ana,PAD-DF,Mandioca,88
+Ana,PAD-DF,Cebola,69
+Ana,PAD-DF,Tangerina,72
+Ana,PAD-DF,Laranja,93
+Ana,PAD-DF,Limão,55
+Ana,PAD-DF,Morango,8
+Ana,PAD-DF,Uva Vinífera,54
+Ana,PAD-DF,Milho doce,95
+Ana,PAD-DF,Limão,69
+Ana,PAD-DF,Tomate,91
+Ana,PAD-DF,Pepino,54
+Ana,PAD-DF,Tomate,89
+Ana,PAD-DF,Pepino,86
+Ana,PAD-DF,Tangerina,58
+Ana,PAD-DF,Pimentão,93
+Ana,PAD-DF,Manga,92
+Ana,PAD-DF,Laranja,65
+Ana,PAD-DF,Alho,2
+Ana,PAD-DF,Alho,3
+Ana,PAD-DF,Mandioca,73
+Ana,PAD-DF,Milho doce,81
+Ana,PAD-DF,Pepino,80
+Ana,PAD-DF,Uva Vinífera,85
+Ana,PAD-DF,Berinjela,65
+Ana,PAD-DF,Pepino,91
+Ana,PAD-DF,Laranja,98
+Ana,PAD-DF,Limão,69
+Ana,PAD-DF,Uva Vinífera,72
+Beatriz,Vargem Bonita,Maracujá,75
+Beatriz,Vargem Bonita,Milho-verde,73
+Beatriz,Vargem Bonita,Maracujá,61
+Beatriz,Vargem Bonita,Maracujá,59
+Beatriz,Vargem Bonita,Pitaia,56
+Beatriz,Vargem Bonita,Maracujá,82
+Beatriz,Vargem Bonita,Limão,91
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,78
+Beatriz,Vargem Bonita,Banana,76
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,56
+Beatriz,Vargem Bonita,Alface,55
+Beatriz,Vargem Bonita,Limão,53
+Beatriz,Vargem Bonita,Alface,60
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,71
+Beatriz,Vargem Bonita,Alface,89
+Beatriz,Vargem Bonita,Caqui,9
+Beatriz,Vargem Bonita,Alface,76
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,50
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,73
+Beatriz,Vargem Bonita,Caqui,1
+Beatriz,Vargem Bonita,Limão,97
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,95
+Beatriz,Vargem Bonita,Pipiripau,0
+Beatriz,Vargem Bonita,Maracujá,73
+Beatriz,Vargem Bonita,Alface,61
+Beatriz,Vargem Bonita,Pipiripau,8
+Beatriz,Vargem Bonita,Repolho,59
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,78
+Beatriz,Vargem Bonita,Limão,90
+Beatriz,Vargem Bonita,Maracujá,68
+Beatriz,Vargem Bonita,Maracujá,64
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,96
+Beatriz,Vargem Bonita,Gengibre,81
+Beatriz,Vargem Bonita,Alface,60
+Beatriz,Vargem Bonita,Sobradinho,2
+Beatriz,Vargem Bonita,Pimentão,94
+Beatriz,Vargem Bonita,Alface,90
+Beatriz,Vargem Bonita,Maracujá,69
+Beatriz,Vargem Bonita,Banana,83
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,63
+Beatriz,Vargem Bonita,Gengibre,74
+Beatriz,Vargem Bonita,Milho-verde,90
+Beatriz,Vargem Bonita,Brócolis - Ramoso,94
+Beatriz,Vargem Bonita,Pimentão,73
+Beatriz,Vargem Bonita,Maracujá,100
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,53
+Beatriz,Vargem Bonita,Brócolis - Ramoso,89
+Beatriz,Vargem Bonita,Limão,63
+Beatriz,Vargem Bonita,Maracujá,92
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,83
+Beatriz,Vargem Bonita,Limão,68
+Beatriz,Vargem Bonita,Gengibre,77
+Beatriz,Vargem Bonita,Pimentão,53
+Beatriz,Vargem Bonita,Laranja,92
+Beatriz,Vargem Bonita,Banana,54
+Beatriz,Vargem Bonita,Caqui,7
+Beatriz,Vargem Bonita,Mandioca,63
+Beatriz,Vargem Bonita,Uva,53
+Beatriz,Vargem Bonita,Milho-verde,90
+Beatriz,Vargem Bonita,Uva,73
+Beatriz,Vargem Bonita,Uva,53
+Beatriz,Vargem Bonita,Pipiripau,1
+Beatriz,Vargem Bonita,Brócolis - Ramoso,77
+Beatriz,Vargem Bonita,Pipiripau,5
+Beatriz,Vargem Bonita,Pitaia,71
+Beatriz,Vargem Bonita,Mandioca,91
+Beatriz,Vargem Bonita,Banana,55
+Beatriz,Vargem Bonita,Mandioca,54
+Beatriz,Vargem Bonita,Gengibre,51
+Beatriz,Vargem Bonita,Limão,68
+Beatriz,Vargem Bonita,Milho-verde,87
+Beatriz,Vargem Bonita,Sobradinho,3
+Beatriz,Vargem Bonita,Brócolis - Ramoso,75
+Beatriz,Vargem Bonita,Brócolis - Ramoso,84
+Beatriz,Vargem Bonita,Tangerina,100
+Beatriz,Vargem Bonita,Pitaia,82
+Beatriz,Vargem Bonita,Limão,81
+Beatriz,Vargem Bonita,Couve,85
+Beatriz,Vargem Bonita,Mandioca,86
+Beatriz,Vargem Bonita,Mandioca,64
+Beatriz,Vargem Bonita,Tangerina,93
+Beatriz,Vargem Bonita,Sobradinho,9
+Beatriz,Vargem Bonita,Couve,99
+Beatriz,Vargem Bonita,Pipiripau,2
+Beatriz,Vargem Bonita,Milho doce,3
+Beatriz,Vargem Bonita,Mandioca,54
+Beatriz,Vargem Bonita,Brócolis - Cabeça Única,61
+Beatriz,Vargem Bonita,Tangerina,97
+Beatriz,Vargem Bonita,Gengibre,88
+Beatriz,Vargem Bonita,Limão,100
+Beatriz,Vargem Bonita,Couve,72
+Beatriz,Vargem Bonita,Pitaia,91
+Beatriz,Vargem Bonita,Tangerina,70
+Beatriz,Vargem Bonita,Caqui,2
+Beatriz,Vargem Bonita,Repolho,90
+Beatriz,Vargem Bonita,Mandioca,50
+Beatriz,Vargem Bonita,Pitaia,97
+Beatriz,Vargem Bonita,Mandioca,64
+Beatriz,Vargem Bonita,Mandioca,85
+Beatriz,Vargem Bonita,Repolho,56
+Camila,Pipiripau,Acerola,5
+Camila,Pipiripau,Maracujá,69
+Camila,Pipiripau,Acerola,2
+Camila,Pipiripau,Pimentão,77
+Camila,Pipiripau,Chuchu,72
+Camila,Pipiripau,Chuchu,80
+Camila,Pipiripau,Chuchu,98
+Camila,Pipiripau,Chuchu,90
+Camila,Pipiripau,Batata,91
+Camila,Pipiripau,Pimentão,78
+Camila,Pipiripau,Pitaia,56
+Camila,Pipiripau,Banana,83
+Camila,Pipiripau,Cenoura,67
+Camila,Pipiripau,Maracujá,59
+Camila,Pipiripau,Limão,76
+Camila,Pipiripau,Pimentão,88
+Camila,Pipiripau,Banana,74
+Camila,Pipiripau,Cenoura,63
+Camila,Pipiripau,Abacate,52
+Camila,Pipiripau,Mandioca,61
+Camila,Pipiripau,Banana,87
+Camila,Pipiripau,Lichia,68
+Camila,Pipiripau,Abóbora italiana,93
+Camila,Pipiripau,Abóbora,54
+Camila,Pipiripau,Chuchu,100
+Camila,Pipiripau,Batata,92
+Camila,Pipiripau,Pitaia,55
+Camila,Pipiripau,Chuchu,55
+Camila,Pipiripau,Acerola,6
+Camila,Pipiripau,Batata,72
+Camila,Pipiripau,Mandioca,94
+Camila,Pipiripau,Batata,98
+Camila,Pipiripau,Cenoura,74
+Camila,Pipiripau,Cenoura,64
+Camila,Pipiripau,Lichia,65
+Camila,Pipiripau,Maracujá,67
+Camila,Pipiripau,Pepino,89
+Camila,Pipiripau,Pepino,52
+Camila,Pipiripau,Abacate,89
+Camila,Pipiripau,Pepino,94
+Camila,Pipiripau,Abóbora,86
+Camila,Pipiripau,Abóbora italiana,89
+Camila,Pipiripau,Pepino,75
+Camila,Pipiripau,Planaltina,96
+Camila,Pipiripau,Chuchu,52
+Camila,Pipiripau,Maracujá,85
+Camila,Pipiripau,Pepino,57
+Camila,Pipiripau,Tomate,80
+Camila,Pipiripau,Batata,81
+Camila,Pipiripau,Chuchu,55
+Camila,Pipiripau,Acerola,2
+Camila,Pipiripau,Tomate,72
+Camila,Pipiripau,Maracujá,70
+Camila,Pipiripau,Pitaia,53
+Camila,Pipiripau,Coco,8
+Camila,Pipiripau,Abacate,98
+Camila,Pipiripau,Tomate,72
+Camila,Pipiripau,Abacate,89
+Camila,Pipiripau,Tangerina,91
+Camila,Pipiripau,Pimentão,96
+Camila,Pipiripau,Tangerina,89
+Camila,Pipiripau,Tomate,80
+Camila,Pipiripau,Pitaia,85
+Camila,Pipiripau,Banana,74
+Camila,Pipiripau,Pepino,56
+Camila,Pipiripau,Berinjela,59
+Camila,Pipiripau,Pepino,58
+Camila,Pipiripau,Batata,68
+Camila,Pipiripau,Chuchu,71
+Camila,Pipiripau,Banana,74
+Camila,Pipiripau,Banana,82
+Camila,Pipiripau,Lichia,50
+Camila,Pipiripau,Pitaia,78
+Camila,Pipiripau,Pepino,65
+Camila,Pipiripau,Cenoura,78
+Camila,Pipiripau,Abóbora italiana,85
+Camila,Pipiripau,Banana,86
+Camila,Pipiripau,Planaltina,99
+Camila,Pipiripau,Pimentão,81
+Camila,Pipiripau,Tomate,87
+Camila,Pipiripau,Laranja,91
+Camila,Pipiripau,Banana,88
+Camila,Pipiripau,Chuchu,97
+Camila,Pipiripau,Coco,2
+Camila,Pipiripau,Maracujá,67
+Camila,Pipiripau,Abóbora italiana,52
+Camila,Pipiripau,Abacate,89
+Camila,Pipiripau,Pepino,98
+Camila,Pipiripau,Tomate,79
+Camila,Pipiripau,Abóbora,99
+Camila,Pipiripau,Abóbora,92
+Camila,Pipiripau,Chuchu,66
+Camila,Pipiripau,Tomate,89
+Camila,Pipiripau,Limão,88
+Camila,Pipiripau,Coco,2
+Camila,Pipiripau,Pepino,74
+Camila,Pipiripau,Pepino,62
+Camila,Pipiripau,Morango,4
+Camila,Pipiripau,Acerola,9
+Camila,Pipiripau,Mandioca,78
+Daniela,São Sebastião,Agrião,86
+Daniela,São Sebastião,Maracujá Pérola,99
+Daniela,São Sebastião,Agrião,54
+Daniela,São Sebastião,Agrião,83
+Daniela,São Sebastião,Tangerina,74
+Daniela,São Sebastião,Maracujá Pérola,58
+Daniela,São Sebastião,Couve,96
+Daniela,São Sebastião,Pitaia,50
+Daniela,São Sebastião,Couve,55
+Daniela,São Sebastião,Agrião,75
+Daniela,São Sebastião,Pitaia,70
+Daniela,São Sebastião,Abóbora,65
+Daniela,São Sebastião,Maracujá Pérola,99
+Daniela,São Sebastião,Tangerina,58
+Daniela,São Sebastião,Laranja,74
+Daniela,São Sebastião,Couve,90
+Daniela,São Sebastião,Couve,72
+Daniela,São Sebastião,Agrião,81
+Daniela,São Sebastião,Morango,58
+Daniela,São Sebastião,Laranja,78
+Daniela,São Sebastião,Banana,64
+Daniela,São Sebastião,Banana,50
+Daniela,São Sebastião,Couve,79
+Daniela,São Sebastião,Laranja,69
+Daniela,São Sebastião,Abóbora,69
+Daniela,São Sebastião,Banana,87
+Daniela,São Sebastião,Tangerina,78
+Daniela,São Sebastião,Tangerina,97
+Daniela,São Sebastião,Maracujá Pérola,99
+Daniela,São Sebastião,Pitaia,97
+Daniela,São Sebastião,Agrião,58
+Daniela,São Sebastião,Tangerina,88
+Daniela,São Sebastião,Limão,87
+Daniela,São Sebastião,Pitaia,54
+Daniela,São Sebastião,Tangerina,64
+Daniela,São Sebastião,Limão,59
+Daniela,São Sebastião,Pitaia,81
+Daniela,São Sebastião,Agrião,56
+Daniela,São Sebastião,Tangerina,75
+Daniela,São Sebastião,Morango,99
+Daniela,São Sebastião,Pitaia,60
+Daniela,São Sebastião,Alface,67
+Daniela,São Sebastião,Tangerina,94
+Daniela,São Sebastião,Maracujá,61
+Daniela,São Sebastião,Laranja,92
+Daniela,São Sebastião,Maracujá,91
+Daniela,São Sebastião,Agrião,84
+Daniela,São Sebastião,Mandioca,84
+Daniela,São Sebastião,Banana,84
+Daniela,São Sebastião,Banana,92
+Daniela,São Sebastião,Morango,66
+Daniela,São Sebastião,Tangerina,77
+Daniela,São Sebastião,Couve,92
+Daniela,São Sebastião,Pitaia,98
+Daniela,São Sebastião,Banana,56
+Daniela,São Sebastião,Abóbora,81
+Daniela,São Sebastião,Maracujá,61
+Daniela,São Sebastião,Banana,88
+Daniela,São Sebastião,Brócolis - Ramoso,1
+Daniela,São Sebastião,Banana,91
+Daniela,São Sebastião,Abóbora,91
+Daniela,São Sebastião,Morango,62
+Daniela,São Sebastião,Banana,86
+Daniela,São Sebastião,Abacate,84
+Daniela,São Sebastião,Agrião,59
+Daniela,São Sebastião,Brócolis - Ramoso,2
+Daniela,São Sebastião,Agrião,84
+Daniela,São Sebastião,Agrião,64
+Daniela,São Sebastião,Agrião,64
+Daniela,São Sebastião,Brócolis - Ramoso,6
+Daniela,São Sebastião,Brócolis - Ramoso,5
+Daniela,São Sebastião,Laranja,72
+Daniela,São Sebastião,Alface,74
+Daniela,São Sebastião,Agrião,86
+Daniela,São Sebastião,Couve,83
+Daniela,São Sebastião,Brócolis - Ramoso,8
+Daniela,São Sebastião,Brócolis - Ramoso,10
+Daniela,São Sebastião,Maracujá,91
+Daniela,São Sebastião,Tomate,86
+Daniela,São Sebastião,Maracujá,74
+Daniela,São Sebastião,Tangerina,93
+Daniela,São Sebastião,Brócolis - Ramoso,3
+Daniela,São Sebastião,Maracujá,63
+Daniela,São Sebastião,Abacaxi,52
+Daniela,São Sebastião,Abóbora,76
+Daniela,São Sebastião,Pitaia,62
+Daniela,São Sebastião,Morango,59
+Daniela,São Sebastião,Tangerina,54
+Daniela,São Sebastião,Maracujá,100
+Daniela,São Sebastião,Couve,76
+Daniela,São Sebastião,Morango,92
+Daniela,São Sebastião,Banana,69
+Daniela,São Sebastião,Morango,55
+Daniela,São Sebastião,Limão,58
+Daniela,São Sebastião,Abacate,52
+Daniela,São Sebastião,Agrião,100
+Daniela,São Sebastião,Tangerina,83
+Daniela,São Sebastião,Banana,86
+Daniela,São Sebastião,Banana,57
+Daniela,São Sebastião,Banana,52
+Elisa,Rio Preto,Tangerina,69
+Elisa,Rio Preto,Pitaia,67
+Elisa,Rio Preto,Mandioca,67
+Elisa,Rio Preto,São Sebastião,61
+Elisa,Rio Preto,Mandioca,94
+Elisa,Rio Preto,Banana,100
+Elisa,Rio Preto,Pimentão,98
+Elisa,Rio Preto,Pitaia,76
+Elisa,Rio Preto,Pitaia,69
+Elisa,Rio Preto,São Sebastião,85
+Elisa,Rio Preto,Coco,3
+Elisa,Rio Preto,Pitaia,95
+Elisa,Rio Preto,Cenoura,74
+Elisa,Rio Preto,Pimentão,85
+Elisa,Rio Preto,Limão,54
+Elisa,Rio Preto,Maracujá,82
+Elisa,Rio Preto,Mandioca,51
+Elisa,Rio Preto,Limão,88
+Elisa,Rio Preto,Cenoura,79
+Elisa,Rio Preto,Limão,96
+Elisa,Rio Preto,Maracujá,64
+Elisa,Rio Preto,Coco,5
+Elisa,Rio Preto,Tangerina,94
+Elisa,Rio Preto,Coco,7
+Elisa,Rio Preto,Maracujá,88
+Elisa,Rio Preto,Limão,88
+Elisa,Rio Preto,Maracujá,60
+Elisa,Rio Preto,Tomate,58
+Elisa,Rio Preto,Tangerina,76
+Elisa,Rio Preto,Coco,0
+Elisa,Rio Preto,Banana,72
+Elisa,Rio Preto,Tomate,61
+Elisa,Rio Preto,Tomate,51
+Elisa,Rio Preto,Alface,8
+Elisa,Rio Preto,Coco,10
+Elisa,Rio Preto,Pimentão,64
+Elisa,Rio Preto,Alho,96
+Elisa,Rio Preto,São Sebastião,99
+Elisa,Rio Preto,Alho,59
+Elisa,Rio Preto,Banana,59
+Elisa,Rio Preto,Mandioca,84
+Elisa,Rio Preto,Limão,90
+Elisa,Rio Preto,São Sebastião,99
+Elisa,Rio Preto,Tomate,62
+Elisa,Rio Preto,Tangerina,90
+Elisa,Rio Preto,Laranja,82
+Elisa,Rio Preto,Pimentão,92
+Elisa,Rio Preto,Abacate,57
+Elisa,Rio Preto,Alface,9
+Elisa,Rio Preto,Alho,71
+Elisa,Rio Preto,Tomate,82
+Elisa,Rio Preto,Maracujá,85
+Elisa,Rio Preto,Beterraba,93
+Elisa,Rio Preto,Batata-doce,67
+Elisa,Rio Preto,Limão,91
+Elisa,Rio Preto,Graviola,75
+Elisa,Rio Preto,Laranja,80
+Elisa,Rio Preto,Laranja,92
+Elisa,Rio Preto,Banana,93
+Elisa,Rio Preto,Alho,85
+Elisa,Rio Preto,Batata-doce,71
+Elisa,Rio Preto,Abacate,64
+Elisa,Rio Preto,Coco,0
+Elisa,Rio Preto,Graviola,100
+Elisa,Rio Preto,São Sebastião,86
+Elisa,Rio Preto,São Sebastião,77
+Elisa,Rio Preto,Pimentão,83
+Elisa,Rio Preto,Banana,63
+Elisa,Rio Preto,Mandioca,65
+Elisa,Rio Preto,Laranja,74
+Elisa,Rio Preto,Laranja,80
+Elisa,Rio Preto,Laranja,51
+Elisa,Rio Preto,Alface,1
+Elisa,Rio Preto,Limão,80
+Elisa,Rio Preto,Jabuticaba,70
+Elisa,Rio Preto,Pitaia,86
+Elisa,Rio Preto,Banana,86
+Elisa,Rio Preto,Beterraba,55
+Elisa,Rio Preto,Cenoura,85
+Elisa,Rio Preto,Maracujá,51
+Elisa,Rio Preto,Abacate,61
+Elisa,Rio Preto,Mandioca,68
+Elisa,Rio Preto,Repolho,74
+Elisa,Rio Preto,Graviola,78
+Elisa,Rio Preto,São Sebastião,55
+Elisa,Rio Preto,Pimentão,58
+Elisa,Rio Preto,Tomate,88
+Elisa,Rio Preto,Tangerina,57
+Elisa,Rio Preto,Repolho,71
+Elisa,Rio Preto,Tomate,54
+Elisa,Rio Preto,Pitaia,67
+Elisa,Rio Preto,Abacate,99
+Elisa,Rio Preto,Abóbora,59
+Elisa,Rio Preto,Limão,51
+Elisa,Rio Preto,Batata-doce,84
+Elisa,Rio Preto,Limão,58
+Elisa,Rio Preto,Cenoura,64
+Elisa,Rio Preto,Banana,67
+Elisa,Rio Preto,Graviola,57
+Elisa,Rio Preto,Pimentão,80
+Fernanda,Jardim,Maracujá,51
+Fernanda,Jardim,Cebola,94
+Fernanda,Jardim,Mandioca,75
+Fernanda,Jardim,Maracujá,90
+Fernanda,Jardim,Goiaba,60
+Fernanda,Jardim,Maracujá,87
+Fernanda,Jardim,Cebola,57
+Fernanda,Jardim,Cebola,96
+Fernanda,Jardim,Goiaba,85
+Fernanda,Jardim,Batata-doce,62
+Fernanda,Jardim,Cebola,93
+Fernanda,Jardim,Mandioca,86
+Fernanda,Jardim,Banana,98
+Fernanda,Jardim,Mamão,91
+Fernanda,Jardim,Mamão,55
+Fernanda,Jardim,Pimentão,85
+Fernanda,Jardim,Mandioca,90
+Fernanda,Jardim,Mamão,79
+Fernanda,Jardim,Banana,98
+Fernanda,Jardim,Berinjela,63
+Fernanda,Jardim,Mandioca,77
+Fernanda,Jardim,PAD-DF,64
+Fernanda,Jardim,Repolho,80
+Fernanda,Jardim,Pimentão,51
+Fernanda,Jardim,Pimentão,53
+Fernanda,Jardim,Repolho,100
+Fernanda,Jardim,Mandioca,100
+Fernanda,Jardim,Mandioca,70
+Fernanda,Jardim,Berinjela,59
+Fernanda,Jardim,Repolho,67
+Fernanda,Jardim,Repolho,50
+Fernanda,Jardim,Mamão,98
+Fernanda,Jardim,Pimentão,66
+Fernanda,Jardim,Mandioca,87
+Fernanda,Jardim,Berinjela,84
+Fernanda,Jardim,Cebola,79
+Fernanda,Jardim,Cebola,86
+Fernanda,Jardim,Mamão,75
+Fernanda,Jardim,PAD-DF,88
+Fernanda,Jardim,Mamão,61
+Fernanda,Jardim,Batata-doce,94
+Fernanda,Jardim,Tomate,75
+Fernanda,Jardim,Beterraba,94
+Fernanda,Jardim,Beterraba,52
+Fernanda,Jardim,Repolho,78
+Fernanda,Jardim,Berinjela,84
+Fernanda,Jardim,Maracujá,54
+Fernanda,Jardim,Banana,60
+Fernanda,Jardim,Goiaba,93
+Fernanda,Jardim,Repolho,93
+Fernanda,Jardim,Mandioca,66
+Fernanda,Jardim,Batata-doce,73
+Fernanda,Jardim,Banana,74
+Fernanda,Jardim,Abacate,66
+Fernanda,Jardim,Abóbora japonesa - Tetsukabut,58
+Fernanda,Jardim,Abacate,76
+Fernanda,Jardim,Laranja,0
+Fernanda,Jardim,Tomate,98
+Fernanda,Jardim,Mandioca,86
+Fernanda,Jardim,Tomate,97
+Fernanda,Jardim,Batata-doce,71
+Fernanda,Jardim,Abacate,86
+Fernanda,Jardim,Beterraba,55
+Fernanda,Jardim,Laranja,0
+Fernanda,Jardim,Beterraba,89
+Fernanda,Jardim,Maracujá,91
+Fernanda,Jardim,Cebola,53
+Fernanda,Jardim,Maracujá,81
+Fernanda,Jardim,Abacate,81
+Fernanda,Jardim,Batata-doce,76
+Fernanda,Jardim,Beterraba,89
+Fernanda,Jardim,Banana,92
+Fernanda,Jardim,Mamão,94
+Fernanda,Jardim,Abóbora japonesa - Tetsukabut,97
+Fernanda,Jardim,Berinjela,55
+Fernanda,Jardim,Repolho,75
+Fernanda,Jardim,Abacate,96
+Fernanda,Jardim,Abacate,85
+Fernanda,Jardim,Maracujá,54
+Fernanda,Jardim,Goiaba,94
+Fernanda,Jardim,PAD-DF,63
+Fernanda,Jardim,Laranja,1
+Fernanda,Jardim,Batata-doce,65
+Fernanda,Jardim,PAD-DF,82
+Fernanda,Jardim,Maracujá,63
+Fernanda,Jardim,Maracujá,70
+Fernanda,Jardim,Laranja,8
+Fernanda,Jardim,Laranja,3
+Fernanda,Jardim,Goiaba,81
+Fernanda,Jardim,Cebola,61
+Fernanda,Jardim,Beterraba,64
+Fernanda,Jardim,Repolho,97
+Fernanda,Jardim,Berinjela,58
+Fernanda,Jardim,Cebola,85
+Fernanda,Jardim,Maracujá,74
+Fernanda,Jardim,Abacate,83
+Fernanda,Jardim,Tomate,57
+Fernanda,Jardim,Pimentão,88
+Fernanda,Jardim,Abacate,74
+Fernanda,Jardim,Mandioca,64
+Gabriela,Tabatinga,Tangerina,73
+Gabriela,Tabatinga,Jardim,5
+Gabriela,Tabatinga,Jiló,71
+Gabriela,Tabatinga,Jardim,5
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,58
+Gabriela,Tabatinga,Jiló,87
+Gabriela,Tabatinga,Jiló,52
+Gabriela,Tabatinga,Jiló,57
+Gabriela,Tabatinga,Uva,70
+Gabriela,Tabatinga,Acerola,4
+Gabriela,Tabatinga,Repolho,52
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,51
+Gabriela,Tabatinga,Chuchu,99
+Gabriela,Tabatinga,Jardim,1
+Gabriela,Tabatinga,Mandioca,77
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,90
+Gabriela,Tabatinga,Limão,100
+Gabriela,Tabatinga,Jardim,0
+Gabriela,Tabatinga,Acerola,6
+Gabriela,Tabatinga,Mandioca,50
+Gabriela,Tabatinga,Repolho,60
+Gabriela,Tabatinga,Uva,94
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,84
+Gabriela,Tabatinga,Jiló,59
+Gabriela,Tabatinga,Mandioca,79
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,50
+Gabriela,Tabatinga,Mandioca,85
+Gabriela,Tabatinga,Maracujá Pérola,61
+Gabriela,Tabatinga,Maracujá Pérola,94
+Gabriela,Tabatinga,Agrião,0
+Gabriela,Tabatinga,Chuchu,56
+Gabriela,Tabatinga,Banana,59
+Gabriela,Tabatinga,Mandioca,58
+Gabriela,Tabatinga,Abacate,76
+Gabriela,Tabatinga,Mandioca,58
+Gabriela,Tabatinga,Repolho,80
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,59
+Gabriela,Tabatinga,Abacate,75
+Gabriela,Tabatinga,Banana,75
+Gabriela,Tabatinga,Jiló,67
+Gabriela,Tabatinga,Jardim,2
+Gabriela,Tabatinga,Abacate,63
+Gabriela,Tabatinga,Repolho,90
+Gabriela,Tabatinga,Jiló,54
+Gabriela,Tabatinga,Abacate,86
+Gabriela,Tabatinga,Repolho,61
+Gabriela,Tabatinga,Repolho,69
+Gabriela,Tabatinga,Pitaia,84
+Gabriela,Tabatinga,Batata-doce,79
+Gabriela,Tabatinga,Agrião,7
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,51
+Gabriela,Tabatinga,Limão,94
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,67
+Gabriela,Tabatinga,Mandioca,58
+Gabriela,Tabatinga,Uva,94
+Gabriela,Tabatinga,Batata-doce,98
+Gabriela,Tabatinga,Abacate,96
+Gabriela,Tabatinga,Jiló,69
+Gabriela,Tabatinga,Acerola,3
+Gabriela,Tabatinga,Banana,92
+Gabriela,Tabatinga,Uva,51
+Gabriela,Tabatinga,Batata-doce,93
+Gabriela,Tabatinga,Chuchu,65
+Gabriela,Tabatinga,Limão,62
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,74
+Gabriela,Tabatinga,Tomate,99
+Gabriela,Tabatinga,Limão,84
+Gabriela,Tabatinga,Pimentão,1
+Gabriela,Tabatinga,Limão,57
+Gabriela,Tabatinga,Abacate,88
+Gabriela,Tabatinga,Jardim,7
+Gabriela,Tabatinga,Mandioca,72
+Gabriela,Tabatinga,Abacate,74
+Gabriela,Tabatinga,Abacate,74
+Gabriela,Tabatinga,Limão,95
+Gabriela,Tabatinga,Couve-flor,0
+Gabriela,Tabatinga,Cebola,100
+Gabriela,Tabatinga,Tomate,63
+Gabriela,Tabatinga,Tangerina,62
+Gabriela,Tabatinga,Tangerina,58
+Gabriela,Tabatinga,Uva,67
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,84
+Gabriela,Tabatinga,Uva,59
+Gabriela,Tabatinga,Abacate,85
+Gabriela,Tabatinga,Couve-flor,6
+Gabriela,Tabatinga,Mandioca,58
+Gabriela,Tabatinga,Mandioca,89
+Gabriela,Tabatinga,Maracujá Pérola,67
+Gabriela,Tabatinga,Maracujá Pérola,95
+Gabriela,Tabatinga,Mandioca,91
+Gabriela,Tabatinga,Maracujá Pérola,82
+Gabriela,Tabatinga,Pitaia,67
+Gabriela,Tabatinga,Agrião,2
+Gabriela,Tabatinga,Abóbora japonesa - Tetsukabut,61
+Gabriela,Tabatinga,Couve-flor,1
+Gabriela,Tabatinga,Abacate,76
+Gabriela,Tabatinga,Uva,76
+Gabriela,Tabatinga,Batata-doce,63
+Gabriela,Tabatinga,Repolho,62
+Gabriela,Tabatinga,Repolho,60
+Heloísa,Gama,Acerola,65
+Heloísa,Gama,Taquara,10
+Heloísa,Gama,Repolho,72
+Heloísa,Gama,Taquara,2
+Heloísa,Gama,Abacate,77
+Heloísa,Gama,Alho,9
+Heloísa,Gama,Repolho,56
+Heloísa,Gama,Acerola,51
+Heloísa,Gama,Tangerina,82
+Heloísa,Gama,Jardim,80
+Heloísa,Gama,Mandioca,83
+Heloísa,Gama,Abacate,55
+Heloísa,Gama,Maracujá,67
+Heloísa,Gama,Taquara,8
+Heloísa,Gama,Taquara,9
+Heloísa,Gama,Acerola,89
+Heloísa,Gama,Jardim,98
+Heloísa,Gama,Repolho,86
+Heloísa,Gama,Tangerina,74
+Heloísa,Gama,Repolho,55
+Heloísa,Gama,Taquara,4
+Heloísa,Gama,Abacate,56
+Heloísa,Gama,Tangerina,69
+Heloísa,Gama,Tangerina,95
+Heloísa,Gama,Tangerina,75
+Heloísa,Gama,Pimentão,82
+Heloísa,Gama,Mandioca,97
+Heloísa,Gama,Pimentão,97
+Heloísa,Gama,Maracujá,64
+Heloísa,Gama,Maracujá,50
+Heloísa,Gama,Maracujá,56
+Heloísa,Gama,Maracujá,60
+Heloísa,Gama,Alho,9
+Heloísa,Gama,Acerola,66
+Heloísa,Gama,Pimentão,51
+Heloísa,Gama,Milho-verde,50
+Heloísa,Gama,Abacate,98
+Heloísa,Gama,Tangerina,99
+Heloísa,Gama,Milho-verde,79
+Heloísa,Gama,Acerola,86
+Heloísa,Gama,Alface,57
+Heloísa,Gama,Tangerina,78
+Heloísa,Gama,Milho-verde,99
+Heloísa,Gama,Milho-verde,95
+Heloísa,Gama,Jardim,75
+Heloísa,Gama,Jardim,74
+Heloísa,Gama,Maracujá,86
+Heloísa,Gama,Alface,52
+Heloísa,Gama,Pimentão,63
+Heloísa,Gama,Jardim,77
+Heloísa,Gama,Mandioca,88
+Heloísa,Gama,Milho-verde,76
+Heloísa,Gama,Alho,4
+Heloísa,Gama,Maracujá,53
+Heloísa,Gama,Tangerina,73
+Heloísa,Gama,Jardim,66
+Heloísa,Gama,Tangerina,78
+Heloísa,Gama,Alface,99
+Heloísa,Gama,Alface,90
+Heloísa,Gama,Abacate,55
+Heloísa,Gama,Pipiripau,9
+Heloísa,Gama,Taquara,3
+Heloísa,Gama,Maracujá,53
+Heloísa,Gama,Alho,9
+Heloísa,Gama,Mandioca,51
+Heloísa,Gama,Repolho,71
+Heloísa,Gama,Mandioca,99
+Heloísa,Gama,Cebolinha,60
+Heloísa,Gama,Repolho,51
+Heloísa,Gama,Taquara,5
+Heloísa,Gama,Jardim,53
+Heloísa,Gama,Taquara,1
+Heloísa,Gama,Cebolinha,60
+Heloísa,Gama,Pimentão,88
+Heloísa,Gama,Repolho,63
+Heloísa,Gama,Pitaia,51
+Heloísa,Gama,Milho-verde,68
+Heloísa,Gama,Brócolis - Cabeça Única,66
+Heloísa,Gama,Pitaia,81
+Heloísa,Gama,Jardim,94
+Heloísa,Gama,Maracujá,50
+Heloísa,Gama,Alface,58
+Heloísa,Gama,Abacate,97
+Heloísa,Gama,Cebolinha,91
+Heloísa,Gama,Taquara,7
+Heloísa,Gama,Mandioca,84
+Heloísa,Gama,Manga,82
+Heloísa,Gama,Repolho,64
+Heloísa,Gama,Jardim,96
+Heloísa,Gama,Alface,51
+Heloísa,Gama,Pimentão,86
+Heloísa,Gama,Maracujá,100
+Heloísa,Gama,Alho,4
+Heloísa,Gama,Maracujá,52
+Heloísa,Gama,Brócolis - Cabeça Única,94
+Heloísa,Gama,Alface,55
+Heloísa,Gama,Alho,5
+Heloísa,Gama,Pitaia,51
+Heloísa,Gama,Cebolinha,77
+Heloísa,Gama,Taquara,4
+Isabela,Sobradinho,Laranja,98
+Isabela,Sobradinho,Brócolis - Ramoso,92
+Isabela,Sobradinho,Maracujá Pérola,63
+Isabela,Sobradinho,Mandioca,62
+Isabela,Sobradinho,Abacate,90
+Isabela,Sobradinho,Banana,72
+Isabela,Sobradinho,Chuchu,94
+Isabela,Sobradinho,Manga,64
+Isabela,Sobradinho,Chuchu,88
+Isabela,Sobradinho,Banana,63
+Isabela,Sobradinho,Abacate,60
+Isabela,Sobradinho,Brócolis - Ramoso,57
+Isabela,Sobradinho,Manga,51
+Isabela,Sobradinho,Couve-flor,87
+Isabela,Sobradinho,Banana,84
+Isabela,Sobradinho,Couve,53
+Isabela,Sobradinho,Brócolis - Ramoso,64
+Isabela,Sobradinho,Maracujá Pérola,84
+Isabela,Sobradinho,Manga,78
+Isabela,Sobradinho,Mirtilo,58
+Isabela,Sobradinho,Mirtilo,92
+Isabela,Sobradinho,Abacate,75
+Isabela,Sobradinho,Maracujá Pérola,99
+Isabela,Sobradinho,Couve,50
+Isabela,Sobradinho,Maracujá Pérola,78
+Isabela,Sobradinho,Brócolis - Ramoso,63
+Isabela,Sobradinho,Couve-flor,85
+Isabela,Sobradinho,Tabatinga,52
+Isabela,Sobradinho,Chuchu,96
+Isabela,Sobradinho,Mandioca,87
+Isabela,Sobradinho,Mandioca,90
+Isabela,Sobradinho,Couve,51
+Isabela,Sobradinho,Manga,62
+Isabela,Sobradinho,Couve,52
+Isabela,Sobradinho,Maracujá Pérola,73
+Isabela,Sobradinho,Uva,98
+Isabela,Sobradinho,Maracujá,100
+Isabela,Sobradinho,Mandioca,52
+Isabela,Sobradinho,Maracujá,54
+Isabela,Sobradinho,Couve-flor,55
+Isabela,Sobradinho,Tomate,80
+Isabela,Sobradinho,Tangerina,58
+Isabela,Sobradinho,Mandioca,95
+Isabela,Sobradinho,Abóbora menina,3
+Isabela,Sobradinho,Tabatinga,66
+Isabela,Sobradinho,Abóbora menina,3
+Isabela,Sobradinho,Uva,91
+Isabela,Sobradinho,Chuchu,50
+Isabela,Sobradinho,Couve-flor,90
+Isabela,Sobradinho,Couve-flor,71
+Isabela,Sobradinho,Pepino,6
+Isabela,Sobradinho,Couve,89
+Isabela,Sobradinho,Tomate,97
+Isabela,Sobradinho,Laranja,55
+Isabela,Sobradinho,Tangerina,98
+Isabela,Sobradinho,Brócolis - Ramoso,95
+Isabela,Sobradinho,Couve-flor,67
+Isabela,Sobradinho,Banana,84
+Isabela,Sobradinho,Mirtilo,95
+Isabela,Sobradinho,Tomate,50
+Isabela,Sobradinho,Maracujá Pérola,87
+Isabela,Sobradinho,Manga,62
+Isabela,Sobradinho,Pepino,10
+Isabela,Sobradinho,Manga,53
+Isabela,Sobradinho,Chuchu,92
+Isabela,Sobradinho,Limão,76
+Isabela,Sobradinho,Banana,71
+Isabela,Sobradinho,Uva,60
+Isabela,Sobradinho,Chuchu,89
+Isabela,Sobradinho,Abóbora menina,10
+Isabela,Sobradinho,Maracujá Pérola,85
+Isabela,Sobradinho,Tangerina,75
+Isabela,Sobradinho,Brócolis - Ramoso,57
+Isabela,Sobradinho,Pepino,5
+Isabela,Sobradinho,Chuchu,68
+Isabela,Sobradinho,Abóbora menina,2
+Isabela,Sobradinho,Banana,58
+Isabela,Sobradinho,Limão,95
+Isabela,Sobradinho,Tomate,68
+Isabela,Sobradinho,Limão,97
+Isabela,Sobradinho,Tangerina,98
+Isabela,Sobradinho,Tabatinga,60
+Isabela,Sobradinho,Pepino,5
+Isabela,Sobradinho,Repolho,85
+Isabela,Sobradinho,Abóbora menina,8
+Isabela,Sobradinho,Banana,86
+Isabela,Sobradinho,Couve,63
+Isabela,Sobradinho,Couve,80
+Isabela,Sobradinho,Repolho,57
+Isabela,Sobradinho,Chuchu,62
+Isabela,Sobradinho,Tangerina,91
+Isabela,Sobradinho,Couve-flor,52
+Isabela,Sobradinho,Abóbora menina,7
+Isabela,Sobradinho,Tabatinga,91
+Isabela,Sobradinho,Limão,98
+Isabela,Sobradinho,Tangerina,78
+Isabela,Sobradinho,Chuchu,92
+Isabela,Sobradinho,Couve,53
+Isabela,Sobradinho,Chuchu,63
+Isabela,Sobradinho,Tangerina,90
+Júlia,Brazlândia,Morango,94
+Júlia,Brazlândia,Pimentão,89
+Júlia,Brazlândia,Alface,97
+Júlia,Brazlândia,Abacate,93
+Júlia,Brazlândia,Repolho,60
+Júlia,Brazlândia,Mandioca,71
+Júlia,Brazlândia,Banana,86
+Júlia,Brazlândia,Pimentão,98
+Júlia,Brazlândia,Tangerina,97
+Júlia,Brazlândia,Tangerina,61
+Júlia,Brazlândia,Alface,91
+Júlia,Brazlândia,Tangerina,58
+Júlia,Brazlândia,Repolho,51
+Júlia,Brazlândia,Abacate,63
+Júlia,Brazlândia,Ceilândia,51
+Júlia,Brazlândia,Abacate,78
+Júlia,Brazlândia,Mandioca,60
+Júlia,Brazlândia,Atemóia,97
+Júlia,Brazlândia,Repolho,64
+Júlia,Brazlândia,Tangerina,71
+Júlia,Brazlândia,Pimentão,54
+Júlia,Brazlândia,Tangerina,67
+Júlia,Brazlândia,Mandioca,75
+Júlia,Brazlândia,Ceilândia,85
+Júlia,Brazlândia,Alface,82
+Júlia,Brazlândia,Atemóia,58
+Júlia,Brazlândia,Ceilândia,89
+Júlia,Brazlândia,Repolho,54
+Júlia,Brazlândia,Tangerina,80
+Júlia,Brazlândia,Ceilândia,72
+Júlia,Brazlândia,Manga,89
+Júlia,Brazlândia,Abacate,90
+Júlia,Brazlândia,Brócolis - Cabeça Única,67
+Júlia,Brazlândia,Brócolis - Cabeça Única,72
+Júlia,Brazlândia,Banana,94
+Júlia,Brazlândia,Maracujá,53
+Júlia,Brazlândia,Repolho,86
+Júlia,Brazlândia,Tangerina,74
+Júlia,Brazlândia,Morango,52
+Júlia,Brazlândia,Manga,93
+Júlia,Brazlândia,Abacate,74
+Júlia,Brazlândia,Alface,86
+Júlia,Brazlândia,Brócolis - Cabeça Única,52
+Júlia,Brazlândia,Maracujá,89
+Júlia,Brazlândia,Maracujá,56
+Júlia,Brazlândia,Brócolis - Cabeça Única,51
+Júlia,Brazlândia,Ceilândia,79
+Júlia,Brazlândia,Limão,99
+Júlia,Brazlândia,Maracujá,54
+Júlia,Brazlândia,Manga,88
+Júlia,Brazlândia,Goiaba,99
+Júlia,Brazlândia,Pimentão,99
+Júlia,Brazlândia,Maracujá,57
+Júlia,Brazlândia,Repolho,81
+Júlia,Brazlândia,Manga,78
+Júlia,Brazlândia,Repolho,93
+Júlia,Brazlândia,Repolho,56
+Júlia,Brazlândia,Mandioca,81
+Júlia,Brazlândia,Tangerina,71
+Júlia,Brazlândia,Tangerina,52
+Júlia,Brazlândia,Morango,100
+Júlia,Brazlândia,Ceilândia,76
+Júlia,Brazlândia,Limão,95
+Júlia,Brazlândia,Cajamanga,77
+Júlia,Brazlândia,Tangerina,96
+Júlia,Brazlândia,Mandioca,83
+Júlia,Brazlândia,Goiaba,72
+Júlia,Brazlândia,Tangerina,74
+Júlia,Brazlândia,Chuchu,91
+Júlia,Brazlândia,Chuchu,54
+Júlia,Brazlândia,Abóbora italiana,78
+Júlia,Brazlândia,Abacate,53
+Júlia,Brazlândia,Goiaba,52
+Júlia,Brazlândia,Uva,97
+Júlia,Brazlândia,Tangerina,69
+Júlia,Brazlândia,Banana,84
+Júlia,Brazlândia,Pimentão,60
+Júlia,Brazlândia,Morango,100
+Júlia,Brazlândia,Abacate,93
+Júlia,Brazlândia,Repolho,79
+Júlia,Brazlândia,Chuchu,69
+Júlia,Brazlândia,Cajamanga,69
+Júlia,Brazlândia,Chuchu,95
+Júlia,Brazlândia,Limão,63
+Júlia,Brazlândia,Tangerina,82
+Júlia,Brazlândia,Ceilândia,77
+Júlia,Brazlândia,Tangerina,86
+Júlia,Brazlândia,Mandioca,60
+Júlia,Brazlândia,Brócolis - Cabeça Única,69
+Júlia,Brazlândia,Ceilândia,69
+Júlia,Brazlândia,Morango,58
+Júlia,Brazlândia,Goiaba,97
+Júlia,Brazlândia,Brócolis - Cabeça Única,60
+Júlia,Brazlândia,Chuchu,95
+Júlia,Brazlândia,Brócolis - Cabeça Única,54
+Júlia,Brazlândia,Banana,65
+Júlia,Brazlândia,Morango,70
+Júlia,Brazlândia,Alface,50
+Júlia,Brazlândia,Manga,99
+Júlia,Brazlândia,Goiaba,55
+Juliana,Alexandre Gusmão,Atemóia,92
+Juliana,Alexandre Gusmão,Couve,97
+Juliana,Alexandre Gusmão,Repolho,78
+Juliana,Alexandre Gusmão,Couve,52
+Juliana,Alexandre Gusmão,Atemóia,65
+Juliana,Alexandre Gusmão,Couve,50
+Juliana,Alexandre Gusmão,Atemóia,98
+Juliana,Alexandre Gusmão,Couve,81
+Juliana,Alexandre Gusmão,Cebolinha,71
+Juliana,Alexandre Gusmão,Couve,68
+Juliana,Alexandre Gusmão,Abacate,72
+Juliana,Alexandre Gusmão,Abacate,85
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,82
+Juliana,Alexandre Gusmão,Repolho,67
+Juliana,Alexandre Gusmão,Atemóia,89
+Juliana,Alexandre Gusmão,Cebolinha,69
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,62
+Juliana,Alexandre Gusmão,Couve,56
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,56
+Juliana,Alexandre Gusmão,Alface,51
+Juliana,Alexandre Gusmão,Couve,100
+Juliana,Alexandre Gusmão,Agrião,0
+Juliana,Alexandre Gusmão,Abacate,67
+Juliana,Alexandre Gusmão,Repolho,58
+Juliana,Alexandre Gusmão,Couve,68
+Juliana,Alexandre Gusmão,Tomate,56
+Juliana,Alexandre Gusmão,Uva,70
+Juliana,Alexandre Gusmão,Tomate,97
+Juliana,Alexandre Gusmão,Agrião,3
+Juliana,Alexandre Gusmão,Cebolinha,74
+Juliana,Alexandre Gusmão,Manga,56
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,76
+Juliana,Alexandre Gusmão,Couve,65
+Juliana,Alexandre Gusmão,Abacate,83
+Juliana,Alexandre Gusmão,Mandioca,66
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,99
+Juliana,Alexandre Gusmão,Tomate,67
+Juliana,Alexandre Gusmão,Uva,93
+Juliana,Alexandre Gusmão,Manga,98
+Juliana,Alexandre Gusmão,Mandioca,57
+Juliana,Alexandre Gusmão,Pimentão,74
+Juliana,Alexandre Gusmão,Cebolinha,58
+Juliana,Alexandre Gusmão,Pimentão,52
+Juliana,Alexandre Gusmão,Brócolis - Cabeça Única,76
+Juliana,Alexandre Gusmão,Mandioca,59
+Juliana,Alexandre Gusmão,Couve,63
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,56
+Juliana,Alexandre Gusmão,Pimentão,83
+Juliana,Alexandre Gusmão,Tangerina,100
+Juliana,Alexandre Gusmão,Abacate,73
+Juliana,Alexandre Gusmão,Atemóia,77
+Juliana,Alexandre Gusmão,Couve,51
+Juliana,Alexandre Gusmão,Repolho,95
+Juliana,Alexandre Gusmão,Banana,89
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,64
+Juliana,Alexandre Gusmão,Chuchu,89
+Juliana,Alexandre Gusmão,Agrião,8
+Juliana,Alexandre Gusmão,Atemóia,62
+Juliana,Alexandre Gusmão,Manga,97
+Juliana,Alexandre Gusmão,Tangerina,91
+Juliana,Alexandre Gusmão,Brócolis - Cabeça Única,81
+Juliana,Alexandre Gusmão,Limão,73
+Juliana,Alexandre Gusmão,Goiaba,77
+Juliana,Alexandre Gusmão,Abacate,73
+Juliana,Alexandre Gusmão,Atemóia,87
+Juliana,Alexandre Gusmão,Tangerina,58
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,60
+Juliana,Alexandre Gusmão,Couve,89
+Juliana,Alexandre Gusmão,Couve,77
+Juliana,Alexandre Gusmão,Alface,64
+Juliana,Alexandre Gusmão,Cebolinha,88
+Juliana,Alexandre Gusmão,Tangerina,56
+Juliana,Alexandre Gusmão,Goiaba,68
+Juliana,Alexandre Gusmão,Uva,70
+Juliana,Alexandre Gusmão,Brócolis - Cabeça Única,81
+Juliana,Alexandre Gusmão,Limão,77
+Juliana,Alexandre Gusmão,Goiaba,92
+Juliana,Alexandre Gusmão,Repolho,79
+Juliana,Alexandre Gusmão,Brazlândia,50
+Juliana,Alexandre Gusmão,Brazlândia,70
+Juliana,Alexandre Gusmão,Couve,93
+Juliana,Alexandre Gusmão,Brócolis - Cabeça Única,98
+Juliana,Alexandre Gusmão,Couve,74
+Juliana,Alexandre Gusmão,Agrião,2
+Juliana,Alexandre Gusmão,Alface,61
+Juliana,Alexandre Gusmão,Goiaba,77
+Juliana,Alexandre Gusmão,Chuchu,93
+Juliana,Alexandre Gusmão,Cebolinha,55
+Juliana,Alexandre Gusmão,Tomate,62
+Juliana,Alexandre Gusmão,Banana,85
+Juliana,Alexandre Gusmão,Cebolinha,53
+Juliana,Alexandre Gusmão,Cebolinha,52
+Juliana,Alexandre Gusmão,Pimentão,85
+Juliana,Alexandre Gusmão,Brócolis - Cabeça Única,78
+Juliana,Alexandre Gusmão,Goiaba,79
+Juliana,Alexandre Gusmão,Uva,52
+Juliana,Alexandre Gusmão,Alface,78
+Juliana,Alexandre Gusmão,Brócolis - Ramoso,95
+Juliana,Alexandre Gusmão,Uva,94
+Juliana,Alexandre Gusmão,Alface,68
+Larissa,Ceilândia,Coco,87
+Larissa,Ceilândia,Coco,92
+Larissa,Ceilândia,Goiaba,88
+Larissa,Ceilândia,Chuchu,70
+Larissa,Ceilândia,Mirtilo,0
+Larissa,Ceilândia,Chuchu,99
+Larissa,Ceilândia,Tomate,96
+Larissa,Ceilândia,Tomate,85
+Larissa,Ceilândia,Goiaba,78
+Larissa,Ceilândia,Milho-verde,62
+Larissa,Ceilândia,Maracujá,88
+Larissa,Ceilândia,Tomate,82
+Larissa,Ceilândia,Tomate,62
+Larissa,Ceilândia,Laranja,63
+Larissa,Ceilândia,Alface,77
+Larissa,Ceilândia,Maracujá,84
+Larissa,Ceilândia,Milho-verde,67
+Larissa,Ceilândia,Uva Vinífera,7
+Larissa,Ceilândia,Uva Vinífera,8
+Larissa,Ceilândia,Laranja,57
+Larissa,Ceilândia,Laranja,60
+Larissa,Ceilândia,Maracujá,94
+Larissa,Ceilândia,Repolho,74
+Larissa,Ceilândia,Brazlândia,5
+Larissa,Ceilândia,Uva Vinífera,0
+Larissa,Ceilândia,Manga,67
+Larissa,Ceilândia,Alface,59
+Larissa,Ceilândia,Repolho,56
+Larissa,Ceilândia,Brazlândia,8
+Larissa,Ceilândia,Uva Vinífera,10
+Larissa,Ceilândia,Repolho,57
+Larissa,Ceilândia,Alface,83
+Larissa,Ceilândia,Goiaba,86
+Larissa,Ceilândia,Mirtilo,0
+Larissa,Ceilândia,Alface,100
+Larissa,Ceilândia,Mandioca,65
+Larissa,Ceilândia,Goiaba,95
+Larissa,Ceilândia,Tomate,58
+Larissa,Ceilândia,Repolho,92
+Larissa,Ceilândia,Mandioca,86
+Larissa,Ceilândia,Brazlândia,10
+Larissa,Ceilândia,Banana,51
+Larissa,Ceilândia,Chuchu,87
+Larissa,Ceilândia,Brócolis - Ramoso,100
+Larissa,Ceilândia,Vargem Bonita,6
+Larissa,Ceilândia,Manga,83
+Larissa,Ceilândia,Brazlândia,4
+Larissa,Ceilândia,Banana,86
+Larissa,Ceilândia,Mirtilo,10
+Larissa,Ceilândia,Coco,69
+Larissa,Ceilândia,Vargem Bonita,0
+Larissa,Ceilândia,Goiaba,69
+Larissa,Ceilândia,Mandioca,74
+Larissa,Ceilândia,Manga,73
+Larissa,Ceilândia,Mirtilo,6
+Larissa,Ceilândia,Banana,56
+Larissa,Ceilândia,Tomate,66
+Larissa,Ceilândia,Maracujá,61
+Larissa,Ceilândia,Limão,90
+Larissa,Ceilândia,Chuchu,85
+Larissa,Ceilândia,Banana,71
+Larissa,Ceilândia,Chuchu,65
+Larissa,Ceilândia,Milho-verde,89
+Larissa,Ceilândia,Tomate,65
+Larissa,Ceilândia,Manga,84
+Larissa,Ceilândia,Mandioca,99
+Larissa,Ceilândia,Goiaba,83
+Larissa,Ceilândia,Mirtilo,8
+Larissa,Ceilândia,Mirtilo,5
+Larissa,Ceilândia,Abacaxi,10
+Larissa,Ceilândia,Mandioca,56
+Larissa,Ceilândia,Chuchu,86
+Larissa,Ceilândia,Goiaba,68
+Larissa,Ceilândia,Milho-verde,79
+Larissa,Ceilândia,Alface,66
+Larissa,Ceilândia,Vargem Bonita,10
+Larissa,Ceilândia,Tomate,86
+Larissa,Ceilândia,Manga,81
+Larissa,Ceilândia,Brócolis - Ramoso,69
+Larissa,Ceilândia,Vargem Bonita,3
+Larissa,Ceilândia,Milho-verde,50
+Larissa,Ceilândia,Mandioca,59
+Larissa,Ceilândia,Batata-doce,97
+Larissa,Ceilândia,Uva Vinífera,3
+Larissa,Ceilândia,Batata-doce,84
+Larissa,Ceilândia,Coco,75
+Larissa,Ceilândia,Batata-doce,84
+Larissa,Ceilândia,Brócolis - Ramoso,81
+Larissa,Ceilândia,Brócolis - Ramoso,80
+Larissa,Ceilândia,Chuchu,94
+Larissa,Ceilândia,Ceilândia,7
+Larissa,Ceilândia,Batata-doce,80
+Larissa,Ceilândia,Maracujá,96
+Larissa,Ceilândia,Chuchu,54
+Larissa,Ceilândia,Abacaxi,10
+Larissa,Ceilândia,Manga,58
+Larissa,Ceilândia,Batata-doce,73
+Larissa,Ceilândia,Uva Vinífera,8
+Larissa,Ceilândia,Coco,82
+Larissa,Ceilândia,Goiaba,83
+Mariana,Planaltina,Manga,79
+Mariana,Planaltina,Repolho,62
+Mariana,Planaltina,Mandioca,86
+Mariana,Planaltina,Mandioca,65
+Mariana,Planaltina,Goiaba,71
+Mariana,Planaltina,Manga,64
+Mariana,Planaltina,Goiaba,89
+Mariana,Planaltina,Lichia,95
+Mariana,Planaltina,Pimentão,99
+Mariana,Planaltina,Manga,69
+Mariana,Planaltina,Mandioca,83
+Mariana,Planaltina,Abacate,90
+Mariana,Planaltina,Abacate,57
+Mariana,Planaltina,Goiaba,53
+Mariana,Planaltina,Couve,73
+Mariana,Planaltina,Couve,97
+Mariana,Planaltina,Mandioca,87
+Mariana,Planaltina,Pimentão,86
+Mariana,Planaltina,Repolho,74
+Mariana,Planaltina,Manga,66
+Mariana,Planaltina,Couve,79
+Mariana,Planaltina,Mandioca,79
+Mariana,Planaltina,Tomate,67
+Mariana,Planaltina,Repolho,71
+Mariana,Planaltina,Pimentão,61
+Mariana,Planaltina,Mandioca,68
+Mariana,Planaltina,Couve,82
+Mariana,Planaltina,Rio Preto,71
+Mariana,Planaltina,Pimentão,53
+Mariana,Planaltina,Goiaba,92
+Mariana,Planaltina,Alface,92
+Mariana,Planaltina,Mandioca,92
+Mariana,Planaltina,Couve,71
+Mariana,Planaltina,Manga,69
+Mariana,Planaltina,Abacate,97
+Mariana,Planaltina,Couve,82
+Mariana,Planaltina,Repolho,63
+Mariana,Planaltina,Goiaba,80
+Mariana,Planaltina,Lichia,67
+Mariana,Planaltina,Abacate,90
+Mariana,Planaltina,Lichia,93
+Mariana,Planaltina,Chuchu,77
+Mariana,Planaltina,Chuchu,93
+Mariana,Planaltina,Alface,64
+Mariana,Planaltina,Taquara,6
+Mariana,Planaltina,Lichia,95
+Mariana,Planaltina,Abacate,61
+Mariana,Planaltina,Mandioca,57
+Mariana,Planaltina,Repolho,78
+Mariana,Planaltina,Pimentão,69
+Mariana,Planaltina,Tomate,75
+Mariana,Planaltina,Tomate,71
+Mariana,Planaltina,Chuchu,97
+Mariana,Planaltina,Limão,69
+Mariana,Planaltina,Taquara,9
+Mariana,Planaltina,Milho-verde,62
+Mariana,Planaltina,Abacate,77
+Mariana,Planaltina,Goiaba,82
+Mariana,Planaltina,Lichia,58
+Mariana,Planaltina,Goiaba,97
+Mariana,Planaltina,Goiaba,78
+Mariana,Planaltina,Uva,66
+Mariana,Planaltina,Alface,75
+Mariana,Planaltina,Uva,83
+Mariana,Planaltina,Taquara,6
+Mariana,Planaltina,Banana,99
+Mariana,Planaltina,Rio Preto,66
+Mariana,Planaltina,Rio Preto,60
+Mariana,Planaltina,Repolho,75
+Mariana,Planaltina,Maracujá,75
+Mariana,Planaltina,Chuchu,83
+Mariana,Planaltina,Couve,100
+Mariana,Planaltina,Pimentão,50
+Mariana,Planaltina,Mandioca,58
+Mariana,Planaltina,Repolho,81
+Mariana,Planaltina,Uva,99
+Mariana,Planaltina,Uva,66
+Mariana,Planaltina,Chuchu,83
+Mariana,Planaltina,Rio Preto,59
+Mariana,Planaltina,Cebolinha,94
+Mariana,Planaltina,Goiaba,62
+Mariana,Planaltina,Maracujá,79
+Mariana,Planaltina,Abacate,77
+Mariana,Planaltina,Banana,93
+Mariana,Planaltina,Banana,68
+Mariana,Planaltina,Uva,62
+Mariana,Planaltina,Goiaba,63
+Mariana,Planaltina,Pimentão,66
+Mariana,Planaltina,Taquara,6
+Mariana,Planaltina,Manga,83
+Mariana,Planaltina,Abacate,94
+Mariana,Planaltina,Chuchu,74
+Mariana,Planaltina,Repolho,63
+Mariana,Planaltina,Alface,97
+Mariana,Planaltina,Milho-verde,53
+Mariana,Planaltina,Chuchu,87
+Mariana,Planaltina,Manga,69
+Mariana,Planaltina,Mandioca,84
+Mariana,Planaltina,Chuchu,100
+Mariana,Planaltina,Repolho,77
+Natália,Taquara,Caqui,74
+Natália,Taquara,Berinjela,69
+Natália,Taquara,Acerola,75
+Natália,Taquara,Limão,79
+Natália,Taquara,Tangerina,80
+Natália,Taquara,Acerola,68
+Natália,Taquara,Mandioca,71
+Natália,Taquara,Caqui,52
+Natália,Taquara,Pitaia,57
+Natália,Taquara,Berinjela,52
+Natália,Taquara,Abóbora menina,60
+Natália,Taquara,Caqui,85
+Natália,Taquara,Banana,84
+Natália,Taquara,Tangerina,100
+Natália,Taquara,Repolho,57
+Natália,Taquara,Caqui,63
+Natália,Taquara,Caqui,67
+Natália,Taquara,Repolho,88
+Natália,Taquara,Abacate,68
+Natália,Taquara,Abóbora menina,94
+Natália,Taquara,Tangerina,84
+Natália,Taquara,Pimentão,65
+Natália,Taquara,Pitaia,83
+Natália,Taquara,Abacate,71
+Natália,Taquara,Pimentão,83
+Natália,Taquara,Mandioca,85
+Natália,Taquara,Tangerina,95
+Natália,Taquara,Abacate,71
+Natália,Taquara,Abóbora menina,52
+Natália,Taquara,Abóbora menina,95
+Natália,Taquara,Jiló,9
+Natália,Taquara,Tangerina,70
+Natália,Taquara,Manga,70
+Natália,Taquara,Caqui,65
+Natália,Taquara,Pitaia,100
+Natália,Taquara,Pitaia,76
+Natália,Taquara,Pimentão,62
+Natália,Taquara,Pitaia,68
+Natália,Taquara,Pimentão,97
+Natália,Taquara,Pimentão,85
+Natália,Taquara,Acerola,52
+Natália,Taquara,Laranja,86
+Natália,Taquara,Tangerina,76
+Natália,Taquara,Banana,70
+Natália,Taquara,Laranja,91
+Natália,Taquara,Manga,92
+Natália,Taquara,Mandioca,97
+Natália,Taquara,Acerola,51
+Natália,Taquara,Abacate,98
+Natália,Taquara,Banana,97
+Natália,Taquara,Limão,94
+Natália,Taquara,Mandioca,54
+Natália,Taquara,Banana,59
+Natália,Taquara,Limão,63
+Natália,Taquara,Pitaia,53
+Natália,Taquara,Manga,88
+Natália,Taquara,Limão,54
+Natália,Taquara,Laranja,91
+Natália,Taquara,Mandioca,57
+Natália,Taquara,Mandioca,98
+Natália,Taquara,Repolho,61
+Natália,Taquara,Repolho,72
+Natália,Taquara,Tangerina,78
+Natália,Taquara,Tomate,55
+Natália,Taquara,Caqui,59
+Natália,Taquara,Tangerina,87
+Natália,Taquara,Mandioca,55
+Natália,Taquara,Acerola,93
+Natália,Taquara,Caqui,57
+Natália,Taquara,Limão,66
+Natália,Taquara,Manga,58
+Natália,Taquara,Repolho,82
+Natália,Taquara,Jiló,2
+Natália,Taquara,Limão,62
+Natália,Taquara,Caqui,57
+Natália,Taquara,Caqui,88
+Natália,Taquara,Tangerina,72
+Natália,Taquara,Jiló,7
+Natália,Taquara,Acerola,58
+Natália,Taquara,Manga,59
+Natália,Taquara,Laranja,71
+Natália,Taquara,Tomate,77
+Natália,Taquara,Laranja,88
+Natália,Taquara,Acerola,60
+Natália,Taquara,Caqui,84
+Natália,Taquara,Maracujá,86
+Natália,Taquara,Repolho,70
+Natália,Taquara,Vargem Bonita,70
+Natália,Taquara,Manga,81
+Natália,Taquara,Tomate,53
+Natália,Taquara,Caqui,90
+Natália,Taquara,Pimentão,85
+Natália,Taquara,Pitaia,92
+Natália,Taquara,Caqui,96
+Natália,Taquara,Abacate,89
+Natália,Taquara,Abacate,64
+Natália,Taquara,Maracujá,53
+Natália,Taquara,Abacate,65
+Natália,Taquara,Pimentão,66
+Natália,Taquara,Pimentão,70
+Olívia,Paranoá,Uva Vinífera,5
+Olívia,Paranoá,Beterraba,81
+Olívia,Paranoá,Uva Vinífera,3
+Olívia,Paranoá,Beterraba,69
+Olívia,Paranoá,Tomate,85
+Olívia,Paranoá,Beterraba,57
+Olívia,Paranoá,Uva,78
+Olívia,Paranoá,Maracujá,94
+Olívia,Paranoá,Berinjela,65
+Olívia,Paranoá,Maracujá,59
+Olívia,Paranoá,Maracujá,63
+Olívia,Paranoá,Uva Vinífera,3
+Olívia,Paranoá,Abacate,61
+Olívia,Paranoá,Beterraba,52
+Olívia,Paranoá,Uva,52
+Olívia,Paranoá,Tomate,73
+Olívia,Paranoá,Milho-verde,78
+Olívia,Paranoá,Quiabo,50
+Olívia,Paranoá,Alface,82
+Olívia,Paranoá,Maracujá,62
+Olívia,Paranoá,Uva Vinífera,6
+Olívia,Paranoá,Berinjela,78
+Olívia,Paranoá,Manga,93
+Olívia,Paranoá,Jabuticaba,4
+Olívia,Paranoá,Beterraba,87
+Olívia,Paranoá,Manga,98
+Olívia,Paranoá,Milho-verde,66
+Olívia,Paranoá,Tomate,87
+Olívia,Paranoá,Manga,76
+Olívia,Paranoá,Maracujá Pérola,93
+Olívia,Paranoá,Mandioca,50
+Olívia,Paranoá,Quiabo,52
+Olívia,Paranoá,Cebola,5
+Olívia,Paranoá,Milho-verde,69
+Olívia,Paranoá,Tomate,76
+Olívia,Paranoá,Mandioca,73
+Olívia,Paranoá,Limão,52
+Olívia,Paranoá,Maracujá,95
+Olívia,Paranoá,Mandioca,91
+Olívia,Paranoá,Abacate,92
+Olívia,Paranoá,Cebola,7
+Olívia,Paranoá,Milho-verde,89
+Olívia,Paranoá,Uva Vinífera,7
+Olívia,Paranoá,Alface,82
+Olívia,Paranoá,Maracujá Pérola,97
+Olívia,Paranoá,Laranja,87
+Olívia,Paranoá,Berinjela,71
+Olívia,Paranoá,Limão,58
+Olívia,Paranoá,Limão,50
+Olívia,Paranoá,Berinjela,73
+Olívia,Paranoá,Maracujá,94
+Olívia,Paranoá,Uva,61
+Olívia,Paranoá,Laranja,71
+Olívia,Paranoá,Jabuticaba,6
+Olívia,Paranoá,Mandioca,68
+Olívia,Paranoá,Uva,52
+Olívia,Paranoá,Uva Vinífera,7
+Olívia,Paranoá,Mandioca,58
+Olívia,Paranoá,Milho-verde,96
+Olívia,Paranoá,Milho-verde,72
+Olívia,Paranoá,Limão,60
+Olívia,Paranoá,Beterraba,75
+Olívia,Paranoá,Tomate,51
+Olívia,Paranoá,Laranja,97
+Olívia,Paranoá,Chuchu,70
+Olívia,Paranoá,Banana,54
+Olívia,Paranoá,Limão,55
+Olívia,Paranoá,Jabuticaba,1
+Olívia,Paranoá,Mandioca,57
+Olívia,Paranoá,Cebola,7
+Olívia,Paranoá,Mandioca,77
+Olívia,Paranoá,Milho-verde,99
+Olívia,Paranoá,Berinjela,59
+Olívia,Paranoá,Banana,65
+Olívia,Paranoá,Maracujá Pérola,61
+Olívia,Paranoá,Tomate,97
+Olívia,Paranoá,Chuchu,57
+Olívia,Paranoá,Banana,93
+Olívia,Paranoá,Tomate,53
+Olívia,Paranoá,Maracujá,74
+Olívia,Paranoá,Laranja,87
+Olívia,Paranoá,Milho-verde,99
+Olívia,Paranoá,Abacate,87
+Olívia,Paranoá,Berinjela,66
+Olívia,Paranoá,Alface,72
+Olívia,Paranoá,Jabuticaba,4
+Olívia,Paranoá,Milho-verde,54
+Olívia,Paranoá,Alface,85
+Olívia,Paranoá,Quiabo,69
+Olívia,Paranoá,Pimentão,61
+Olívia,Paranoá,Milho-verde,85
+Olívia,Paranoá,Laranja,84
+Olívia,Paranoá,Laranja,82
+Olívia,Paranoá,Berinjela,70
+Olívia,Paranoá,Alface,78
+Olívia,Paranoá,Laranja,85
+Olívia,Paranoá,Tangerina,71
+Olívia,Paranoá,Chuchu,87
+Olívia,Paranoá,Maracujá,73
+Olívia,Paranoá,Uva,100
+Patrícia,PAD-DF,Repolho,81
+Patrícia,PAD-DF,Tomate,73
+Patrícia,PAD-DF,Pimentão,71
+Patrícia,PAD-DF,Pitaia,10
+Patrícia,PAD-DF,Maracujá,89
+Patrícia,PAD-DF,Repolho,53
+Patrícia,PAD-DF,Cebola,72
+Patrícia,PAD-DF,Maracujá,73
+Patrícia,PAD-DF,Limão,100
+Patrícia,PAD-DF,Manga,60
+Patrícia,PAD-DF,Cebola,98
+Patrícia,PAD-DF,Manga,87
+Patrícia,PAD-DF,Manga,57
+Patrícia,PAD-DF,Repolho,76
+Patrícia,PAD-DF,Maracujá,64
+Patrícia,PAD-DF,Pimentão,80
+Patrícia,PAD-DF,Berinjela,84
+Patrícia,PAD-DF,Cebola,100
+Patrícia,PAD-DF,Limão,77
+Patrícia,PAD-DF,Morango,7
+Patrícia,PAD-DF,Maracujá,52
+Patrícia,PAD-DF,Berinjela,90
+Patrícia,PAD-DF,Abacate,89
+Patrícia,PAD-DF,Tomate,76
+Patrícia,PAD-DF,Maracujá,98
+Patrícia,PAD-DF,Abacate,50
+Patrícia,PAD-DF,Tomate,60
+Patrícia,PAD-DF,Pimentão,69
+Patrícia,PAD-DF,Pepino,98
+Patrícia,PAD-DF,Manga,59
+Patrícia,PAD-DF,Abacate,100
+Patrícia,PAD-DF,Limão,81
+Patrícia,PAD-DF,Pepino,67
+Patrícia,PAD-DF,Cenoura,99
+Patrícia,PAD-DF,Cenoura,52
+Patrícia,PAD-DF,Cenoura,62
+Patrícia,PAD-DF,Abacate,96
+Patrícia,PAD-DF,Morango,9
+Patrícia,PAD-DF,Limão,59
+Patrícia,PAD-DF,Maracujá,96
+Patrícia,PAD-DF,Limão,65
+Patrícia,PAD-DF,Maracujá,100
+Patrícia,PAD-DF,Tomate,67
+Patrícia,PAD-DF,Berinjela,62
+Patrícia,PAD-DF,Abacate,76
+Patrícia,PAD-DF,Cenoura,90
+Patrícia,PAD-DF,Cenoura,63
+Patrícia,PAD-DF,Paranoá,51
+Patrícia,PAD-DF,Pitaia,1
+Patrícia,PAD-DF,Maracujá,100
+Patrícia,PAD-DF,Manga,53
+Patrícia,PAD-DF,Cebola,74
+Patrícia,PAD-DF,Pepino,93
+Patrícia,PAD-DF,Cenoura,77
+Patrícia,PAD-DF,Mamão,92
+Patrícia,PAD-DF,Pepino,72
+Patrícia,PAD-DF,Pimentão,69
+Patrícia,PAD-DF,Pepino,56
+Patrícia,PAD-DF,Tomate,56
+Patrícia,PAD-DF,Limão,80
+Patrícia,PAD-DF,Maracujá Pérola,5
+Patrícia,PAD-DF,Berinjela,92
+Patrícia,PAD-DF,Cebola,98
+Patrícia,PAD-DF,Repolho,52
+Patrícia,PAD-DF,Tomate,65
+Patrícia,PAD-DF,Paranoá,71
+Patrícia,PAD-DF,Paranoá,86
+Patrícia,PAD-DF,Maracujá Pérola,3
+Patrícia,PAD-DF,Tomate,74
+Patrícia,PAD-DF,Maracujá,83
+Patrícia,PAD-DF,Cebola,53
+Patrícia,PAD-DF,Paranoá,96
+Patrícia,PAD-DF,Berinjela,99
+Patrícia,PAD-DF,Limão,93
+Patrícia,PAD-DF,Berinjela,96
+Patrícia,PAD-DF,Maracujá Pérola,5
+Patrícia,PAD-DF,Pitaia,6
+Patrícia,PAD-DF,Cenoura,61
+Patrícia,PAD-DF,Mamão,77
+Patrícia,PAD-DF,Mamão,51
+Patrícia,PAD-DF,Pitaia,6
+Patrícia,PAD-DF,Tomate,63
+Patrícia,PAD-DF,Pepino,87
+Patrícia,PAD-DF,Milho doce,84
+Patrícia,PAD-DF,Cebola,76
+Patrícia,PAD-DF,Cenoura,59
+Patrícia,PAD-DF,Caqui,3
+Patrícia,PAD-DF,Pepino,76
+Patrícia,PAD-DF,Tomate,54
+Patrícia,PAD-DF,Caqui,3
+Patrícia,PAD-DF,Abacate,90
+Patrícia,PAD-DF,Caqui,7
+Patrícia,PAD-DF,Maracujá Pérola,6
+Patrícia,PAD-DF,Pepino,61
+Patrícia,PAD-DF,Morango,7
+Patrícia,PAD-DF,Milho doce,68
+Patrícia,PAD-DF,Berinjela,65
+Patrícia,PAD-DF,Morango,7
+Patrícia,PAD-DF,Abacate,67
+Patrícia,PAD-DF,Milho doce,50
+Rafaela,Planaltina,Tangerina,59
+Rafaela,Planaltina,Limão,62
+Rafaela,Planaltina,Tomate,84
+Rafaela,Planaltina,Couve,61
+Rafaela,Planaltina,Milho doce,0
+Rafaela,Planaltina,Uva,76
+Rafaela,Planaltina,Uva,87
+Rafaela,Planaltina,Milho doce,8
+Rafaela,Planaltina,Banana,94
+Rafaela,Planaltina,Rio Preto,54
+Rafaela,Planaltina,Uva,67
+Rafaela,Planaltina,Limão,76
+Rafaela,Planaltina,Goiaba,88
+Rafaela,Planaltina,Banana,89
+Rafaela,Planaltina,Milho doce,6
+Rafaela,Planaltina,Manga,81
+Rafaela,Planaltina,Goiaba,55
+Rafaela,Planaltina,Repolho,77
+Rafaela,Planaltina,Repolho,90
+Rafaela,Planaltina,Manga,82
+Rafaela,Planaltina,Banana,91
+Rafaela,Planaltina,Rio Preto,56
+Rafaela,Planaltina,Couve,97
+Rafaela,Planaltina,Couve,81
+Rafaela,Planaltina,Couve,73
+Rafaela,Planaltina,Repolho,63
+Rafaela,Planaltina,Batata-doce,53
+Rafaela,Planaltina,Tangerina,96
+Rafaela,Planaltina,Chuchu,79
+Rafaela,Planaltina,Goiaba,72
+Rafaela,Planaltina,Lichia,54
+Rafaela,Planaltina,Banana,60
+Rafaela,Planaltina,Manga,87
+Rafaela,Planaltina,Limão,61
+Rafaela,Planaltina,Manga,54
+Rafaela,Planaltina,Repolho,89
+Rafaela,Planaltina,Alface,85
+Rafaela,Planaltina,Uva,92
+Rafaela,Planaltina,Laranja,52
+Rafaela,Planaltina,Tangerina,67
+Rafaela,Planaltina,Lichia,66
+Rafaela,Planaltina,Uva,57
+Rafaela,Planaltina,Tangerina,100
+Rafaela,Planaltina,Uva,99
+Rafaela,Planaltina,Milho doce,5
+Rafaela,Planaltina,Limão,82
+Rafaela,Planaltina,Goiaba,85
+Rafaela,Planaltina,Alface,91
+Rafaela,Planaltina,Alface,59
+Rafaela,Planaltina,Uva,72
+Rafaela,Planaltina,Alface,65
+Rafaela,Planaltina,Banana,91
+Rafaela,Planaltina,Repolho,65
+Rafaela,Planaltina,Couve,82
+Rafaela,Planaltina,Banana,61
+Rafaela,Planaltina,Tangerina,61
+Rafaela,Planaltina,Repolho,78
+Rafaela,Planaltina,Couve,56
+Rafaela,Planaltina,Lichia,75
+Rafaela,Planaltina,Manga,57
+Rafaela,Planaltina,Rio Preto,86
+Rafaela,Planaltina,Repolho,92
+Rafaela,Planaltina,Alface,79
+Rafaela,Planaltina,Tangerina,67
+Rafaela,Planaltina,Manga,61
+Rafaela,Planaltina,Limão,94
+Rafaela,Planaltina,Uva,62
+Rafaela,Planaltina,Tomate,71
+Rafaela,Planaltina,Goiaba,51
+Rafaela,Planaltina,Repolho,75
+Rafaela,Planaltina,Chuchu,96
+Rafaela,Planaltina,Manga,65
+Rafaela,Planaltina,Banana,50
+Rafaela,Planaltina,Chuchu,79
+Rafaela,Planaltina,Tomate,69
+Rafaela,Planaltina,Goiaba,77
+Rafaela,Planaltina,Uva,71
+Rafaela,Planaltina,Chuchu,74
+Rafaela,Planaltina,Chuchu,51
+Rafaela,Planaltina,Rio Preto,81
+Rafaela,Planaltina,Tangerina,54
+Rafaela,Planaltina,Tangerina,78
+Rafaela,Planaltina,Couve,63
+Rafaela,Planaltina,Alface,83
+Rafaela,Planaltina,Rio Preto,83
+Rafaela,Planaltina,Tomate,83
+Rafaela,Planaltina,Goiaba,88
+Rafaela,Planaltina,Manga,61
+Rafaela,Planaltina,Goiaba,81
+Rafaela,Planaltina,Batata-doce,86
+Rafaela,Planaltina,Rio Preto,51
+Rafaela,Planaltina,Rio Preto,58
+Rafaela,Planaltina,Couve,65
+Rafaela,Planaltina,Manga,100
+Rafaela,Planaltina,Tomate,89
+Rafaela,Planaltina,Goiaba,87
+Rafaela,Planaltina,Manga,64
+Rafaela,Planaltina,Tangerina,79
+Rafaela,Planaltina,Batata-doce,99
+Rafaela,Planaltina,Lichia,94
+Sabrina,Pipiripau,Limão,75
+Sabrina,Pipiripau,Abóbora italiana,94
+Sabrina,Pipiripau,Chuchu,65
+Sabrina,Pipiripau,Tomate,86
+Sabrina,Pipiripau,Chuchu,63
+Sabrina,Pipiripau,Tomate,66
+Sabrina,Pipiripau,Berinjela,56
+Sabrina,Pipiripau,Berinjela,84
+Sabrina,Pipiripau,Limão,72
+Sabrina,Pipiripau,Batata,87
+Sabrina,Pipiripau,Chuchu,56
+Sabrina,Pipiripau,Batata,66
+Sabrina,Pipiripau,Limão,88
+Sabrina,Pipiripau,Cenoura,63
+Sabrina,Pipiripau,Cenoura,84
+Sabrina,Pipiripau,Batata,70
+Sabrina,Pipiripau,Batata,77
+Sabrina,Pipiripau,Tomate,98
+Sabrina,Pipiripau,Batata,70
+Sabrina,Pipiripau,Chuchu,94
+Sabrina,Pipiripau,Goiaba,97
+Sabrina,Pipiripau,Goiaba,72
+Sabrina,Pipiripau,Limão,72
+Sabrina,Pipiripau,Abóbora italiana,56
+Sabrina,Pipiripau,Cenoura,59
+Sabrina,Pipiripau,Pitaia,70
+Sabrina,Pipiripau,Berinjela,71
+Sabrina,Pipiripau,Uva,69
+Sabrina,Pipiripau,Batata,60
+Sabrina,Pipiripau,Limão,87
+Sabrina,Pipiripau,Tomate,96
+Sabrina,Pipiripau,Chuchu,59
+Sabrina,Pipiripau,Lichia,51
+Sabrina,Pipiripau,Uva,80
+Sabrina,Pipiripau,Chuchu,71
+Sabrina,Pipiripau,Laranja,84
+Sabrina,Pipiripau,Pitaia,74
+Sabrina,Pipiripau,Laranja,97
+Sabrina,Pipiripau,Tomate,65
+Sabrina,Pipiripau,Batata,64
+Sabrina,Pipiripau,Berinjela,81
+Sabrina,Pipiripau,Pepino,95
+Sabrina,Pipiripau,Chuchu,77
+Sabrina,Pipiripau,Cenoura,57
+Sabrina,Pipiripau,Lichia,86
+Sabrina,Pipiripau,Laranja,81
+Sabrina,Pipiripau,Berinjela,95
+Sabrina,Pipiripau,Abóbora italiana,99
+Sabrina,Pipiripau,Cenoura,100
+Sabrina,Pipiripau,Batata,66
+Sabrina,Pipiripau,Abóbora italiana,77
+Sabrina,Pipiripau,Berinjela,77
+Sabrina,Pipiripau,Berinjela,77
+Sabrina,Pipiripau,Limão,79
+Sabrina,Pipiripau,Laranja,74
+Sabrina,Pipiripau,Lichia,72
+Sabrina,Pipiripau,Lichia,51
+Sabrina,Pipiripau,Pitaia,71
+Sabrina,Pipiripau,Pitaia,79
+Sabrina,Pipiripau,Cenoura,83
+Sabrina,Pipiripau,Chuchu,75
+Sabrina,Pipiripau,Abacate,65
+Sabrina,Pipiripau,Abóbora italiana,94
+Sabrina,Pipiripau,Limão,92
+Sabrina,Pipiripau,Goiaba,100
+Sabrina,Pipiripau,Berinjela,57
+Sabrina,Pipiripau,Goiaba,52
+Sabrina,Pipiripau,Pepino,92
+Sabrina,Pipiripau,Limão,89
+Sabrina,Pipiripau,Berinjela,64
+Sabrina,Pipiripau,Abacate,89
+Sabrina,Pipiripau,Mandioca,61
+Sabrina,Pipiripau,Abacate,74
+Sabrina,Pipiripau,Berinjela,67
+Sabrina,Pipiripau,Chuchu,56
+Sabrina,Pipiripau,Abacate,100
+Sabrina,Pipiripau,Berinjela,98
+Sabrina,Pipiripau,Tomate,50
+Sabrina,Pipiripau,Abóbora italiana,69
+Sabrina,Pipiripau,Lichia,75
+Sabrina,Pipiripau,Limão,58
+Sabrina,Pipiripau,Pimentão,90
+Sabrina,Pipiripau,Laranja,72
+Sabrina,Pipiripau,Batata,71
+Sabrina,Pipiripau,Cenoura,64
+Sabrina,Pipiripau,Banana,80
+Sabrina,Pipiripau,Pitaia,59
+Sabrina,Pipiripau,Pitaia,86
+Sabrina,Pipiripau,Pepino,72
+Sabrina,Pipiripau,Goiaba,71
+Sabrina,Pipiripau,Cenoura,94
+Sabrina,Pipiripau,Laranja,68
+Sabrina,Pipiripau,Planaltina,64
+Sabrina,Pipiripau,Abacate,86
+Sabrina,Pipiripau,Tomate,95
+Sabrina,Pipiripau,Pitaia,99
+Sabrina,Pipiripau,Abóbora italiana,58
+Sabrina,Pipiripau,Laranja,83
+Sabrina,Pipiripau,Pepino,54
+Sabrina,Pipiripau,Uva,60
+Tatiane,Taquara,Manga,99
+Tatiane,Taquara,Repolho,78
+Tatiane,Taquara,Repolho,82
+Tatiane,Taquara,Repolho,77
+Tatiane,Taquara,Manga,62
+Tatiane,Taquara,Manga,58
+Tatiane,Taquara,Acerola,74
+Tatiane,Taquara,Repolho,91
+Tatiane,Taquara,Abacate,100
+Tatiane,Taquara,Acerola,51
+Tatiane,Taquara,Manga,72
+Tatiane,Taquara,Manga,90
+Tatiane,Taquara,Abóbora italiana,54
+Tatiane,Taquara,Abóbora italiana,60
+Tatiane,Taquara,Repolho,72
+Tatiane,Taquara,Brócolis - Ramoso,7
+Tatiane,Taquara,Acerola,54
+Tatiane,Taquara,Vargem Bonita,62
+Tatiane,Taquara,Vargem Bonita,52
+Tatiane,Taquara,Pepino,72
+Tatiane,Taquara,Abóbora italiana,63
+Tatiane,Taquara,Pepino,87
+Tatiane,Taquara,Manga,94
+Tatiane,Taquara,Tomate,54
+Tatiane,Taquara,Tomate,88
+Tatiane,Taquara,Berinjela,77
+Tatiane,Taquara,Abacate,69
+Tatiane,Taquara,Manga,73
+Tatiane,Taquara,Manga,95
+Tatiane,Taquara,Brócolis - Ramoso,10
+Tatiane,Taquara,Tomate,74
+Tatiane,Taquara,Banana,90
+Tatiane,Taquara,Vargem Bonita,88
+Tatiane,Taquara,Abacate,86
+Tatiane,Taquara,Tomate,93
+Tatiane,Taquara,Tomate,73
+Tatiane,Taquara,Cebola,10
+Tatiane,Taquara,Tomate,88
+Tatiane,Taquara,Caqui,78
+Tatiane,Taquara,Brócolis - Ramoso,9
+Tatiane,Taquara,Chuchu,68
+Tatiane,Taquara,Couve-flor,84
+Tatiane,Taquara,Chuchu,92
+Tatiane,Taquara,Chuchu,50
+Tatiane,Taquara,Vargem Bonita,71
+Tatiane,Taquara,Abacate,100
+Tatiane,Taquara,Laranja,84
+Tatiane,Taquara,Caqui,98
+Tatiane,Taquara,Manga,62
+Tatiane,Taquara,Manga,69
+Tatiane,Taquara,Caqui,59
+Tatiane,Taquara,Pepino,80
+Tatiane,Taquara,Couve-flor,68
+Tatiane,Taquara,Pepino,55
+Tatiane,Taquara,Vargem Bonita,83
+Tatiane,Taquara,Caqui,92
+Tatiane,Taquara,Abóbora italiana,73
+Tatiane,Taquara,Berinjela,84
+Tatiane,Taquara,Abóbora italiana,88
+Tatiane,Taquara,Banana,51
+Tatiane,Taquara,Tomate,100
+Tatiane,Taquara,Abacate,95
+Tatiane,Taquara,Pepino,73
+Tatiane,Taquara,Vargem Bonita,96
+Tatiane,Taquara,Chuchu,66
+Tatiane,Taquara,Acerola,68
+Tatiane,Taquara,Repolho,54
+Tatiane,Taquara,Brócolis - Ramoso,5
+Tatiane,Taquara,Caqui,97
+Tatiane,Taquara,Acerola,99
+Tatiane,Taquara,Tangerina,74
+Tatiane,Taquara,Acerola,76
+Tatiane,Taquara,Abacate,79
+Tatiane,Taquara,Beterraba,2
+Tatiane,Taquara,Maracujá,63
+Tatiane,Taquara,Cebola,0
+Tatiane,Taquara,Batata-doce,4
+Tatiane,Taquara,Tomate,95
+Tatiane,Taquara,Beterraba,4
+Tatiane,Taquara,Batata-doce,10
+Tatiane,Taquara,Acerola,75
+Tatiane,Taquara,Couve-flor,92
+Tatiane,Taquara,Maracujá,63
+Tatiane,Taquara,Tomate,63
+Tatiane,Taquara,Laranja,55
+Tatiane,Taquara,Abacate,84
+Tatiane,Taquara,Batata-doce,1
+Tatiane,Taquara,Abóbora menina,56
+Tatiane,Taquara,Tangerina,99
+Tatiane,Taquara,Manga,58
+Tatiane,Taquara,Abacate,96
+Tatiane,Taquara,Pimentão,66
+Tatiane,Taquara,Pepino,53
+Tatiane,Taquara,Brócolis - Ramoso,1
+Tatiane,Taquara,Banana,50
+Tatiane,Taquara,Manga,50
+Tatiane,Taquara,Brócolis - Ramoso,9
+Tatiane,Taquara,Pepino,64
+Tatiane,Taquara,Abacate,52
+Tatiane,Taquara,Vargem Bonita,53
+Vanessa,Ceilândia,Chuchu,58
+Vanessa,Ceilândia,Uva Vinífera,3
+Vanessa,Ceilândia,Abacate,84
+Vanessa,Ceilândia,Banana,92
+Vanessa,Ceilândia,Pepino,8
+Vanessa,Ceilândia,Batata-doce,60
+Vanessa,Ceilândia,Abacate,66
+Vanessa,Ceilândia,Abacate,55
+Vanessa,Ceilândia,Banana,76
+Vanessa,Ceilândia,Gama,50
+Vanessa,Ceilândia,Chuchu,96
+Vanessa,Ceilândia,Batata-doce,100
+Vanessa,Ceilândia,Alface,90
+Vanessa,Ceilândia,Maracujá Pérola,8
+Vanessa,Ceilândia,Tomate,98
+Vanessa,Ceilândia,Pepino,7
+Vanessa,Ceilândia,Alface,94
+Vanessa,Ceilândia,Milho-verde,76
+Vanessa,Ceilândia,Gama,85
+Vanessa,Ceilândia,Gama,98
+Vanessa,Ceilândia,Batata-doce,53
+Vanessa,Ceilândia,Abacate,56
+Vanessa,Ceilândia,Gama,61
+Vanessa,Ceilândia,Alface,67
+Vanessa,Ceilândia,Uva Vinífera,2
+Vanessa,Ceilândia,Goiaba,53
+Vanessa,Ceilândia,Goiaba,92
+Vanessa,Ceilândia,Tomate,80
+Vanessa,Ceilândia,Limão,50
+Vanessa,Ceilândia,Pepino,7
+Vanessa,Ceilândia,Milho-verde,72
+Vanessa,Ceilândia,Batata-doce,61
+Vanessa,Ceilândia,Repolho,82
+Vanessa,Ceilândia,Batata-doce,64
+Vanessa,Ceilândia,Banana,95
+Vanessa,Ceilândia,Limão,51
+Vanessa,Ceilândia,Limão,77
+Vanessa,Ceilândia,Goiaba,51
+Vanessa,Ceilândia,Gama,50
+Vanessa,Ceilândia,Pepino,4
+Vanessa,Ceilândia,Chuchu,69
+Vanessa,Ceilândia,Milho-verde,72
+Vanessa,Ceilândia,Chuchu,84
+Vanessa,Ceilândia,Maracujá Pérola,5
+Vanessa,Ceilândia,Gama,56
+Vanessa,Ceilândia,Pepino,10
+Vanessa,Ceilândia,Alface,93
+Vanessa,Ceilândia,Limão,72
+Vanessa,Ceilândia,Limão,85
+Vanessa,Ceilândia,Milho-verde,100
+Vanessa,Ceilândia,Batata-doce,68
+Vanessa,Ceilândia,Maracujá,85
+Vanessa,Ceilândia,Uva Vinífera,10
+Vanessa,Ceilândia,Batata-doce,89
+Vanessa,Ceilândia,Banana,80
+Vanessa,Ceilândia,Tangerina,94
+Vanessa,Ceilândia,Jiló,1
+Vanessa,Ceilândia,Repolho,85
+Vanessa,Ceilândia,Maracujá Pérola,9
+Vanessa,Ceilândia,Chuchu,59
+Vanessa,Ceilândia,Brócolis - Cabeça Única,52
+Vanessa,Ceilândia,Brócolis - Cabeça Única,81
+Vanessa,Ceilândia,Gama,95
+Vanessa,Ceilândia,Jiló,9
+Vanessa,Ceilândia,Abacate,90
+Vanessa,Ceilândia,Milho-verde,77
+Vanessa,Ceilândia,Chuchu,95
+Vanessa,Ceilândia,Banana,89
+Vanessa,Ceilândia,Coco,64
+Vanessa,Ceilândia,Gama,61
+Vanessa,Ceilândia,Manga,99
+Vanessa,Ceilândia,Manga,75
+Vanessa,Ceilândia,Limão,94
+Vanessa,Ceilândia,Limão,85
+Vanessa,Ceilândia,Gama,88
+Vanessa,Ceilândia,Alface,95
+Vanessa,Ceilândia,Milho-verde,55
+Vanessa,Ceilândia,São Sebastião,0
+Vanessa,Ceilândia,Brócolis - Cabeça Única,83
+Vanessa,Ceilândia,Tangerina,52
+Vanessa,Ceilândia,Abacate,67
+Vanessa,Ceilândia,Tomate,78
+Vanessa,Ceilândia,Coco,71
+Vanessa,Ceilândia,Alface,70
+Vanessa,Ceilândia,Goiaba,68
+Vanessa,Ceilândia,Mandioca,77
+Vanessa,Ceilândia,Milho-verde,53
+Vanessa,Ceilândia,Abacate,78
+Vanessa,Ceilândia,Pepino,6
+Vanessa,Ceilândia,Brócolis - Cabeça Única,75
+Vanessa,Ceilândia,Jiló,0
+Vanessa,Ceilândia,Mandioca,60
+Vanessa,Ceilândia,São Sebastião,3
+Vanessa,Ceilândia,Abacate,61
+Vanessa,Ceilândia,Tomate,90
+Vanessa,Ceilândia,Banana,86
+Vanessa,Ceilândia,Uva Vinífera,4
+Vanessa,Ceilândia,Gama,66
+Vanessa,Ceilândia,Brócolis - Cabeça Única,65
+Vanessa,Ceilândia,Milho-verde,75
+Yasmin,Paranoá,Limão,92
+Yasmin,Paranoá,Vargem Bonita,2
+Yasmin,Paranoá,Berinjela,74
+Yasmin,Paranoá,Vargem Bonita,10
+Yasmin,Paranoá,Vargem Bonita,8
+Yasmin,Paranoá,Paranoá,9
+Yasmin,Paranoá,Batata-doce,6
+Yasmin,Paranoá,Banana,64
+Yasmin,Paranoá,Abacate,70
+Yasmin,Paranoá,Banana,96
+Yasmin,Paranoá,Uva,83
+Yasmin,Paranoá,Paranoá,2
+Yasmin,Paranoá,Abacate,61
+Yasmin,Paranoá,Paranoá,8
+Yasmin,Paranoá,Mandioca,79
+Yasmin,Paranoá,Maracujá Pérola,71
+Yasmin,Paranoá,Pipiripau,88
+Yasmin,Paranoá,Uva,73
+Yasmin,Paranoá,Maracujá Pérola,58
+Yasmin,Paranoá,Paranoá,7
+Yasmin,Paranoá,Maracujá Pérola,71
+Yasmin,Paranoá,Quiabo,59
+Yasmin,Paranoá,Abacate,55
+Yasmin,Paranoá,Maracujá Pérola,63
+Yasmin,Paranoá,Pimentão,78
+Yasmin,Paranoá,Beterraba,92
+Yasmin,Paranoá,Batata-doce,8
+Yasmin,Paranoá,Banana,53
+Yasmin,Paranoá,Abacate,99
+Yasmin,Paranoá,Uva,72
+Yasmin,Paranoá,Batata-doce,7
+Yasmin,Paranoá,Batata-doce,7
+Yasmin,Paranoá,Berinjela,74
+Yasmin,Paranoá,Batata-doce,4
+Yasmin,Paranoá,Beterraba,61
+Yasmin,Paranoá,Banana,57
+Yasmin,Paranoá,Limão,67
+Yasmin,Paranoá,Limão,74
+Yasmin,Paranoá,Vargem Bonita,5
+Yasmin,Paranoá,Limão,98
+Yasmin,Paranoá,Pipiripau,94
+Yasmin,Paranoá,Milho-verde,52
+Yasmin,Paranoá,Pimentão,80
+Yasmin,Paranoá,Banana,70
+Yasmin,Paranoá,Uva,66
+Yasmin,Paranoá,Pipiripau,100
+Yasmin,Paranoá,Vargem Bonita,9
+Yasmin,Paranoá,Paranoá,0
+Yasmin,Paranoá,Milho-verde,78
+Yasmin,Paranoá,Banana,59
+Yasmin,Paranoá,Quiabo,91
+Yasmin,Paranoá,Milho-verde,78
+Yasmin,Paranoá,Vargem Bonita,7
+Yasmin,Paranoá,Beterraba,64
+Yasmin,Paranoá,Pipiripau,93
+Yasmin,Paranoá,Milho-verde,88
+Yasmin,Paranoá,Banana,77
+Yasmin,Paranoá,Pimentão,77
+Yasmin,Paranoá,Milho-verde,99
+Yasmin,Paranoá,Quiabo,61
+Yasmin,Paranoá,Vargem Bonita,6
+Yasmin,Paranoá,Repolho,63
+Yasmin,Paranoá,Milho-verde,50
+Yasmin,Paranoá,Uva,79
+Yasmin,Paranoá,Milho-verde,52
+Yasmin,Paranoá,Milho-verde,56
+Yasmin,Paranoá,Maracujá,61
+Yasmin,Paranoá,Maracujá Pérola,66
+Yasmin,Paranoá,Milho-verde,91
+Yasmin,Paranoá,Uva,95
+Yasmin,Paranoá,Uva,62
+Yasmin,Paranoá,Vargem Bonita,3
+Yasmin,Paranoá,Batata-doce,5
+Yasmin,Paranoá,Repolho,60
+Yasmin,Paranoá,Pipiripau,83
+Yasmin,Paranoá,Laranja,100
+Yasmin,Paranoá,Vargem Bonita,0
+Yasmin,Paranoá,Pipiripau,64
+Yasmin,Paranoá,Maracujá,55
+Yasmin,Paranoá,Pimentão,91
+Yasmin,Paranoá,Abacate,67
+Yasmin,Paranoá,Paranoá,3
+Yasmin,Paranoá,Maracujá Pérola,93
+Yasmin,Paranoá,Milho-verde,66
+Yasmin,Paranoá,Beterraba,62
+Yasmin,Paranoá,Batata-doce,9
+Yasmin,Paranoá,Banana,86
+Yasmin,Paranoá,Mandioca,58
+Yasmin,Paranoá,Mandioca,82
+Yasmin,Paranoá,Vargem Bonita,1
+Yasmin,Paranoá,Maracujá Pérola,73
+Yasmin,Paranoá,Paranoá,10
+Yasmin,Paranoá,Limão,88
+Yasmin,Paranoá,Uva,70
+Yasmin,Paranoá,Banana,89
+Yasmin,Paranoá,Abacate,78
+Yasmin,Paranoá,Manga,92
+Yasmin,Paranoá,Pipiripau,74
+Yasmin,Paranoá,Paranoá,10
+Yasmin,Paranoá,Uva,58
+Mônica,Rio Preto,Laranja,83
+Mônica,Rio Preto,Manga,92
+Mônica,Rio Preto,Mandioca,65
+Mônica,Rio Preto,Repolho,54
+Mônica,Rio Preto,Pimentão,60
+Mônica,Rio Preto,Mandioca,84
+Mônica,Rio Preto,Beterraba,59
+Mônica,Rio Preto,Abóbora,73
+Mônica,Rio Preto,Pimentão,66
+Mônica,Rio Preto,Banana,78
+Mônica,Rio Preto,Beterraba,61
+Mônica,Rio Preto,Mandioca,90
+Mônica,Rio Preto,Beterraba,88
+Mônica,Rio Preto,Manga,86
+Mônica,Rio Preto,Jardim,10
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,75
+Mônica,Rio Preto,Laranja,63
+Mônica,Rio Preto,Jabuticaba,78
+Mônica,Rio Preto,Laranja,100
+Mônica,Rio Preto,Banana,53
+Mônica,Rio Preto,Jardim,2
+Mônica,Rio Preto,Jabuticaba,100
+Mônica,Rio Preto,Abacate,78
+Mônica,Rio Preto,Abacate,81
+Mônica,Rio Preto,Limão,87
+Mônica,Rio Preto,Laranja,82
+Mônica,Rio Preto,Graviola,89
+Mônica,Rio Preto,Jabuticaba,79
+Mônica,Rio Preto,Pimentão,74
+Mônica,Rio Preto,Banana,52
+Mônica,Rio Preto,Limão,84
+Mônica,Rio Preto,São Sebastião,67
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,59
+Mônica,Rio Preto,Graviola,83
+Mônica,Rio Preto,Graviola,62
+Mônica,Rio Preto,Graviola,81
+Mônica,Rio Preto,Repolho,84
+Mônica,Rio Preto,Banana,88
+Mônica,Rio Preto,Pipiripau,4
+Mônica,Rio Preto,Abóbora,58
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,81
+Mônica,Rio Preto,São Sebastião,61
+Mônica,Rio Preto,Pipiripau,4
+Mônica,Rio Preto,São Sebastião,89
+Mônica,Rio Preto,Graviola,89
+Mônica,Rio Preto,Abóbora,100
+Mônica,Rio Preto,Abacate,53
+Mônica,Rio Preto,Cenoura,100
+Mônica,Rio Preto,Jardim,1
+Mônica,Rio Preto,Coentro,0
+Mônica,Rio Preto,Coentro,1
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,91
+Mônica,Rio Preto,Alho,89
+Mônica,Rio Preto,Cenoura,58
+Mônica,Rio Preto,Alho,53
+Mônica,Rio Preto,Banana,66
+Mônica,Rio Preto,Repolho,81
+Mônica,Rio Preto,Beterraba,61
+Mônica,Rio Preto,Laranja,84
+Mônica,Rio Preto,Coentro,1
+Mônica,Rio Preto,Graviola,74
+Mônica,Rio Preto,Repolho,100
+Mônica,Rio Preto,Laranja,62
+Mônica,Rio Preto,Jardim,5
+Mônica,Rio Preto,Cenoura,95
+Mônica,Rio Preto,Alho,98
+Mônica,Rio Preto,Abóbora,90
+Mônica,Rio Preto,Pipiripau,8
+Mônica,Rio Preto,Manga,99
+Mônica,Rio Preto,Graviola,69
+Mônica,Rio Preto,Maracujá,80
+Mônica,Rio Preto,Pipiripau,1
+Mônica,Rio Preto,Abacate,83
+Mônica,Rio Preto,Cenoura,56
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,63
+Mônica,Rio Preto,Pipiripau,9
+Mônica,Rio Preto,Laranja,88
+Mônica,Rio Preto,Banana,86
+Mônica,Rio Preto,Coentro,4
+Mônica,Rio Preto,Beterraba,64
+Mônica,Rio Preto,Beterraba,57
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,86
+Mônica,Rio Preto,Mandioca,72
+Mônica,Rio Preto,Laranja,88
+Mônica,Rio Preto,Laranja,65
+Mônica,Rio Preto,Graviola,98
+Mônica,Rio Preto,Mandioca,66
+Mônica,Rio Preto,Jardim,9
+Mônica,Rio Preto,Laranja,62
+Mônica,Rio Preto,Pimentão,55
+Mônica,Rio Preto,Graviola,55
+Mônica,Rio Preto,Abóbora japonesa - Tetsukabut,55
+Mônica,Rio Preto,Repolho,92
+Mônica,Rio Preto,Pipiripau,5
+Mônica,Rio Preto,Alho,62
+Mônica,Rio Preto,Banana,58
+Mônica,Rio Preto,Manga,93
+Mônica,Rio Preto,Maracujá,81
+Mônica,Rio Preto,Jardim,7
+Mônica,Rio Preto,Coentro,6
+Débora,Alexandre Gusmão,Tomate,77
+Débora,Alexandre Gusmão,Manga,56
+Débora,Alexandre Gusmão,Tomate,69
+Débora,Alexandre Gusmão,Manga,93
+Débora,Alexandre Gusmão,Brócolis - Ramoso,97
+Débora,Alexandre Gusmão,Banana,78
+Débora,Alexandre Gusmão,Manga,58
+Débora,Alexandre Gusmão,Atemóia,81
+Débora,Alexandre Gusmão,Repolho,88
+Débora,Alexandre Gusmão,Abacate,51
+Débora,Alexandre Gusmão,Manga,79
+Débora,Alexandre Gusmão,Brócolis - Ramoso,92
+Débora,Alexandre Gusmão,Pitaia,8
+Débora,Alexandre Gusmão,Brócolis - Cabeça Única,61
+Débora,Alexandre Gusmão,Brócolis - Ramoso,67
+Débora,Alexandre Gusmão,Abacaxi,1
+Débora,Alexandre Gusmão,Abacaxi,8
+Débora,Alexandre Gusmão,Abacaxi,8
+Débora,Alexandre Gusmão,Repolho,68
+Débora,Alexandre Gusmão,Pitaia,10
+Débora,Alexandre Gusmão,Pimentão,90
+Débora,Alexandre Gusmão,Brazlândia,99
+Débora,Alexandre Gusmão,Abacate,53
+Débora,Alexandre Gusmão,Abacaxi,5
+Débora,Alexandre Gusmão,Brazlândia,80
+Débora,Alexandre Gusmão,Pimentão,94
+Débora,Alexandre Gusmão,Tomate,88
+Débora,Alexandre Gusmão,Brazlândia,69
+Débora,Alexandre Gusmão,Pitaia,1
+Débora,Alexandre Gusmão,Tomate,95
+Débora,Alexandre Gusmão,Brócolis - Ramoso,92
+Débora,Alexandre Gusmão,Brazlândia,60
+Débora,Alexandre Gusmão,Tomate,61
+Débora,Alexandre Gusmão,Manga,56
+Débora,Alexandre Gusmão,Banana,62
+Débora,Alexandre Gusmão,Pimentão,68
+Débora,Alexandre Gusmão,Brócolis - Cabeça Única,97
+Débora,Alexandre Gusmão,Repolho,73
+Débora,Alexandre Gusmão,Brazlândia,88
+Débora,Alexandre Gusmão,Brócolis - Cabeça Única,73
+Débora,Alexandre Gusmão,Brócolis - Cabeça Única,84
+Débora,Alexandre Gusmão,Pimentão,91
+Débora,Alexandre Gusmão,Batata,9
+Débora,Alexandre Gusmão,Tomate,89
+Débora,Alexandre Gusmão,Brazlândia,62
+Débora,Alexandre Gusmão,Tomate,83
+Débora,Alexandre Gusmão,Repolho,61
+Débora,Alexandre Gusmão,Coentro,0
+Débora,Alexandre Gusmão,Graviola,53
+Débora,Alexandre Gusmão,Abacaxi,10
+Débora,Alexandre Gusmão,Abacate,85
+Débora,Alexandre Gusmão,Alface,60
+Débora,Alexandre Gusmão,Tomate,93
+Débora,Alexandre Gusmão,Batata,1
+Débora,Alexandre Gusmão,Abacaxi,10
+Débora,Alexandre Gusmão,Manga,64
+Débora,Alexandre Gusmão,Manga,87
+Débora,Alexandre Gusmão,Abacate,71
+Débora,Alexandre Gusmão,Pitaia,8
+Débora,Alexandre Gusmão,Brazlândia,61
+Débora,Alexandre Gusmão,Brócolis - Cabeça Única,88
+Débora,Alexandre Gusmão,Batata,9
+Débora,Alexandre Gusmão,Batata,0
+Débora,Alexandre Gusmão,Alface,75
+Débora,Alexandre Gusmão,Couve,75
+Débora,Alexandre Gusmão,Pimentão,54
+Débora,Alexandre Gusmão,Brócolis - Ramoso,98
+Débora,Alexandre Gusmão,Abacate,81
+Débora,Alexandre Gusmão,Manga,92
+Débora,Alexandre Gusmão,Couve,95
+Débora,Alexandre Gusmão,Pitaia,7
+Débora,Alexandre Gusmão,Mirtilo,1
+Débora,Alexandre Gusmão,Repolho,80
+Débora,Alexandre Gusmão,Abacate,52
+Débora,Alexandre Gusmão,Coentro,0
+Débora,Alexandre Gusmão,Manga,75
+Débora,Alexandre Gusmão,Abacate,90
+Débora,Alexandre Gusmão,Goiaba,58
+Débora,Alexandre Gusmão,Goiaba,91
+Débora,Alexandre Gusmão,Goiaba,81
+Débora,Alexandre Gusmão,Repolho,66
+Débora,Alexandre Gusmão,Coentro,10
+Débora,Alexandre Gusmão,Chuchu,58
+Débora,Alexandre Gusmão,Pitaia,9
+Débora,Alexandre Gusmão,Coentro,2
+Débora,Alexandre Gusmão,Batata,5
+Débora,Alexandre Gusmão,Tomate,89
+Débora,Alexandre Gusmão,Banana,96
+Débora,Alexandre Gusmão,Coentro,3
+Débora,Alexandre Gusmão,Abacaxi,1
+Débora,Alexandre Gusmão,Repolho,94
+Débora,Alexandre Gusmão,Batata,3
+Débora,Alexandre Gusmão,Chuchu,61
+Débora,Alexandre Gusmão,Mandioca,96
+Débora,Alexandre Gusmão,Uva,97
+Débora,Alexandre Gusmão,Mandioca,52
+Débora,Alexandre Gusmão,Atemóia,71
+Débora,Alexandre Gusmão,Mandioca,77
+Débora,Alexandre Gusmão,Tomate,87
+Débora,Alexandre Gusmão,Banana,85
+Cíntia,Jardim,Graviola,73
+Cíntia,Jardim,Pimentão,50
+Cíntia,Jardim,Abacate,87
+Cíntia,Jardim,Abacate,55
+Cíntia,Jardim,Mandioca,70
+Cíntia,Jardim,Batata-doce,80
+Cíntia,Jardim,Batata-doce,87
+Cíntia,Jardim,Maracujá,95
+Cíntia,Jardim,Graviola,100
+Cíntia,Jardim,Mandioca,82
+Cíntia,Jardim,Limão,80
+Cíntia,Jardim,Batata-doce,72
+Cíntia,Jardim,Batata-doce,86
+Cíntia,Jardim,Ceilândia,10
+Cíntia,Jardim,Abacate,97
+Cíntia,Jardim,Batata-doce,86
+Cíntia,Jardim,Repolho,55
+Cíntia,Jardim,Abacate,87
+Cíntia,Jardim,Mandioca,67
+Cíntia,Jardim,Tangerina,64
+Cíntia,Jardim,Maracujá,77
+Cíntia,Jardim,Batata-doce,63
+Cíntia,Jardim,Maracujá,61
+Cíntia,Jardim,Mandioca,89
+Cíntia,Jardim,Pimentão,61
+Cíntia,Jardim,Abóbora japonesa - Tetsukabut,79
+Cíntia,Jardim,Graviola,89
+Cíntia,Jardim,Repolho,60
+Cíntia,Jardim,Maracujá,62
+Cíntia,Jardim,Maracujá,53
+Cíntia,Jardim,Mandioca,69
+Cíntia,Jardim,Cebola,76
+Cíntia,Jardim,Uva Vinífera,54
+Cíntia,Jardim,Mandioca,91
+Cíntia,Jardim,Mandioca,64
+Cíntia,Jardim,Pimentão,56
+Cíntia,Jardim,Abacate,60
+Cíntia,Jardim,Mandioca,96
+Cíntia,Jardim,Graviola,70
+Cíntia,Jardim,Maracujá,92
+Cíntia,Jardim,Abóbora japonesa - Tetsukabut,53
+Cíntia,Jardim,Repolho,88
+Cíntia,Jardim,Abóbora japonesa - Tetsukabut,66
+Cíntia,Jardim,Maracujá,54
+Cíntia,Jardim,Batata-doce,66
+Cíntia,Jardim,Ceilândia,6
+Cíntia,Jardim,Beterraba,69
+Cíntia,Jardim,Limão,84
+Cíntia,Jardim,Uva Vinífera,100
+Cíntia,Jardim,Goiaba,76
+Cíntia,Jardim,Tangerina,51
+Cíntia,Jardim,Maracujá,54
+Cíntia,Jardim,Batata-doce,54
+Cíntia,Jardim,Abóbora japonesa - Tetsukabut,64
+Cíntia,Jardim,Cebola,100
+Cíntia,Jardim,Abóbora japonesa - Tetsukabut,70
+Cíntia,Jardim,Limão,75
+Cíntia,Jardim,Batata-doce,97
+Cíntia,Jardim,Cebola,60
+Cíntia,Jardim,Batata-doce,82
+Cíntia,Jardim,Goiaba,92
+Cíntia,Jardim,Repolho,52
+Cíntia,Jardim,Uva Vinífera,93
+Cíntia,Jardim,Beterraba,51
+Cíntia,Jardim,Pimentão,76
+Cíntia,Jardim,Ceilândia,6
+Cíntia,Jardim,Mandioca,78
+Cíntia,Jardim,Goiaba,69
+Cíntia,Jardim,Cebola,84
+Cíntia,Jardim,Acerola,6
+Cíntia,Jardim,Uva Vinífera,71
+Cíntia,Jardim,Limão,50
+Cíntia,Jardim,Maracujá,100
+Cíntia,Jardim,Ceilândia,6
+Cíntia,Jardim,Tomate,54
+Cíntia,Jardim,Uva Vinífera,53
+Cíntia,Jardim,Maracujá,90
+Cíntia,Jardim,Maracujá,96
+Cíntia,Jardim,Acerola,4
+Cíntia,Jardim,Uva Vinífera,64
+Cíntia,Jardim,Repolho,60
+Cíntia,Jardim,Uva Vinífera,65
+Cíntia,Jardim,Acerola,8
+Cíntia,Jardim,Berinjela,90
+Cíntia,Jardim,Beterraba,71
+Cíntia,Jardim,Cebola,98
+Cíntia,Jardim,Tomate,97
+Cíntia,Jardim,Abacate,53
+Cíntia,Jardim,Berinjela,80
+Cíntia,Jardim,Repolho,95
+Cíntia,Jardim,Batata-doce,70
+Cíntia,Jardim,Berinjela,59
+Cíntia,Jardim,Uva Vinífera,85
+Cíntia,Jardim,Uva Vinífera,70
+Cíntia,Jardim,Mandioca,83
+Cíntia,Jardim,Graviola,99
+Cíntia,Jardim,Milho doce,8
+Cíntia,Jardim,Limão,52
+Cíntia,Jardim,Milho doce,7
+Cíntia,Jardim,Acerola,5
+Érica,Brazlândia,Chuchu,59
+Érica,Brazlândia,Abacate,62
+Érica,Brazlândia,Cajamanga,99
+Érica,Brazlândia,Chuchu,94
+Érica,Brazlândia,Chuchu,95
+Érica,Brazlândia,Morango,64
+Érica,Brazlândia,Uva,58
+Érica,Brazlândia,Morango,79
+Érica,Brazlândia,Abacate,53
+Érica,Brazlândia,Uva,93
+Érica,Brazlândia,Cajamanga,81
+Érica,Brazlândia,Morango,80
+Érica,Brazlândia,Uva,68
+Érica,Brazlândia,Cajamanga,88
+Érica,Brazlândia,Morango,89
+Érica,Brazlândia,Abacate,61
+Érica,Brazlândia,Abacate,74
+Érica,Brazlândia,Couve,81
+Érica,Brazlândia,Brócolis - Cabeça Única,62
+Érica,Brazlândia,Abacate,100
+Érica,Brazlândia,Morango,91
+Érica,Brazlândia,Brócolis - Cabeça Única,68
+Érica,Brazlândia,Morango,75
+Érica,Brazlândia,Uva,78
+Érica,Brazlândia,Brócolis - Cabeça Única,59
+Érica,Brazlândia,Morango,61
+Érica,Brazlândia,Brócolis - Cabeça Única,87
+Érica,Brazlândia,Couve,99
+Érica,Brazlândia,Brócolis - Cabeça Única,61
+Érica,Brazlândia,Chuchu,61
+Érica,Brazlândia,Repolho,89
+Érica,Brazlândia,Limão,77
+Érica,Brazlândia,Chuchu,77
+Érica,Brazlândia,Ceilândia,98
+Érica,Brazlândia,Couve,85
+Érica,Brazlândia,Abacate,53
+Érica,Brazlândia,Repolho,76
+Érica,Brazlândia,Couve,91
+Érica,Brazlândia,Couve,91
+Érica,Brazlândia,Chuchu,56
+Érica,Brazlândia,Uva,76
+Érica,Brazlândia,Atemóia,65
+Érica,Brazlândia,Repolho,69
+Érica,Brazlândia,Banana,91
+Érica,Brazlândia,Mandioca,50
+Érica,Brazlândia,Banana,88
+Érica,Brazlândia,Mandioca,97
+Érica,Brazlândia,Abacate,83
+Érica,Brazlândia,Morango,72
+Érica,Brazlândia,Banana,78
+Érica,Brazlândia,Alface,82
+Érica,Brazlândia,Chuchu,56
+Érica,Brazlândia,Chuchu,79
+Érica,Brazlândia,Ceilândia,63
+Érica,Brazlândia,Abóbora japonesa - Tetsukabut,3
+Érica,Brazlândia,Mandioca,67
+Érica,Brazlândia,Manga,91
+Érica,Brazlândia,Alface,68
+Érica,Brazlândia,Alface,100
+Érica,Brazlândia,Couve,56
+Érica,Brazlândia,Alface,77
+Érica,Brazlândia,Alface,82
+Érica,Brazlândia,Pipiripau,0
+Érica,Brazlândia,Alface,62
+Érica,Brazlândia,Couve,51
+Érica,Brazlândia,Pipiripau,5
+Érica,Brazlândia,Morango,81
+Érica,Brazlândia,Uva,90
+Érica,Brazlândia,Abóbora japonesa - Tetsukabut,4
+Érica,Brazlândia,Repolho,55
+Érica,Brazlândia,Alface,95
+Érica,Brazlândia,Maracujá,89
+Érica,Brazlândia,Chuchu,97
+Érica,Brazlândia,Brócolis - Cabeça Única,99
+Érica,Brazlândia,Morango,61
+Érica,Brazlândia,Ceilândia,54
+Érica,Brazlândia,Brócolis - Cabeça Única,68
+Érica,Brazlândia,Atemóia,97
+Érica,Brazlândia,Laranja,6
+Érica,Brazlândia,Chuchu,80
+Érica,Brazlândia,Alface,81
+Érica,Brazlândia,Uva,73
+Érica,Brazlândia,Maracujá,75
+Érica,Brazlândia,Cajamanga,94
+Érica,Brazlândia,Couve,92
+Érica,Brazlândia,Abacate,56
+Érica,Brazlândia,Maracujá,53
+Érica,Brazlândia,Atemóia,71
+Érica,Brazlândia,Couve,58
+Érica,Brazlândia,Mandioca,73
+Érica,Brazlândia,Abacate,74
+Érica,Brazlândia,Cajamanga,69
+Érica,Brazlândia,Milho-verde,3
+Érica,Brazlândia,Tomate,61
+Érica,Brazlândia,Uva,93
+Érica,Brazlândia,Cajamanga,70
+Érica,Brazlândia,Maracujá,98
+Érica,Brazlândia,Laranja,2
+Érica,Brazlândia,Brócolis - Cabeça Única,60
+Érica,Brazlândia,Milho-verde,1
+André,Tabatinga,Beterraba,54
+André,Tabatinga,Tangerina,98
+André,Tabatinga,Banana,60
+André,Tabatinga,Beterraba,90
+André,Tabatinga,Abacate,77
+André,Tabatinga,Cebola,57
+André,Tabatinga,Banana,53
+André,Tabatinga,Uva,70
+André,Tabatinga,Banana,70
+André,Tabatinga,Cenoura,79
+André,Tabatinga,Goiaba,69
+André,Tabatinga,Uva,55
+André,Tabatinga,Beterraba,89
+André,Tabatinga,Banana,96
+André,Tabatinga,Tangerina,67
+André,Tabatinga,Limão,82
+André,Tabatinga,Mandioca,72
+André,Tabatinga,Chuchu,82
+André,Tabatinga,Mandioca,79
+André,Tabatinga,Cebola,96
+André,Tabatinga,Beterraba,93
+André,Tabatinga,Beterraba,80
+André,Tabatinga,Beterraba,56
+André,Tabatinga,Tangerina,56
+André,Tabatinga,Limão,57
+André,Tabatinga,Chuchu,82
+André,Tabatinga,Abacate,81
+André,Tabatinga,Batata,5
+André,Tabatinga,Tomate,66
+André,Tabatinga,Abacate,84
+André,Tabatinga,Chuchu,75
+André,Tabatinga,Goiaba,53
+André,Tabatinga,Limão,79
+André,Tabatinga,Beterraba,66
+André,Tabatinga,Tomate,75
+André,Tabatinga,Limão,59
+André,Tabatinga,Banana,95
+André,Tabatinga,Goiaba,74
+André,Tabatinga,Banana,65
+André,Tabatinga,Chuchu,56
+André,Tabatinga,Cenoura,86
+André,Tabatinga,Tangerina,63
+André,Tabatinga,Limão,91
+André,Tabatinga,Tangerina,63
+André,Tabatinga,Taquara,54
+André,Tabatinga,Cenoura,52
+André,Tabatinga,Abacate,64
+André,Tabatinga,Mandioca,59
+André,Tabatinga,Uva,90
+André,Tabatinga,Uva,63
+André,Tabatinga,Limão,54
+André,Tabatinga,Limão,72
+André,Tabatinga,Mandioca,100
+André,Tabatinga,Tomate,69
+André,Tabatinga,Uva Vinífera,9
+André,Tabatinga,Cenoura,66
+André,Tabatinga,Goiaba,95
+André,Tabatinga,Uva Vinífera,3
+André,Tabatinga,Mandioca,83
+André,Tabatinga,Uva Vinífera,10
+André,Tabatinga,Maracujá Pérola,92
+André,Tabatinga,Beterraba,59
+André,Tabatinga,Tangerina,77
+André,Tabatinga,Mandioca,82
+André,Tabatinga,Banana,93
+André,Tabatinga,Limão,82
+André,Tabatinga,Pitaia,52
+André,Tabatinga,Goiaba,61
+André,Tabatinga,Cebola,58
+André,Tabatinga,Abacate,69
+André,Tabatinga,Chuchu,62
+André,Tabatinga,Batata,5
+André,Tabatinga,Tangerina,83
+André,Tabatinga,Cenoura,59
+André,Tabatinga,Abóbora italiana,9
+André,Tabatinga,Batata,4
+André,Tabatinga,Maracujá Pérola,69
+André,Tabatinga,Beterraba,95
+André,Tabatinga,Taquara,89
+André,Tabatinga,Batata,6
+André,Tabatinga,Taquara,52
+André,Tabatinga,Uva Vinífera,3
+André,Tabatinga,Cenoura,82
+André,Tabatinga,Maracujá,55
+André,Tabatinga,Abóbora italiana,7
+André,Tabatinga,Cenoura,88
+André,Tabatinga,Chuchu,74
+André,Tabatinga,Limão,71
+André,Tabatinga,Tomate,85
+André,Tabatinga,Chuchu,65
+André,Tabatinga,Cenoura,82
+André,Tabatinga,Taquara,61
+André,Tabatinga,Maracujá,93
+André,Tabatinga,Maracujá,87
+André,Tabatinga,Abacate,95
+André,Tabatinga,Taquara,84
+André,Tabatinga,Uva,60
+André,Tabatinga,Jiló,71
+André,Tabatinga,Manga,73
+André,Tabatinga,Jiló,72
+Bruno,Gama,Limão,79
+Bruno,Gama,Limão,50
+Bruno,Gama,Brócolis - Ramoso,75
+Bruno,Gama,Acerola,75
+Bruno,Gama,Milho-verde,59
+Bruno,Gama,Uva,1
+Bruno,Gama,Brócolis - Ramoso,72
+Bruno,Gama,Limão,58
+Bruno,Gama,Repolho,70
+Bruno,Gama,Abóbora menina,9
+Bruno,Gama,Lichia,90
+Bruno,Gama,Abóbora menina,3
+Bruno,Gama,Manga,79
+Bruno,Gama,Limão,97
+Bruno,Gama,Repolho,84
+Bruno,Gama,Alface,85
+Bruno,Gama,Maracujá,66
+Bruno,Gama,Manga,63
+Bruno,Gama,Brócolis - Ramoso,66
+Bruno,Gama,Alface,100
+Bruno,Gama,Coentro,58
+Bruno,Gama,Coentro,57
+Bruno,Gama,Jabuticaba,8
+Bruno,Gama,Brócolis - Cabeça Única,82
+Bruno,Gama,Brócolis - Cabeça Única,73
+Bruno,Gama,Jabuticaba,7
+Bruno,Gama,Maracujá,100
+Bruno,Gama,Limão,87
+Bruno,Gama,Brócolis - Cabeça Única,96
+Bruno,Gama,Lichia,86
+Bruno,Gama,Limão,85
+Bruno,Gama,Brócolis - Cabeça Única,77
+Bruno,Gama,Banana,81
+Bruno,Gama,Brócolis - Ramoso,74
+Bruno,Gama,Manga,60
+Bruno,Gama,Abóbora menina,3
+Bruno,Gama,Lichia,54
+Bruno,Gama,Laranja,97
+Bruno,Gama,Repolho,86
+Bruno,Gama,Banana,95
+Bruno,Gama,Lichia,59
+Bruno,Gama,Maracujá,99
+Bruno,Gama,Mandioca,82
+Bruno,Gama,Repolho,90
+Bruno,Gama,Banana,91
+Bruno,Gama,Limão,99
+Bruno,Gama,Abóbora menina,2
+Bruno,Gama,Limão,53
+Bruno,Gama,Banana,53
+Bruno,Gama,Milho-verde,94
+Bruno,Gama,Repolho,57
+Bruno,Gama,Acerola,83
+Bruno,Gama,Repolho,86
+Bruno,Gama,Coentro,81
+Bruno,Gama,Laranja,69
+Bruno,Gama,Banana,55
+Bruno,Gama,Laranja,82
+Bruno,Gama,Alface,58
+Bruno,Gama,Manga,54
+Bruno,Gama,Laranja,88
+Bruno,Gama,Laranja,54
+Bruno,Gama,Acerola,88
+Bruno,Gama,Atemóia,2
+Bruno,Gama,Limão,64
+Bruno,Gama,Uva,3
+Bruno,Gama,Maracujá,93
+Bruno,Gama,Milho-verde,85
+Bruno,Gama,Couve,89
+Bruno,Gama,Abóbora menina,1
+Bruno,Gama,Milho-verde,61
+Bruno,Gama,Abóbora menina,5
+Bruno,Gama,Brócolis - Ramoso,74
+Bruno,Gama,Mandioca,99
+Bruno,Gama,Coentro,73
+Bruno,Gama,Uva,6
+Bruno,Gama,Abóbora menina,9
+Bruno,Gama,Milho-verde,87
+Bruno,Gama,Pitaia,72
+Bruno,Gama,Uva,1
+Bruno,Gama,Lichia,71
+Bruno,Gama,Jabuticaba,9
+Bruno,Gama,Laranja,89
+Bruno,Gama,Abóbora menina,9
+Bruno,Gama,Atemóia,4
+Bruno,Gama,Acerola,100
+Bruno,Gama,Milho-verde,54
+Bruno,Gama,Couve,97
+Bruno,Gama,Acerola,98
+Bruno,Gama,Pitaia,97
+Bruno,Gama,Maracujá,54
+Bruno,Gama,Abacate,85
+Bruno,Gama,Banana,89
+Bruno,Gama,Jabuticaba,9
+Bruno,Gama,Manga,64
+Bruno,Gama,Jabuticaba,7
+Bruno,Gama,Brócolis - Ramoso,65
+Bruno,Gama,Pimentão,59
+Bruno,Gama,Pimentão,99
+Bruno,Gama,Pimentão,85
+Bruno,Gama,Lichia,52
+Caio,São Sebastião,Cebola,86
+Caio,São Sebastião,Abacate,96
+Caio,São Sebastião,Abacaxi,63
+Caio,São Sebastião,Tangerina,68
+Caio,São Sebastião,Quiabo,80
+Caio,São Sebastião,Repolho,70
+Caio,São Sebastião,Agrião,55
+Caio,São Sebastião,Quiabo,55
+Caio,São Sebastião,Morango,67
+Caio,São Sebastião,Banana,99
+Caio,São Sebastião,Tangerina,55
+Caio,São Sebastião,Tangerina,73
+Caio,São Sebastião,Morango,71
+Caio,São Sebastião,Mandioca,74
+Caio,São Sebastião,Maracujá,59
+Caio,São Sebastião,Abacate,70
+Caio,São Sebastião,Tangerina,50
+Caio,São Sebastião,Quiabo,60
+Caio,São Sebastião,Tangerina,92
+Caio,São Sebastião,Maracujá,61
+Caio,São Sebastião,Maracujá Pérola,93
+Caio,São Sebastião,Mandioca,96
+Caio,São Sebastião,Repolho,92
+Caio,São Sebastião,Brócolis - Ramoso,1
+Caio,São Sebastião,Banana,61
+Caio,São Sebastião,Morango,84
+Caio,São Sebastião,Banana,67
+Caio,São Sebastião,Cebola,98
+Caio,São Sebastião,Morango,54
+Caio,São Sebastião,Morango,63
+Caio,São Sebastião,Repolho,91
+Caio,São Sebastião,Cebola,67
+Caio,São Sebastião,Abacaxi,91
+Caio,São Sebastião,Repolho,54
+Caio,São Sebastião,Quiabo,53
+Caio,São Sebastião,Repolho,65
+Caio,São Sebastião,Mandioca,70
+Caio,São Sebastião,Agrião,51
+Caio,São Sebastião,Tomate,89
+Caio,São Sebastião,Abacate,91
+Caio,São Sebastião,Brócolis - Ramoso,0
+Caio,São Sebastião,Cebola,58
+Caio,São Sebastião,Maracujá,78
+Caio,São Sebastião,Brócolis - Ramoso,6
+Caio,São Sebastião,Tangerina,84
+Caio,São Sebastião,Pitaia,68
+Caio,São Sebastião,Maracujá,75
+Caio,São Sebastião,Abacate,64
+Caio,São Sebastião,Pitaia,64
+Caio,São Sebastião,Maracujá Pérola,69
+Caio,São Sebastião,Agrião,54
+Caio,São Sebastião,Tomate,53
+Caio,São Sebastião,Tangerina,98
+Caio,São Sebastião,Abacate,66
+Caio,São Sebastião,Tomate,66
+Caio,São Sebastião,Banana,57
+Caio,São Sebastião,Abacaxi,82
+Caio,São Sebastião,Tangerina,85
+Caio,São Sebastião,Abacate,85
+Caio,São Sebastião,Quiabo,81
+Caio,São Sebastião,Abacate,75
+Caio,São Sebastião,Abóbora,65
+Caio,São Sebastião,Agrião,98
+Caio,São Sebastião,Couve,74
+Caio,São Sebastião,Couve,80
+Caio,São Sebastião,Abacate,98
+Caio,São Sebastião,Tangerina,71
+Caio,São Sebastião,Pitaia,67
+Caio,São Sebastião,Cebola,82
+Caio,São Sebastião,Pitaia,98
+Caio,São Sebastião,Cebola,80
+Caio,São Sebastião,Maracujá,77
+Caio,São Sebastião,Quiabo,87
+Caio,São Sebastião,Maracujá Pérola,69
+Caio,São Sebastião,Maracujá Pérola,54
+Caio,São Sebastião,Tomate,73
+Caio,São Sebastião,Brócolis - Ramoso,3
+Caio,São Sebastião,Tangerina,73
+Caio,São Sebastião,Morango,94
+Caio,São Sebastião,Tangerina,85
+Caio,São Sebastião,Mandioca,63
+Caio,São Sebastião,Banana,51
+Caio,São Sebastião,Tangerina,88
+Caio,São Sebastião,Morango,76
+Caio,São Sebastião,Mandioca,77
+Caio,São Sebastião,Banana,67
+Caio,São Sebastião,Abóbora,92
+Caio,São Sebastião,Sobradinho,69
+Caio,São Sebastião,Agrião,94
+Caio,São Sebastião,Abacate,97
+Caio,São Sebastião,Banana,65
+Caio,São Sebastião,Morango,90
+Caio,São Sebastião,Cebola,66
+Caio,São Sebastião,Morango,60
+Caio,São Sebastião,Mandioca,66
+Caio,São Sebastião,Quiabo,73
+Caio,São Sebastião,Abóbora,79
+Caio,São Sebastião,Agrião,72
+Caio,São Sebastião,Abacaxi,84
+Caio,São Sebastião,Maracujá Pérola,65
+Diego,Sobradinho,Brócolis - Ramoso,58
+Diego,Sobradinho,Maracujá Pérola,100
+Diego,Sobradinho,Maracujá,65
+Diego,Sobradinho,Agrião,6
+Diego,Sobradinho,Brócolis - Ramoso,85
+Diego,Sobradinho,Abacate,98
+Diego,Sobradinho,Repolho,50
+Diego,Sobradinho,Abacate,99
+Diego,Sobradinho,Laranja,78
+Diego,Sobradinho,Berinjela,88
+Diego,Sobradinho,Berinjela,82
+Diego,Sobradinho,Tomate,70
+Diego,Sobradinho,Quiabo,3
+Diego,Sobradinho,Repolho,99
+Diego,Sobradinho,Maracujá,86
+Diego,Sobradinho,Agrião,7
+Diego,Sobradinho,Repolho,78
+Diego,Sobradinho,Abacate,89
+Diego,Sobradinho,Brócolis - Ramoso,83
+Diego,Sobradinho,Couve,62
+Diego,Sobradinho,Repolho,88
+Diego,Sobradinho,Tomate,93
+Diego,Sobradinho,Uva,59
+Diego,Sobradinho,Repolho,64
+Diego,Sobradinho,Manga,73
+Diego,Sobradinho,Manga,61
+Diego,Sobradinho,Brócolis - Ramoso,94
+Diego,Sobradinho,Tomate,86
+Diego,Sobradinho,Maracujá Pérola,84
+Diego,Sobradinho,Agrião,6
+Diego,Sobradinho,Tangerina,95
+Diego,Sobradinho,Repolho,97
+Diego,Sobradinho,Uva,87
+Diego,Sobradinho,Abacate,86
+Diego,Sobradinho,Tangerina,77
+Diego,Sobradinho,Pimentão,71
+Diego,Sobradinho,Agrião,2
+Diego,Sobradinho,Quiabo,7
+Diego,Sobradinho,Tomate,55
+Diego,Sobradinho,Couve,96
+Diego,Sobradinho,Agrião,4
+Diego,Sobradinho,Mamão,0
+Diego,Sobradinho,Manga,72
+Diego,Sobradinho,Agrião,6
+Diego,Sobradinho,Manga,97
+Diego,Sobradinho,Repolho,73
+Diego,Sobradinho,Couve,98
+Diego,Sobradinho,Brócolis - Ramoso,75
+Diego,Sobradinho,Tomate,57
+Diego,Sobradinho,Tomate,79
+Diego,Sobradinho,Pimentão,71
+Diego,Sobradinho,Pimentão,69
+Diego,Sobradinho,Tangerina,88
+Diego,Sobradinho,Tomate,69
+Diego,Sobradinho,Brócolis - Ramoso,89
+Diego,Sobradinho,Manga,74
+Diego,Sobradinho,Agrião,8
+Diego,Sobradinho,Manga,69
+Diego,Sobradinho,Maracujá Pérola,95
+Diego,Sobradinho,Repolho,79
+Diego,Sobradinho,Laranja,95
+Diego,Sobradinho,Abacate,58
+Diego,Sobradinho,Tomate,82
+Diego,Sobradinho,Uva,51
+Diego,Sobradinho,Mamão,7
+Diego,Sobradinho,Quiabo,7
+Diego,Sobradinho,Laranja,91
+Diego,Sobradinho,Repolho,97
+Diego,Sobradinho,Repolho,65
+Diego,Sobradinho,Couve,81
+Diego,Sobradinho,Quiabo,9
+Diego,Sobradinho,Quiabo,5
+Diego,Sobradinho,Pimentão,95
+Diego,Sobradinho,Jiló,6
+Diego,Sobradinho,Repolho,50
+Diego,Sobradinho,Tabatinga,94
+Diego,Sobradinho,Pimentão,71
+Diego,Sobradinho,Mamão,0
+Diego,Sobradinho,Tomate,75
+Diego,Sobradinho,Agrião,6
+Diego,Sobradinho,Pimentão,75
+Diego,Sobradinho,Alface,78
+Diego,Sobradinho,Berinjela,73
+Diego,Sobradinho,Maracujá,69
+Diego,Sobradinho,Mamão,2
+Diego,Sobradinho,Pimentão,69
+Diego,Sobradinho,Berinjela,75
+Diego,Sobradinho,Abacate,98
+Diego,Sobradinho,Brócolis - Ramoso,93
+Diego,Sobradinho,Abacate,62
+Diego,Sobradinho,Abacate,96
+Diego,Sobradinho,Tangerina,99
+Diego,Sobradinho,Repolho,98
+Diego,Sobradinho,Abacate,80
+Diego,Sobradinho,Pimentão,52
+Diego,Sobradinho,Berinjela,85
+Diego,Sobradinho,Manga,100
+Diego,Sobradinho,Alface,63
+Diego,Sobradinho,Tabatinga,72
+Diego,Sobradinho,Mirtilo,75
+Eduardo,Vargem Bonita,Manga,94
+Eduardo,Vargem Bonita,Manga,95
+Eduardo,Vargem Bonita,Repolho,74
+Eduardo,Vargem Bonita,Banana,56
+Eduardo,Vargem Bonita,Banana,94
+Eduardo,Vargem Bonita,Repolho,81
+Eduardo,Vargem Bonita,Repolho,64
+Eduardo,Vargem Bonita,Mandioca,94
+Eduardo,Vargem Bonita,Milho-verde,87
+Eduardo,Vargem Bonita,Banana,80
+Eduardo,Vargem Bonita,Banana,75
+Eduardo,Vargem Bonita,Milho-verde,75
+Eduardo,Vargem Bonita,Manga,77
+Eduardo,Vargem Bonita,Laranja,64
+Eduardo,Vargem Bonita,Mandioca,71
+Eduardo,Vargem Bonita,Manga,53
+Eduardo,Vargem Bonita,Manga,95
+Eduardo,Vargem Bonita,Limão,96
+Eduardo,Vargem Bonita,Banana,94
+Eduardo,Vargem Bonita,Limão,93
+Eduardo,Vargem Bonita,Milho-verde,78
+Eduardo,Vargem Bonita,Milho-verde,54
+Eduardo,Vargem Bonita,Pitaia,74
+Eduardo,Vargem Bonita,Alface,71
+Eduardo,Vargem Bonita,Limão,95
+Eduardo,Vargem Bonita,Repolho,78
+Eduardo,Vargem Bonita,Repolho,72
+Eduardo,Vargem Bonita,Cebolinha,73
+Eduardo,Vargem Bonita,Cebolinha,100
+Eduardo,Vargem Bonita,Limão,68
+Eduardo,Vargem Bonita,Repolho,75
+Eduardo,Vargem Bonita,Milho-verde,91
+Eduardo,Vargem Bonita,Cebolinha,88
+Eduardo,Vargem Bonita,Banana,50
+Eduardo,Vargem Bonita,Mandioca,82
+Eduardo,Vargem Bonita,Alface,66
+Eduardo,Vargem Bonita,Manga,72
+Eduardo,Vargem Bonita,Cebolinha,99
+Eduardo,Vargem Bonita,Milho-verde,52
+Eduardo,Vargem Bonita,Banana,87
+Eduardo,Vargem Bonita,Maracujá,82
+Eduardo,Vargem Bonita,Milho-verde,61
+Eduardo,Vargem Bonita,Mandioca,91
+Eduardo,Vargem Bonita,Alface,99
+Eduardo,Vargem Bonita,Repolho,53
+Eduardo,Vargem Bonita,Cebolinha,60
+Eduardo,Vargem Bonita,Laranja,97
+Eduardo,Vargem Bonita,Alface,79
+Eduardo,Vargem Bonita,Manga,51
+Eduardo,Vargem Bonita,Cebolinha,52
+Eduardo,Vargem Bonita,Maracujá,67
+Eduardo,Vargem Bonita,Alface,62
+Eduardo,Vargem Bonita,Repolho,93
+Eduardo,Vargem Bonita,Manga,68
+Eduardo,Vargem Bonita,Laranja,71
+Eduardo,Vargem Bonita,Limão,76
+Eduardo,Vargem Bonita,Milho-verde,53
+Eduardo,Vargem Bonita,Maracujá,74
+Eduardo,Vargem Bonita,Pimentão,77
+Eduardo,Vargem Bonita,Brócolis - Ramoso,87
+Eduardo,Vargem Bonita,Brócolis - Cabeça Única,90
+Eduardo,Vargem Bonita,Limão,60
+Eduardo,Vargem Bonita,Mandioca,100
+Eduardo,Vargem Bonita,Pitaia,72
+Eduardo,Vargem Bonita,Pimentão,53
+Eduardo,Vargem Bonita,Laranja,57
+Eduardo,Vargem Bonita,Laranja,74
+Eduardo,Vargem Bonita,Limão,74
+Eduardo,Vargem Bonita,Brócolis - Cabeça Única,59
+Eduardo,Vargem Bonita,Uva,54
+Eduardo,Vargem Bonita,Mandioca,82
+Eduardo,Vargem Bonita,Limão,78
+Eduardo,Vargem Bonita,Repolho,76
+Eduardo,Vargem Bonita,Uva,52
+Eduardo,Vargem Bonita,Alface,97
+Eduardo,Vargem Bonita,Limão,65
+Eduardo,Vargem Bonita,Uva,52
+Eduardo,Vargem Bonita,Pitaia,54
+Eduardo,Vargem Bonita,Pimentão,94
+Eduardo,Vargem Bonita,Maracujá,80
+Eduardo,Vargem Bonita,Brócolis - Ramoso,86
+Eduardo,Vargem Bonita,Brócolis - Ramoso,100
+Eduardo,Vargem Bonita,Milho-verde,79
+Eduardo,Vargem Bonita,Brócolis - Ramoso,90
+Eduardo,Vargem Bonita,Mandioca,93
+Eduardo,Vargem Bonita,Banana,70
+Eduardo,Vargem Bonita,Pimentão,60
+Eduardo,Vargem Bonita,Limão,74
+Eduardo,Vargem Bonita,Brócolis - Cabeça Única,86
+Eduardo,Vargem Bonita,Repolho,67
+Eduardo,Vargem Bonita,Brócolis - Cabeça Única,63
+Eduardo,Vargem Bonita,Maracujá,64
+Eduardo,Vargem Bonita,Cebolinha,74
+Eduardo,Vargem Bonita,Repolho,80
+Eduardo,Vargem Bonita,Repolho,53
+Eduardo,Vargem Bonita,Tangerina,61
+Eduardo,Vargem Bonita,Banana,56
+Eduardo,Vargem Bonita,Repolho,60
+Eduardo,Vargem Bonita,Repolho,77
+Eduardo,Vargem Bonita,Brócolis - Ramoso,54
+Felipe,Taquara,Acerola,59
+Felipe,Taquara,Caqui,75
+Felipe,Taquara,Vargem Bonita,54
+Felipe,Taquara,Repolho,87
+Felipe,Taquara,Brazlândia,9
+Felipe,Taquara,Brazlândia,9
+Felipe,Taquara,Manga,69
+Felipe,Taquara,Tomate,89
+Felipe,Taquara,Tomate,58
+Felipe,Taquara,Abacate,88
+Felipe,Taquara,Coentro,9
+Felipe,Taquara,Abacate,89
+Felipe,Taquara,Maracujá,54
+Felipe,Taquara,Banana,94
+Felipe,Taquara,Banana,63
+Felipe,Taquara,Acerola,65
+Felipe,Taquara,Acerola,61
+Felipe,Taquara,Mandioca,60
+Felipe,Taquara,Manga,63
+Felipe,Taquara,Acerola,89
+Felipe,Taquara,Pepino,85
+Felipe,Taquara,Caqui,60
+Felipe,Taquara,Caqui,64
+Felipe,Taquara,Banana,98
+Felipe,Taquara,Berinjela,84
+Felipe,Taquara,Repolho,65
+Felipe,Taquara,Manga,83
+Felipe,Taquara,Vargem Bonita,73
+Felipe,Taquara,Berinjela,69
+Felipe,Taquara,Acerola,87
+Felipe,Taquara,Vargem Bonita,54
+Felipe,Taquara,Pepino,87
+Felipe,Taquara,Couve-flor,53
+Felipe,Taquara,Repolho,53
+Felipe,Taquara,Pepino,92
+Felipe,Taquara,Mandioca,93
+Felipe,Taquara,Coentro,2
+Felipe,Taquara,Coentro,5
+Felipe,Taquara,Berinjela,59
+Felipe,Taquara,Abóbora italiana,87
+Felipe,Taquara,Tomate,97
+Felipe,Taquara,Repolho,94
+Felipe,Taquara,Maracujá,69
+Felipe,Taquara,Tangerina,95
+Felipe,Taquara,Couve-flor,78
+Felipe,Taquara,Chuchu,66
+Felipe,Taquara,Pepino,91
+Felipe,Taquara,Tomate,89
+Felipe,Taquara,Abacate,68
+Felipe,Taquara,Abóbora italiana,76
+Felipe,Taquara,Pepino,97
+Felipe,Taquara,Tangerina,86
+Felipe,Taquara,Tangerina,79
+Felipe,Taquara,Berinjela,55
+Felipe,Taquara,Couve-flor,50
+Felipe,Taquara,Tomate,90
+Felipe,Taquara,Coentro,2
+Felipe,Taquara,Brazlândia,10
+Felipe,Taquara,Coentro,10
+Felipe,Taquara,Berinjela,78
+Felipe,Taquara,Acerola,80
+Felipe,Taquara,Abóbora italiana,52
+Felipe,Taquara,Banana,80
+Felipe,Taquara,Manga,98
+Felipe,Taquara,Coentro,6
+Felipe,Taquara,Pepino,71
+Felipe,Taquara,Abóbora italiana,51
+Felipe,Taquara,Mandioca,73
+Felipe,Taquara,Tangerina,81
+Felipe,Taquara,Abóbora japonesa - Tetsukabut,5
+Felipe,Taquara,Tomate,76
+Felipe,Taquara,Banana,99
+Felipe,Taquara,Pimentão,70
+Felipe,Taquara,Manga,93
+Felipe,Taquara,Acerola,94
+Felipe,Taquara,Tomate,73
+Felipe,Taquara,Abacate,64
+Felipe,Taquara,Brazlândia,8
+Felipe,Taquara,Abóbora japonesa - Tetsukabut,3
+Felipe,Taquara,Pitaia,79
+Felipe,Taquara,Abóbora italiana,71
+Felipe,Taquara,Abóbora italiana,95
+Felipe,Taquara,Pitaia,79
+Felipe,Taquara,Pimentão,93
+Felipe,Taquara,Caqui,60
+Felipe,Taquara,Manga,68
+Felipe,Taquara,Acerola,52
+Felipe,Taquara,Coentro,0
+Felipe,Taquara,Coentro,0
+Felipe,Taquara,Abacate,80
+Felipe,Taquara,Chuchu,96
+Felipe,Taquara,Abóbora japonesa - Tetsukabut,10
+Felipe,Taquara,Coentro,3
+Felipe,Taquara,Tomate,72
+Felipe,Taquara,Banana,70
+Felipe,Taquara,Abóbora japonesa - Tetsukabut,0
+Felipe,Taquara,Banana,77
+Felipe,Taquara,Acerola,87
+Felipe,Taquara,Maracujá,64
+Felipe,Taquara,Mandioca,86
+Gabriel,Vargem Bonita,Banana,61
+Gabriel,Vargem Bonita,Abacate,80
+Gabriel,Vargem Bonita,Brócolis - Cabeça Única,80
+Gabriel,Vargem Bonita,Gengibre,54
+Gabriel,Vargem Bonita,Gengibre,59
+Gabriel,Vargem Bonita,Brócolis - Cabeça Única,87
+Gabriel,Vargem Bonita,Repolho,98
+Gabriel,Vargem Bonita,Repolho,89
+Gabriel,Vargem Bonita,Gengibre,63
+Gabriel,Vargem Bonita,Abacate,82
+Gabriel,Vargem Bonita,Tangerina,52
+Gabriel,Vargem Bonita,Gengibre,73
+Gabriel,Vargem Bonita,Gengibre,53
+Gabriel,Vargem Bonita,Abóbora italiana,6
+Gabriel,Vargem Bonita,Abóbora italiana,8
+Gabriel,Vargem Bonita,Banana,78
+Gabriel,Vargem Bonita,Banana,51
+Gabriel,Vargem Bonita,Repolho,78
+Gabriel,Vargem Bonita,Pimentão,97
+Gabriel,Vargem Bonita,Jiló,8
+Gabriel,Vargem Bonita,Pimentão,84
+Gabriel,Vargem Bonita,Manga,73
+Gabriel,Vargem Bonita,Banana,99
+Gabriel,Vargem Bonita,Abóbora italiana,7
+Gabriel,Vargem Bonita,Cebola,2
+Gabriel,Vargem Bonita,Abacate,58
+Gabriel,Vargem Bonita,Jiló,8
+Gabriel,Vargem Bonita,Pitaia,91
+Gabriel,Vargem Bonita,Pitaia,73
+Gabriel,Vargem Bonita,Laranja,60
+Gabriel,Vargem Bonita,Repolho,81
+Gabriel,Vargem Bonita,Abacate,51
+Gabriel,Vargem Bonita,Banana,86
+Gabriel,Vargem Bonita,Cebola,6
+Gabriel,Vargem Bonita,Brócolis - Ramoso,63
+Gabriel,Vargem Bonita,Brócolis - Ramoso,50
+Gabriel,Vargem Bonita,Gengibre,73
+Gabriel,Vargem Bonita,Gengibre,77
+Gabriel,Vargem Bonita,Manga,55
+Gabriel,Vargem Bonita,Repolho,89
+Gabriel,Vargem Bonita,Pitaia,88
+Gabriel,Vargem Bonita,Jiló,4
+Gabriel,Vargem Bonita,Brócolis - Ramoso,70
+Gabriel,Vargem Bonita,Alface,89
+Gabriel,Vargem Bonita,Laranja,79
+Gabriel,Vargem Bonita,Brócolis - Ramoso,95
+Gabriel,Vargem Bonita,Manga,50
+Gabriel,Vargem Bonita,Batata,6
+Gabriel,Vargem Bonita,Banana,95
+Gabriel,Vargem Bonita,Pitaia,96
+Gabriel,Vargem Bonita,Pimentão,63
+Gabriel,Vargem Bonita,Banana,94
+Gabriel,Vargem Bonita,Pitaia,62
+Gabriel,Vargem Bonita,Abacate,70
+Gabriel,Vargem Bonita,Pitaia,59
+Gabriel,Vargem Bonita,Batata,4
+Gabriel,Vargem Bonita,Batata,0
+Gabriel,Vargem Bonita,Cebola,8
+Gabriel,Vargem Bonita,Pepino,9
+Gabriel,Vargem Bonita,Abóbora italiana,3
+Gabriel,Vargem Bonita,Jiló,4
+Gabriel,Vargem Bonita,Abacate,84
+Gabriel,Vargem Bonita,Alface,55
+Gabriel,Vargem Bonita,Batata,5
+Gabriel,Vargem Bonita,Alface,96
+Gabriel,Vargem Bonita,Abacate,76
+Gabriel,Vargem Bonita,Pimentão,54
+Gabriel,Vargem Bonita,Maracujá,80
+Gabriel,Vargem Bonita,Uva,61
+Gabriel,Vargem Bonita,Alface,99
+Gabriel,Vargem Bonita,Milho-verde,56
+Gabriel,Vargem Bonita,Vargem Bonita,10
+Gabriel,Vargem Bonita,Batata,4
+Gabriel,Vargem Bonita,Pepino,7
+Gabriel,Vargem Bonita,Batata,2
+Gabriel,Vargem Bonita,Banana,57
+Gabriel,Vargem Bonita,Cebola,2
+Gabriel,Vargem Bonita,Milho-verde,70
+Gabriel,Vargem Bonita,Uva,95
+Gabriel,Vargem Bonita,Alface,51
+Gabriel,Vargem Bonita,Jiló,0
+Gabriel,Vargem Bonita,Uva,74
+Gabriel,Vargem Bonita,Cebola,1
+Gabriel,Vargem Bonita,Brócolis - Ramoso,69
+Gabriel,Vargem Bonita,Cebola,9
+Gabriel,Vargem Bonita,Pitaia,52
+Gabriel,Vargem Bonita,Pimentão,82
+Gabriel,Vargem Bonita,Repolho,70
+Gabriel,Vargem Bonita,Manga,81
+Gabriel,Vargem Bonita,Maracujá,84
+Gabriel,Vargem Bonita,Alface,81
+Gabriel,Vargem Bonita,Batata,9
+Gabriel,Vargem Bonita,Banana,90
+Gabriel,Vargem Bonita,Abóbora italiana,4
+Gabriel,Vargem Bonita,Pitaia,64
+Gabriel,Vargem Bonita,Pitaia,99
+Gabriel,Vargem Bonita,Brócolis - Cabeça Única,89
+Gabriel,Vargem Bonita,Pitaia,78
+Gabriel,Vargem Bonita,Alface,88
+Gabriel,Vargem Bonita,Pepino,9
+Henrique,Planaltina,Planaltina,7
+Henrique,Planaltina,Pimentão,76
+Henrique,Planaltina,Manga,52
+Henrique,Planaltina,Alface,59
+Henrique,Planaltina,Planaltina,0
+Henrique,Planaltina,Pimentão,71
+Henrique,Planaltina,Limão,95
+Henrique,Planaltina,Planaltina,8
+Henrique,Planaltina,Manga,58
+Henrique,Planaltina,Repolho,82
+Henrique,Planaltina,Limão,68
+Henrique,Planaltina,Planaltina,5
+Henrique,Planaltina,Limão,88
+Henrique,Planaltina,Planaltina,7
+Henrique,Planaltina,Laranja,65
+Henrique,Planaltina,Planaltina,3
+Henrique,Planaltina,Rio Preto,53
+Henrique,Planaltina,Alface,65
+Henrique,Planaltina,Tomate,64
+Henrique,Planaltina,Rio Preto,58
+Henrique,Planaltina,Repolho,90
+Henrique,Planaltina,Goiaba,72
+Henrique,Planaltina,Manga,73
+Henrique,Planaltina,Manga,80
+Henrique,Planaltina,Limão,76
+Henrique,Planaltina,Laranja,90
+Henrique,Planaltina,Cebolinha,99
+Henrique,Planaltina,Laranja,79
+Henrique,Planaltina,Tomate,78
+Henrique,Planaltina,Pimentão,73
+Henrique,Planaltina,Laranja,100
+Henrique,Planaltina,Planaltina,1
+Henrique,Planaltina,Planaltina,4
+Henrique,Planaltina,Repolho,68
+Henrique,Planaltina,Alface,77
+Henrique,Planaltina,Goiaba,99
+Henrique,Planaltina,Repolho,89
+Henrique,Planaltina,Planaltina,1
+Henrique,Planaltina,Batata-doce,72
+Henrique,Planaltina,Alface,71
+Henrique,Planaltina,Milho-verde,58
+Henrique,Planaltina,Manga,71
+Henrique,Planaltina,Manga,66
+Henrique,Planaltina,Cebolinha,78
+Henrique,Planaltina,Pimentão,57
+Henrique,Planaltina,Manga,79
+Henrique,Planaltina,Chuchu,68
+Henrique,Planaltina,Limão,77
+Henrique,Planaltina,Milho-verde,96
+Henrique,Planaltina,Laranja,83
+Henrique,Planaltina,Maracujá,86
+Henrique,Planaltina,Limão,77
+Henrique,Planaltina,Chuchu,54
+Henrique,Planaltina,Tomate,70
+Henrique,Planaltina,Manga,60
+Henrique,Planaltina,Pimentão,85
+Henrique,Planaltina,Manga,95
+Henrique,Planaltina,Cebolinha,56
+Henrique,Planaltina,Tomate,68
+Henrique,Planaltina,Limão,52
+Henrique,Planaltina,Tomate,86
+Henrique,Planaltina,Milho-verde,96
+Henrique,Planaltina,Manga,90
+Henrique,Planaltina,Couve,88
+Henrique,Planaltina,Manga,56
+Henrique,Planaltina,Milho-verde,94
+Henrique,Planaltina,Manga,97
+Henrique,Planaltina,Repolho,77
+Henrique,Planaltina,Chuchu,66
+Henrique,Planaltina,Rio Preto,56
+Henrique,Planaltina,Cebolinha,66
+Henrique,Planaltina,Maracujá,69
+Henrique,Planaltina,Tomate,77
+Henrique,Planaltina,Rio Preto,96
+Henrique,Planaltina,Limão,98
+Henrique,Planaltina,Cebolinha,100
+Henrique,Planaltina,Limão,57
+Henrique,Planaltina,Chuchu,87
+Henrique,Planaltina,Chuchu,95
+Henrique,Planaltina,Laranja,54
+Henrique,Planaltina,Rio Preto,99
+Henrique,Planaltina,Repolho,65
+Henrique,Planaltina,Rio Preto,50
+Henrique,Planaltina,Milho-verde,76
+Henrique,Planaltina,Pimentão,59
+Henrique,Planaltina,Caqui,1
+Henrique,Planaltina,Milho-verde,67
+Henrique,Planaltina,Planaltina,0
+Henrique,Planaltina,Planaltina,1
+Henrique,Planaltina,Maracujá,83
+Henrique,Planaltina,Couve,52
+Henrique,Planaltina,Banana,79
+Henrique,Planaltina,Maracujá,65
+Henrique,Planaltina,Pimentão,51
+Henrique,Planaltina,Maracujá Pérola,9
+Henrique,Planaltina,Manga,57
+Henrique,Planaltina,Couve,60
+Henrique,Planaltina,Rio Preto,73
+Henrique,Planaltina,Banana,77
+Henrique,Planaltina,Cebolinha,91
+Igor,Jardim,Goiaba,95
+Igor,Jardim,Goiaba,65
+Igor,Jardim,Batata-doce,70
+Igor,Jardim,Mandioca,87
+Igor,Jardim,PAD-DF,83
+Igor,Jardim,Mandioca,97
+Igor,Jardim,Beterraba,85
+Igor,Jardim,Beterraba,78
+Igor,Jardim,Repolho,73
+Igor,Jardim,Goiaba,98
+Igor,Jardim,Cebola,93
+Igor,Jardim,Beterraba,60
+Igor,Jardim,Repolho,97
+Igor,Jardim,Tangerina,96
+Igor,Jardim,Tangerina,58
+Igor,Jardim,Batata-doce,66
+Igor,Jardim,Repolho,57
+Igor,Jardim,Batata-doce,99
+Igor,Jardim,Cenoura,76
+Igor,Jardim,Mamão,87
+Igor,Jardim,Repolho,68
+Igor,Jardim,Abóbora menina,8
+Igor,Jardim,Goiaba,82
+Igor,Jardim,Abóbora menina,1
+Igor,Jardim,Mandioca,98
+Igor,Jardim,PAD-DF,55
+Igor,Jardim,Limão,83
+Igor,Jardim,Limão,88
+Igor,Jardim,Mandioca,74
+Igor,Jardim,Cenoura,55
+Igor,Jardim,Tomate,73
+Igor,Jardim,Mamão,58
+Igor,Jardim,Repolho,99
+Igor,Jardim,PAD-DF,90
+Igor,Jardim,Banana,75
+Igor,Jardim,Banana,75
+Igor,Jardim,Repolho,79
+Igor,Jardim,Mamão,66
+Igor,Jardim,Abóbora menina,6
+Igor,Jardim,Abóbora japonesa - Tetsukabut,69
+Igor,Jardim,Banana,97
+Igor,Jardim,Tomate,64
+Igor,Jardim,Abóbora menina,1
+Igor,Jardim,PAD-DF,50
+Igor,Jardim,Cebola,57
+Igor,Jardim,Maracujá,74
+Igor,Jardim,Abóbora japonesa - Tetsukabut,78
+Igor,Jardim,Beterraba,75
+Igor,Jardim,Batata-doce,74
+Igor,Jardim,Repolho,72
+Igor,Jardim,Paranoá,8
+Igor,Jardim,PAD-DF,94
+Igor,Jardim,Tomate,76
+Igor,Jardim,PAD-DF,85
+Igor,Jardim,Banana,84
+Igor,Jardim,Tomate,84
+Igor,Jardim,Paranoá,8
+Igor,Jardim,Maracujá,83
+Igor,Jardim,Paranoá,7
+Igor,Jardim,Goiaba,92
+Igor,Jardim,Cebola,63
+Igor,Jardim,Maracujá,94
+Igor,Jardim,Beterraba,66
+Igor,Jardim,Abóbora menina,3
+Igor,Jardim,Goiaba,64
+Igor,Jardim,Repolho,86
+Igor,Jardim,Banana,58
+Igor,Jardim,Tangerina,50
+Igor,Jardim,São Sebastião,8
+Igor,Jardim,Batata-doce,60
+Igor,Jardim,Goiaba,71
+Igor,Jardim,Beterraba,59
+Igor,Jardim,Cebola,87
+Igor,Jardim,Limão,85
+Igor,Jardim,Batata-doce,96
+Igor,Jardim,Cebola,96
+Igor,Jardim,Abóbora japonesa - Tetsukabut,81
+Igor,Jardim,Mandioca,82
+Igor,Jardim,Abóbora menina,7
+Igor,Jardim,Banana,57
+Igor,Jardim,Goiaba,58
+Igor,Jardim,Mandioca,58
+Igor,Jardim,Goiaba,96
+Igor,Jardim,Beterraba,73
+Igor,Jardim,Tomate,93
+Igor,Jardim,Beterraba,58
+Igor,Jardim,Repolho,63
+Igor,Jardim,Cebola,92
+Igor,Jardim,Goiaba,85
+Igor,Jardim,Abacate,97
+Igor,Jardim,Mandioca,78
+Igor,Jardim,Abóbora menina,4
+Igor,Jardim,Mamão,62
+Igor,Jardim,Cenoura,72
+Igor,Jardim,Beterraba,57
+Igor,Jardim,Gengibre,10
+Igor,Jardim,Abacate,63
+Igor,Jardim,Abóbora menina,8
+Igor,Jardim,Beterraba,98
+Igor,Jardim,Maracujá,85
+João,Sobradinho,Tabatinga,70
+João,Sobradinho,Brócolis - Ramoso,62
+João,Sobradinho,Tomate,92
+João,Sobradinho,Maracujá,83
+João,Sobradinho,Brócolis - Ramoso,80
+João,Sobradinho,Mamão,9
+João,Sobradinho,Chuchu,65
+João,Sobradinho,Chuchu,78
+João,Sobradinho,Brócolis - Ramoso,62
+João,Sobradinho,Tabatinga,96
+João,Sobradinho,Brócolis - Ramoso,74
+João,Sobradinho,Tabatinga,79
+João,Sobradinho,Chuchu,92
+João,Sobradinho,Uva,50
+João,Sobradinho,Tabatinga,76
+João,Sobradinho,Banana,65
+João,Sobradinho,Jabuticaba,4
+João,Sobradinho,Jabuticaba,2
+João,Sobradinho,Tangerina,56
+João,Sobradinho,Taquara,6
+João,Sobradinho,Uva,82
+João,Sobradinho,Maracujá,53
+João,Sobradinho,Jabuticaba,4
+João,Sobradinho,Uva,56
+João,Sobradinho,Tomate,57
+João,Sobradinho,Mandioca,80
+João,Sobradinho,Chuchu,69
+João,Sobradinho,Taquara,2
+João,Sobradinho,Tangerina,71
+João,Sobradinho,Tangerina,75
+João,Sobradinho,Chuchu,74
+João,Sobradinho,Maracujá Pérola,87
+João,Sobradinho,Maracujá Pérola,77
+João,Sobradinho,Pimentão,96
+João,Sobradinho,Tabatinga,73
+João,Sobradinho,Jabuticaba,5
+João,Sobradinho,Brócolis - Ramoso,94
+João,Sobradinho,Uva,100
+João,Sobradinho,Mirtilo,76
+João,Sobradinho,Taquara,1
+João,Sobradinho,Maracujá,59
+João,Sobradinho,Uva,62
+João,Sobradinho,Alface,82
+João,Sobradinho,Jabuticaba,2
+João,Sobradinho,Taquara,5
+João,Sobradinho,Mamão,0
+João,Sobradinho,Mandioca,51
+João,Sobradinho,Mandioca,73
+João,Sobradinho,Banana,56
+João,Sobradinho,Tangerina,76
+João,Sobradinho,Pimentão,87
+João,Sobradinho,Banana,54
+João,Sobradinho,Brócolis - Ramoso,59
+João,Sobradinho,Mirtilo,53
+João,Sobradinho,Taquara,5
+João,Sobradinho,Maracujá,99
+João,Sobradinho,Uva,84
+João,Sobradinho,Uva,78
+João,Sobradinho,Brócolis - Ramoso,97
+João,Sobradinho,Pimentão,68
+João,Sobradinho,Alface,79
+João,Sobradinho,Maracujá Pérola,61
+João,Sobradinho,Jabuticaba,9
+João,Sobradinho,Tangerina,96
+João,Sobradinho,Uva,91
+João,Sobradinho,Maracujá,68
+João,Sobradinho,Mirtilo,86
+João,Sobradinho,Mamão,0
+João,Sobradinho,Tangerina,85
+João,Sobradinho,Uva,88
+João,Sobradinho,Mamão,0
+João,Sobradinho,Maracujá,75
+João,Sobradinho,Maracujá,69
+João,Sobradinho,Banana,52
+João,Sobradinho,Tomate,53
+João,Sobradinho,Chuchu,55
+João,Sobradinho,Milho-verde,7
+João,Sobradinho,Milho-verde,6
+João,Sobradinho,Uva,80
+João,Sobradinho,Pimentão,62
+João,Sobradinho,Banana,68
+João,Sobradinho,Alface,68
+João,Sobradinho,Alface,60
+João,Sobradinho,Taquara,8
+João,Sobradinho,Taquara,5
+João,Sobradinho,Milho-verde,4
+João,Sobradinho,Uva,67
+João,Sobradinho,Mamão,10
+João,Sobradinho,Banana,98
+João,Sobradinho,Repolho,53
+João,Sobradinho,Brócolis - Ramoso,68
+João,Sobradinho,Brócolis - Ramoso,97
+João,Sobradinho,Graviola,5
+João,Sobradinho,Alface,81
+João,Sobradinho,Taquara,7
+João,Sobradinho,Morango,2
+João,Sobradinho,Uva,52
+João,Sobradinho,Mandioca,96
+João,Sobradinho,Chuchu,88
+João,Sobradinho,Tomate,96
+Lucas,Alexandre Gusmão,Atemóia,64
+Lucas,Alexandre Gusmão,Cebolinha,87
+Lucas,Alexandre Gusmão,Tangerina,93
+Lucas,Alexandre Gusmão,Abacate,62
+Lucas,Alexandre Gusmão,Atemóia,92
+Lucas,Alexandre Gusmão,Atemóia,91
+Lucas,Alexandre Gusmão,Tangerina,85
+Lucas,Alexandre Gusmão,Abacate,100
+Lucas,Alexandre Gusmão,Atemóia,99
+Lucas,Alexandre Gusmão,Atemóia,73
+Lucas,Alexandre Gusmão,Abacate,55
+Lucas,Alexandre Gusmão,Graviola,72
+Lucas,Alexandre Gusmão,Brócolis - Ramoso,88
+Lucas,Alexandre Gusmão,Jiló,7
+Lucas,Alexandre Gusmão,Uva,99
+Lucas,Alexandre Gusmão,Banana,56
+Lucas,Alexandre Gusmão,Jiló,0
+Lucas,Alexandre Gusmão,Cebolinha,70
+Lucas,Alexandre Gusmão,Jiló,4
+Lucas,Alexandre Gusmão,Graviola,78
+Lucas,Alexandre Gusmão,Manga,84
+Lucas,Alexandre Gusmão,Uva,80
+Lucas,Alexandre Gusmão,Manga,88
+Lucas,Alexandre Gusmão,Atemóia,59
+Lucas,Alexandre Gusmão,Graviola,85
+Lucas,Alexandre Gusmão,Jiló,7
+Lucas,Alexandre Gusmão,Uva,94
+Lucas,Alexandre Gusmão,Manga,57
+Lucas,Alexandre Gusmão,Pimentão,79
+Lucas,Alexandre Gusmão,Tangerina,82
+Lucas,Alexandre Gusmão,Graviola,54
+Lucas,Alexandre Gusmão,Tomate,71
+Lucas,Alexandre Gusmão,Graviola,90
+Lucas,Alexandre Gusmão,Pimentão,93
+Lucas,Alexandre Gusmão,Manga,62
+Lucas,Alexandre Gusmão,Pimentão,74
+Lucas,Alexandre Gusmão,Abacate,91
+Lucas,Alexandre Gusmão,Graviola,60
+Lucas,Alexandre Gusmão,Repolho,83
+Lucas,Alexandre Gusmão,Repolho,68
+Lucas,Alexandre Gusmão,Goiaba,97
+Lucas,Alexandre Gusmão,Brazlândia,58
+Lucas,Alexandre Gusmão,Uva,100
+Lucas,Alexandre Gusmão,Brazlândia,80
+Lucas,Alexandre Gusmão,Graviola,86
+Lucas,Alexandre Gusmão,Cebolinha,61
+Lucas,Alexandre Gusmão,Repolho,78
+Lucas,Alexandre Gusmão,Tomate,99
+Lucas,Alexandre Gusmão,Goiaba,82
+Lucas,Alexandre Gusmão,Jiló,9
+Lucas,Alexandre Gusmão,Tomate,63
+Lucas,Alexandre Gusmão,Jiló,7
+Lucas,Alexandre Gusmão,Graviola,54
+Lucas,Alexandre Gusmão,Tomate,82
+Lucas,Alexandre Gusmão,Goiaba,54
+Lucas,Alexandre Gusmão,Tomate,61
+Lucas,Alexandre Gusmão,Tomate,58
+Lucas,Alexandre Gusmão,Goiaba,93
+Lucas,Alexandre Gusmão,Banana,92
+Lucas,Alexandre Gusmão,Jiló,1
+Lucas,Alexandre Gusmão,Brazlândia,83
+Lucas,Alexandre Gusmão,Mandioca,59
+Lucas,Alexandre Gusmão,Jiló,6
+Lucas,Alexandre Gusmão,Jiló,8
+Lucas,Alexandre Gusmão,Tomate,81
+Lucas,Alexandre Gusmão,Tomate,70
+Lucas,Alexandre Gusmão,Pimentão,88
+Lucas,Alexandre Gusmão,Cebolinha,83
+Lucas,Alexandre Gusmão,Alface,53
+Lucas,Alexandre Gusmão,Brazlândia,76
+Lucas,Alexandre Gusmão,Pimentão,84
+Lucas,Alexandre Gusmão,Graviola,63
+Lucas,Alexandre Gusmão,Mandioca,56
+Lucas,Alexandre Gusmão,Graviola,75
+Lucas,Alexandre Gusmão,Jiló,7
+Lucas,Alexandre Gusmão,Brócolis - Ramoso,84
+Lucas,Alexandre Gusmão,Tomate,83
+Lucas,Alexandre Gusmão,Mandioca,54
+Lucas,Alexandre Gusmão,Banana,57
+Lucas,Alexandre Gusmão,Tangerina,80
+Lucas,Alexandre Gusmão,Mandioca,81
+Lucas,Alexandre Gusmão,Goiaba,67
+Lucas,Alexandre Gusmão,Cebolinha,61
+Lucas,Alexandre Gusmão,Manga,77
+Lucas,Alexandre Gusmão,Uva,88
+Lucas,Alexandre Gusmão,Mandioca,88
+Lucas,Alexandre Gusmão,Alface,76
+Lucas,Alexandre Gusmão,Atemóia,95
+Lucas,Alexandre Gusmão,Cebolinha,61
+Lucas,Alexandre Gusmão,Tomate,77
+Lucas,Alexandre Gusmão,Cebolinha,57
+Lucas,Alexandre Gusmão,Graviola,52
+Lucas,Alexandre Gusmão,Jiló,7
+Lucas,Alexandre Gusmão,Jiló,2
+Lucas,Alexandre Gusmão,Mandioca,80
+Lucas,Alexandre Gusmão,Alface,97
+Lucas,Alexandre Gusmão,Alface,57
+Lucas,Alexandre Gusmão,Tangerina,67
+Lucas,Alexandre Gusmão,Alface,85
+Lucas,Alexandre Gusmão,Alho,4
+Leandro,Tabatinga,Planaltina,2
+Leandro,Tabatinga,Uva,66
+Leandro,Tabatinga,Planaltina,1
+Leandro,Tabatinga,Uva,63
+Leandro,Tabatinga,Chuchu,67
+Leandro,Tabatinga,Beterraba,51
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,94
+Leandro,Tabatinga,Jiló,85
+Leandro,Tabatinga,Planaltina,8
+Leandro,Tabatinga,Jiló,62
+Leandro,Tabatinga,Taquara,98
+Leandro,Tabatinga,Beterraba,82
+Leandro,Tabatinga,Beterraba,71
+Leandro,Tabatinga,Taquara,94
+Leandro,Tabatinga,Maracujá,89
+Leandro,Tabatinga,Jiló,58
+Leandro,Tabatinga,Maracujá,87
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,64
+Leandro,Tabatinga,Jiló,62
+Leandro,Tabatinga,Chuchu,99
+Leandro,Tabatinga,Chuchu,87
+Leandro,Tabatinga,Taquara,61
+Leandro,Tabatinga,Abacate,94
+Leandro,Tabatinga,Abacate,84
+Leandro,Tabatinga,Abacate,92
+Leandro,Tabatinga,Banana,97
+Leandro,Tabatinga,Batata-doce,78
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,65
+Leandro,Tabatinga,Jiló,89
+Leandro,Tabatinga,Beterraba,96
+Leandro,Tabatinga,Batata-doce,70
+Leandro,Tabatinga,Cebola,94
+Leandro,Tabatinga,Jiló,85
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,71
+Leandro,Tabatinga,Jiló,77
+Leandro,Tabatinga,Batata-doce,61
+Leandro,Tabatinga,Planaltina,7
+Leandro,Tabatinga,Cebola,70
+Leandro,Tabatinga,Planaltina,10
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,64
+Leandro,Tabatinga,Taquara,57
+Leandro,Tabatinga,Banana,69
+Leandro,Tabatinga,Batata-doce,54
+Leandro,Tabatinga,Mandioca,88
+Leandro,Tabatinga,Taquara,58
+Leandro,Tabatinga,Jiló,52
+Leandro,Tabatinga,Goiaba,74
+Leandro,Tabatinga,Jiló,62
+Leandro,Tabatinga,Chuchu,50
+Leandro,Tabatinga,Taquara,91
+Leandro,Tabatinga,Abacate,78
+Leandro,Tabatinga,Batata-doce,69
+Leandro,Tabatinga,Banana,72
+Leandro,Tabatinga,Brócolis - Cabeça Única,9
+Leandro,Tabatinga,Taquara,93
+Leandro,Tabatinga,Batata-doce,69
+Leandro,Tabatinga,Taquara,60
+Leandro,Tabatinga,Goiaba,64
+Leandro,Tabatinga,Manga,53
+Leandro,Tabatinga,Manga,51
+Leandro,Tabatinga,Brócolis - Cabeça Única,4
+Leandro,Tabatinga,Mandioca,53
+Leandro,Tabatinga,Tangerina,74
+Leandro,Tabatinga,Batata-doce,69
+Leandro,Tabatinga,Abacate,51
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,93
+Leandro,Tabatinga,Taquara,72
+Leandro,Tabatinga,Maracujá,82
+Leandro,Tabatinga,Tangerina,61
+Leandro,Tabatinga,Planaltina,4
+Leandro,Tabatinga,Tomate,72
+Leandro,Tabatinga,Maracujá,81
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,59
+Leandro,Tabatinga,Tomate,55
+Leandro,Tabatinga,Banana,88
+Leandro,Tabatinga,Cenoura,87
+Leandro,Tabatinga,Taquara,56
+Leandro,Tabatinga,Cebola,52
+Leandro,Tabatinga,Tomate,97
+Leandro,Tabatinga,Goiaba,90
+Leandro,Tabatinga,Batata-doce,72
+Leandro,Tabatinga,Abacate,95
+Leandro,Tabatinga,Brócolis - Cabeça Única,7
+Leandro,Tabatinga,Uva,55
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,69
+Leandro,Tabatinga,Milho-verde,0
+Leandro,Tabatinga,Abóbora japonesa - Tetsukabut,79
+Leandro,Tabatinga,Banana,50
+Leandro,Tabatinga,Taquara,90
+Leandro,Tabatinga,Goiaba,83
+Leandro,Tabatinga,Cebola,100
+Leandro,Tabatinga,Tomate,87
+Leandro,Tabatinga,Limão,90
+Leandro,Tabatinga,Cenoura,69
+Leandro,Tabatinga,Tomate,61
+Leandro,Tabatinga,Tomate,58
+Leandro,Tabatinga,Cenoura,53
+Leandro,Tabatinga,Banana,52
+Leandro,Tabatinga,Banana,76
+Leandro,Tabatinga,Maracujá,59
+Marcelo,Paranoá,Chuchu,59
+Marcelo,Paranoá,Maracujá Pérola,77
+Marcelo,Paranoá,Tangerina,79
+Marcelo,Paranoá,Uva,90
+Marcelo,Paranoá,Uva,89
+Marcelo,Paranoá,Abacate,66
+Marcelo,Paranoá,Manga,97
+Marcelo,Paranoá,Tangerina,92
+Marcelo,Paranoá,Tangerina,58
+Marcelo,Paranoá,Chuchu,56
+Marcelo,Paranoá,Tangerina,56
+Marcelo,Paranoá,Maracujá,68
+Marcelo,Paranoá,Alface,86
+Marcelo,Paranoá,Chuchu,74
+Marcelo,Paranoá,Limão,73
+Marcelo,Paranoá,Maracujá,100
+Marcelo,Paranoá,Abacate,75
+Marcelo,Paranoá,Abacate,82
+Marcelo,Paranoá,Chuchu,58
+Marcelo,Paranoá,Alface,99
+Marcelo,Paranoá,Abacate,57
+Marcelo,Paranoá,Chuchu,61
+Marcelo,Paranoá,Abacate,84
+Marcelo,Paranoá,Manga,91
+Marcelo,Paranoá,Milho-verde,93
+Marcelo,Paranoá,Uva,59
+Marcelo,Paranoá,Tangerina,67
+Marcelo,Paranoá,Mandioca,58
+Marcelo,Paranoá,Tangerina,93
+Marcelo,Paranoá,Manga,94
+Marcelo,Paranoá,Laranja,67
+Marcelo,Paranoá,Quiabo,63
+Marcelo,Paranoá,Alface,54
+Marcelo,Paranoá,Abacate,59
+Marcelo,Paranoá,Maracujá Pérola,62
+Marcelo,Paranoá,Tangerina,68
+Marcelo,Paranoá,Quiabo,81
+Marcelo,Paranoá,Alface,66
+Marcelo,Paranoá,Repolho,85
+Marcelo,Paranoá,Milho-verde,58
+Marcelo,Paranoá,Repolho,59
+Marcelo,Paranoá,Tangerina,75
+Marcelo,Paranoá,Quiabo,84
+Marcelo,Paranoá,Chuchu,98
+Marcelo,Paranoá,Quiabo,100
+Marcelo,Paranoá,Quiabo,55
+Marcelo,Paranoá,Manga,75
+Marcelo,Paranoá,Uva,81
+Marcelo,Paranoá,Maracujá Pérola,100
+Marcelo,Paranoá,Milho-verde,85
+Marcelo,Paranoá,Tangerina,58
+Marcelo,Paranoá,Chuchu,72
+Marcelo,Paranoá,Repolho,60
+Marcelo,Paranoá,Laranja,72
+Marcelo,Paranoá,Milho-verde,89
+Marcelo,Paranoá,Limão,94
+Marcelo,Paranoá,Repolho,97
+Marcelo,Paranoá,Mandioca,99
+Marcelo,Paranoá,Uva,50
+Marcelo,Paranoá,Chuchu,55
+Marcelo,Paranoá,Chuchu,62
+Marcelo,Paranoá,Tangerina,75
+Marcelo,Paranoá,Milho-verde,63
+Marcelo,Paranoá,Manga,85
+Marcelo,Paranoá,Pipiripau,88
+Marcelo,Paranoá,Milho-verde,69
+Marcelo,Paranoá,Limão,62
+Marcelo,Paranoá,Maracujá Pérola,64
+Marcelo,Paranoá,Alface,99
+Marcelo,Paranoá,Manga,52
+Marcelo,Paranoá,Repolho,91
+Marcelo,Paranoá,Quiabo,85
+Marcelo,Paranoá,Limão,56
+Marcelo,Paranoá,Limão,71
+Marcelo,Paranoá,Tangerina,92
+Marcelo,Paranoá,Uva,65
+Marcelo,Paranoá,Tangerina,76
+Marcelo,Paranoá,Laranja,59
+Marcelo,Paranoá,Maracujá Pérola,52
+Marcelo,Paranoá,Repolho,88
+Marcelo,Paranoá,Repolho,50
+Marcelo,Paranoá,Mandioca,57
+Marcelo,Paranoá,Tangerina,94
+Marcelo,Paranoá,Repolho,86
+Marcelo,Paranoá,Uva,72
+Marcelo,Paranoá,Repolho,88
+Marcelo,Paranoá,Mandioca,64
+Marcelo,Paranoá,Quiabo,83
+Marcelo,Paranoá,Alface,84
+Marcelo,Paranoá,Repolho,73
+Marcelo,Paranoá,Mandioca,87
+Marcelo,Paranoá,Chuchu,55
+Marcelo,Paranoá,Uva,74
+Marcelo,Paranoá,Abacate,76
+Marcelo,Paranoá,Milho-verde,87
+Marcelo,Paranoá,Uva,53
+Marcelo,Paranoá,Mandioca,76
+Marcelo,Paranoá,Alface,82
+Marcelo,Paranoá,Mandioca,92
+Marcelo,Paranoá,Tangerina,72
+Nicolas,São Sebastião,Repolho,65
+Nicolas,São Sebastião,Agrião,90
+Nicolas,São Sebastião,Morango,83
+Nicolas,São Sebastião,Repolho,71
+Nicolas,São Sebastião,Morango,92
+Nicolas,São Sebastião,Tomate,67
+Nicolas,São Sebastião,Cebola,50
+Nicolas,São Sebastião,Pitaia,55
+Nicolas,São Sebastião,Agrião,100
+Nicolas,São Sebastião,Sobradinho,71
+Nicolas,São Sebastião,Sobradinho,86
+Nicolas,São Sebastião,Maracujá,99
+Nicolas,São Sebastião,Tomate,69
+Nicolas,São Sebastião,Manga,73
+Nicolas,São Sebastião,Cebola,87
+Nicolas,São Sebastião,Manga,57
+Nicolas,São Sebastião,Agrião,73
+Nicolas,São Sebastião,Agrião,80
+Nicolas,São Sebastião,Morango,94
+Nicolas,São Sebastião,Agrião,91
+Nicolas,São Sebastião,Agrião,82
+Nicolas,São Sebastião,Mandioca,58
+Nicolas,São Sebastião,Pitaia,82
+Nicolas,São Sebastião,Rio Preto,8
+Nicolas,São Sebastião,Agrião,98
+Nicolas,São Sebastião,Repolho,70
+Nicolas,São Sebastião,Manga,90
+Nicolas,São Sebastião,Sobradinho,93
+Nicolas,São Sebastião,Abacaxi,51
+Nicolas,São Sebastião,Mandioca,63
+Nicolas,São Sebastião,Maracujá,78
+Nicolas,São Sebastião,Pitaia,92
+Nicolas,São Sebastião,Tangerina,57
+Nicolas,São Sebastião,Morango,89
+Nicolas,São Sebastião,Cebola,52
+Nicolas,São Sebastião,Repolho,62
+Nicolas,São Sebastião,Limão,68
+Nicolas,São Sebastião,Abacaxi,60
+Nicolas,São Sebastião,Laranja,95
+Nicolas,São Sebastião,Manga,80
+Nicolas,São Sebastião,Agrião,72
+Nicolas,São Sebastião,Manga,54
+Nicolas,São Sebastião,Pitaia,89
+Nicolas,São Sebastião,Agrião,70
+Nicolas,São Sebastião,Rio Preto,6
+Nicolas,São Sebastião,Agrião,50
+Nicolas,São Sebastião,Agrião,69
+Nicolas,São Sebastião,Cebola,57
+Nicolas,São Sebastião,Maracujá,100
+Nicolas,São Sebastião,Mandioca,70
+Nicolas,São Sebastião,Repolho,72
+Nicolas,São Sebastião,Mandioca,77
+Nicolas,São Sebastião,Maracujá,96
+Nicolas,São Sebastião,Repolho,60
+Nicolas,São Sebastião,Pitaia,100
+Nicolas,São Sebastião,Caqui,7
+Nicolas,São Sebastião,Limão,82
+Nicolas,São Sebastião,Abacaxi,82
+Nicolas,São Sebastião,Pitaia,97
+Nicolas,São Sebastião,Maracujá,65
+Nicolas,São Sebastião,Limão,63
+Nicolas,São Sebastião,Sobradinho,93
+Nicolas,São Sebastião,Pitaia,93
+Nicolas,São Sebastião,Maracujá Pérola,69
+Nicolas,São Sebastião,Maracujá,81
+Nicolas,São Sebastião,Tomate,55
+Nicolas,São Sebastião,Rio Preto,9
+Nicolas,São Sebastião,Cebola,86
+Nicolas,São Sebastião,Caqui,2
+Nicolas,São Sebastião,Morango,70
+Nicolas,São Sebastião,Sobradinho,87
+Nicolas,São Sebastião,Abacate,86
+Nicolas,São Sebastião,Mandioca,52
+Nicolas,São Sebastião,Pitaia,55
+Nicolas,São Sebastião,Limão,90
+Nicolas,São Sebastião,Limão,50
+Nicolas,São Sebastião,Repolho,71
+Nicolas,São Sebastião,Morango,79
+Nicolas,São Sebastião,Rio Preto,4
+Nicolas,São Sebastião,Sobradinho,73
+Nicolas,São Sebastião,Morango,82
+Nicolas,São Sebastião,Mandioca,82
+Nicolas,São Sebastião,Limão,94
+Nicolas,São Sebastião,Morango,91
+Nicolas,São Sebastião,Caqui,2
+Nicolas,São Sebastião,Morango,56
+Nicolas,São Sebastião,Alho,3
+Nicolas,São Sebastião,Laranja,58
+Nicolas,São Sebastião,Quiabo,81
+Nicolas,São Sebastião,Tangerina,66
+Nicolas,São Sebastião,Abacaxi,67
+Nicolas,São Sebastião,Pitaia,87
+Nicolas,São Sebastião,Abacaxi,80
+Nicolas,São Sebastião,Maracujá Pérola,86
+Nicolas,São Sebastião,Maracujá,69
+Nicolas,São Sebastião,Laranja,59
+Nicolas,São Sebastião,Tangerina,98
+Nicolas,São Sebastião,Caqui,5
+Nicolas,São Sebastião,Maracujá,71
+Nicolas,São Sebastião,Pitaia,67
+Otávio,Ceilândia,Maracujá,74
+Otávio,Ceilândia,Abacate,75
+Otávio,Ceilândia,Alface,64
+Otávio,Ceilândia,Vargem Bonita,4
+Otávio,Ceilândia,Maracujá,73
+Otávio,Ceilândia,Vargem Bonita,5
+Otávio,Ceilândia,Batata,4
+Otávio,Ceilândia,Vargem Bonita,1
+Otávio,Ceilândia,Batata,8
+Otávio,Ceilândia,Alface,57
+Otávio,Ceilândia,Laranja,65
+Otávio,Ceilândia,Alface,67
+Otávio,Ceilândia,Maracujá,83
+Otávio,Ceilândia,Alface,98
+Otávio,Ceilândia,Goiaba,76
+Otávio,Ceilândia,Limão,56
+Otávio,Ceilândia,Alface,73
+Otávio,Ceilândia,Goiaba,73
+Otávio,Ceilândia,Maracujá,52
+Otávio,Ceilândia,Gama,83
+Otávio,Ceilândia,Laranja,77
+Otávio,Ceilândia,Maracujá,72
+Otávio,Ceilândia,Vargem Bonita,6
+Otávio,Ceilândia,Gama,67
+Otávio,Ceilândia,Abóbora italiana,4
+Otávio,Ceilândia,Maracujá,83
+Otávio,Ceilândia,Maracujá,72
+Otávio,Ceilândia,Goiaba,99
+Otávio,Ceilândia,Maracujá,50
+Otávio,Ceilândia,Abacate,96
+Otávio,Ceilândia,Maracujá,58
+Otávio,Ceilândia,Vargem Bonita,9
+Otávio,Ceilândia,Maracujá,65
+Otávio,Ceilândia,Chuchu,60
+Otávio,Ceilândia,Maracujá,60
+Otávio,Ceilândia,Milho-verde,95
+Otávio,Ceilândia,Vargem Bonita,8
+Otávio,Ceilândia,Acerola,59
+Otávio,Ceilândia,Abóbora italiana,7
+Otávio,Ceilândia,Vargem Bonita,5
+Otávio,Ceilândia,Couve,85
+Otávio,Ceilândia,Couve,93
+Otávio,Ceilândia,Batata,1
+Otávio,Ceilândia,Batata,0
+Otávio,Ceilândia,Batata,3
+Otávio,Ceilândia,Limão,55
+Otávio,Ceilândia,Manga,63
+Otávio,Ceilândia,Maracujá,59
+Otávio,Ceilândia,Maracujá,88
+Otávio,Ceilândia,Vargem Bonita,9
+Otávio,Ceilândia,Chuchu,94
+Otávio,Ceilândia,Goiaba,55
+Otávio,Ceilândia,Batata,10
+Otávio,Ceilândia,Mandioca,91
+Otávio,Ceilândia,Batata,7
+Otávio,Ceilândia,Chuchu,73
+Otávio,Ceilândia,Couve,65
+Otávio,Ceilândia,Tangerina,51
+Otávio,Ceilândia,Alface,62
+Otávio,Ceilândia,Limão,73
+Otávio,Ceilândia,Tangerina,64
+Otávio,Ceilândia,Acerola,89
+Otávio,Ceilândia,Vargem Bonita,5
+Otávio,Ceilândia,Gama,58
+Otávio,Ceilândia,Gama,81
+Otávio,Ceilândia,Alface,81
+Otávio,Ceilândia,Laranja,75
+Otávio,Ceilândia,Abóbora japonesa - Tetsukabut,9
+Otávio,Ceilândia,Repolho,76
+Otávio,Ceilândia,Brócolis - Cabeça Única,53
+Otávio,Ceilândia,Couve,57
+Otávio,Ceilândia,Batata,0
+Otávio,Ceilândia,Abacate,68
+Otávio,Ceilândia,Mandioca,99
+Otávio,Ceilândia,Abóbora italiana,4
+Otávio,Ceilândia,Brócolis - Ramoso,68
+Otávio,Ceilândia,Brócolis - Ramoso,93
+Otávio,Ceilândia,Laranja,94
+Otávio,Ceilândia,Abacate,64
+Otávio,Ceilândia,Couve,66
+Otávio,Ceilândia,Acerola,61
+Otávio,Ceilândia,Maracujá,58
+Otávio,Ceilândia,Alface,57
+Otávio,Ceilândia,Acerola,67
+Otávio,Ceilândia,Vargem Bonita,8
+Otávio,Ceilândia,Gama,54
+Otávio,Ceilândia,Gama,88
+Otávio,Ceilândia,Alface,79
+Otávio,Ceilândia,Abóbora japonesa - Tetsukabut,4
+Otávio,Ceilândia,Chuchu,63
+Otávio,Ceilândia,Abacate,78
+Otávio,Ceilândia,Manga,74
+Otávio,Ceilândia,Alface,65
+Otávio,Ceilândia,Gama,56
+Otávio,Ceilândia,Mandioca,66
+Otávio,Ceilândia,Acerola,100
+Otávio,Ceilândia,Acerola,68
+Otávio,Ceilândia,Vargem Bonita,7
+Otávio,Ceilândia,Abóbora japonesa - Tetsukabut,1
+Otávio,Ceilândia,Gama,65
+Paulo,Gama,Alface,97
+Paulo,Gama,Paranoá,8
+Paulo,Gama,Paranoá,2
+Paulo,Gama,Alface,68
+Paulo,Gama,Abóbora italiana,9
+Paulo,Gama,Brócolis - Cabeça Única,91
+Paulo,Gama,Brócolis - Cabeça Única,92
+Paulo,Gama,Milho-verde,87
+Paulo,Gama,Brócolis - Cabeça Única,59
+Paulo,Gama,Lichia,67
+Paulo,Gama,Banana,55
+Paulo,Gama,Abóbora italiana,6
+Paulo,Gama,Manga,74
+Paulo,Gama,Abóbora italiana,1
+Paulo,Gama,Mandioca,100
+Paulo,Gama,Paranoá,6
+Paulo,Gama,Banana,81
+Paulo,Gama,Couve,79
+Paulo,Gama,Abóbora italiana,7
+Paulo,Gama,Lichia,84
+Paulo,Gama,Coentro,87
+Paulo,Gama,Milho-verde,91
+Paulo,Gama,Brócolis - Cabeça Única,98
+Paulo,Gama,Mandioca,66
+Paulo,Gama,Jardim,71
+Paulo,Gama,Paranoá,5
+Paulo,Gama,Couve,89
+Paulo,Gama,Mandioca,53
+Paulo,Gama,Cebolinha,66
+Paulo,Gama,Cebolinha,79
+Paulo,Gama,Jardim,88
+Paulo,Gama,Brócolis - Cabeça Única,71
+Paulo,Gama,Mandioca,91
+Paulo,Gama,Paranoá,7
+Paulo,Gama,Manga,62
+Paulo,Gama,Pimentão,95
+Paulo,Gama,Banana,67
+Paulo,Gama,Lichia,63
+Paulo,Gama,Brócolis - Cabeça Única,75
+Paulo,Gama,Milho-verde,66
+Paulo,Gama,Coentro,53
+Paulo,Gama,Mandioca,53
+Paulo,Gama,Abacate,58
+Paulo,Gama,Banana,58
+Paulo,Gama,Couve,80
+Paulo,Gama,Milho-verde,60
+Paulo,Gama,Alface,65
+Paulo,Gama,Brócolis - Ramoso,70
+Paulo,Gama,Brócolis - Ramoso,57
+Paulo,Gama,Coentro,96
+Paulo,Gama,Pimentão,92
+Paulo,Gama,Pitaia,92
+Paulo,Gama,Banana,86
+Paulo,Gama,Tangerina,59
+Paulo,Gama,Cebolinha,77
+Paulo,Gama,Jardim,50
+Paulo,Gama,Paranoá,2
+Paulo,Gama,Mandioca,55
+Paulo,Gama,Limão,64
+Paulo,Gama,Abóbora italiana,7
+Paulo,Gama,Brócolis - Ramoso,91
+Paulo,Gama,Abóbora italiana,3
+Paulo,Gama,Cebolinha,55
+Paulo,Gama,Pitaia,67
+Paulo,Gama,Banana,56
+Paulo,Gama,Pimentão,76
+Paulo,Gama,Brócolis - Cabeça Única,54
+Paulo,Gama,Alface,62
+Paulo,Gama,Milho-verde,76
+Paulo,Gama,Couve,69
+Paulo,Gama,Brócolis - Cabeça Única,66
+Paulo,Gama,Couve,55
+Paulo,Gama,Jardim,93
+Paulo,Gama,Abacate,76
+Paulo,Gama,Abacate,71
+Paulo,Gama,Milho-verde,63
+Paulo,Gama,Tangerina,58
+Paulo,Gama,Mandioca,90
+Paulo,Gama,Abacate,56
+Paulo,Gama,Paranoá,6
+Paulo,Gama,Lichia,91
+Paulo,Gama,Alface,86
+Paulo,Gama,Tangerina,58
+Paulo,Gama,Manga,51
+Paulo,Gama,Abacate,51
+Paulo,Gama,Tangerina,60
+Paulo,Gama,Manga,63
+Paulo,Gama,Tangerina,99
+Paulo,Gama,Manga,83
+Paulo,Gama,Abóbora italiana,2
+Paulo,Gama,Cebolinha,99
+Paulo,Gama,Milho-verde,84
+Paulo,Gama,Mandioca,60
+Paulo,Gama,Jardim,51
+Paulo,Gama,Repolho,75
+Paulo,Gama,Tangerina,63
+Paulo,Gama,Abóbora italiana,7
+Paulo,Gama,Pitaia,96
+Paulo,Gama,Tangerina,58
+Paulo,Gama,Pitaia,57
+Rafael,Rio Preto,Manga,79
+Rafael,Rio Preto,Pitaia,70
+Rafael,Rio Preto,Pitaia,75
+Rafael,Rio Preto,Beterraba,53
+Rafael,Rio Preto,Jabuticaba,85
+Rafael,Rio Preto,Batata-doce,74
+Rafael,Rio Preto,Mandioca,79
+Rafael,Rio Preto,Abacate,52
+Rafael,Rio Preto,Pitaia,73
+Rafael,Rio Preto,Abacate,80
+Rafael,Rio Preto,Pitaia,57
+Rafael,Rio Preto,Maracujá,59
+Rafael,Rio Preto,Mandioca,67
+Rafael,Rio Preto,Manga,55
+Rafael,Rio Preto,Abacate,83
+Rafael,Rio Preto,Jabuticaba,52
+Rafael,Rio Preto,Beterraba,71
+Rafael,Rio Preto,Abacate,61
+Rafael,Rio Preto,São Sebastião,96
+Rafael,Rio Preto,Graviola,90
+Rafael,Rio Preto,Laranja,100
+Rafael,Rio Preto,Pitaia,90
+Rafael,Rio Preto,Abacate,89
+Rafael,Rio Preto,Manga,63
+Rafael,Rio Preto,Beterraba,57
+Rafael,Rio Preto,Beterraba,75
+Rafael,Rio Preto,Laranja,55
+Rafael,Rio Preto,Tomate,77
+Rafael,Rio Preto,São Sebastião,60
+Rafael,Rio Preto,Laranja,65
+Rafael,Rio Preto,Repolho,74
+Rafael,Rio Preto,Manga,88
+Rafael,Rio Preto,Jabuticaba,96
+Rafael,Rio Preto,Abóbora,66
+Rafael,Rio Preto,Maracujá,52
+Rafael,Rio Preto,São Sebastião,81
+Rafael,Rio Preto,Tangerina,53
+Rafael,Rio Preto,Banana,83
+Rafael,Rio Preto,Tangerina,57
+Rafael,Rio Preto,Repolho,71
+Rafael,Rio Preto,Laranja,81
+Rafael,Rio Preto,Tangerina,77
+Rafael,Rio Preto,Repolho,88
+Rafael,Rio Preto,São Sebastião,60
+Rafael,Rio Preto,Jabuticaba,59
+Rafael,Rio Preto,Laranja,69
+Rafael,Rio Preto,Abacate,52
+Rafael,Rio Preto,Tangerina,51
+Rafael,Rio Preto,Batata-doce,84
+Rafael,Rio Preto,Manga,85
+Rafael,Rio Preto,Repolho,64
+Rafael,Rio Preto,Manga,95
+Rafael,Rio Preto,Maracujá,91
+Rafael,Rio Preto,Mandioca,96
+Rafael,Rio Preto,Repolho,68
+Rafael,Rio Preto,Abacate,51
+Rafael,Rio Preto,Laranja,72
+Rafael,Rio Preto,Laranja,79
+Rafael,Rio Preto,Maracujá,57
+Rafael,Rio Preto,Banana,51
+Rafael,Rio Preto,Maracujá,88
+Rafael,Rio Preto,Jabuticaba,73
+Rafael,Rio Preto,Abacate,87
+Rafael,Rio Preto,Mandioca,92
+Rafael,Rio Preto,Batata-doce,59
+Rafael,Rio Preto,Repolho,53
+Rafael,Rio Preto,Mandioca,70
+Rafael,Rio Preto,Pimentão,67
+Rafael,Rio Preto,Graviola,70
+Rafael,Rio Preto,Manga,60
+Rafael,Rio Preto,Banana,90
+Rafael,Rio Preto,Alho,51
+Rafael,Rio Preto,Pimentão,88
+Rafael,Rio Preto,Pimentão,100
+Rafael,Rio Preto,Jabuticaba,96
+Rafael,Rio Preto,Beterraba,62
+Rafael,Rio Preto,Banana,99
+Rafael,Rio Preto,Laranja,85
+Rafael,Rio Preto,Batata-doce,86
+Rafael,Rio Preto,Banana,67
+Rafael,Rio Preto,Batata-doce,51
+Rafael,Rio Preto,Laranja,86
+Rafael,Rio Preto,Tangerina,86
+Rafael,Rio Preto,Acerola,4
+Rafael,Rio Preto,Pitaia,89
+Rafael,Rio Preto,São Sebastião,60
+Rafael,Rio Preto,Beterraba,85
+Rafael,Rio Preto,Mandioca,62
+Rafael,Rio Preto,Maracujá,62
+Rafael,Rio Preto,Pitaia,85
+Rafael,Rio Preto,Jabuticaba,85
+Rafael,Rio Preto,Abóbora,65
+Rafael,Rio Preto,Mandioca,86
+Rafael,Rio Preto,Manga,56
+Rafael,Rio Preto,Cenoura,55
+Rafael,Rio Preto,Batata-doce,56
+Rafael,Rio Preto,Tangerina,58
+Rafael,Rio Preto,São Sebastião,92
+Rafael,Rio Preto,Banana,52
+Rafael,Rio Preto,São Sebastião,96
+Sérgio,Brazlândia,Couve-flor,0
+Sérgio,Brazlândia,Couve-flor,1
+Sérgio,Brazlândia,Manga,58
+Sérgio,Brazlândia,Pimentão,94
+Sérgio,Brazlândia,Couve-flor,6
+Sérgio,Brazlândia,Couve-flor,7
+Sérgio,Brazlândia,Planaltina,6
+Sérgio,Brazlândia,Couve-flor,5
+Sérgio,Brazlândia,Limão,98
+Sérgio,Brazlândia,Cajamanga,84
+Sérgio,Brazlândia,Tomate,91
+Sérgio,Brazlândia,Tomate,68
+Sérgio,Brazlândia,Ceilândia,85
+Sérgio,Brazlândia,Pimentão,52
+Sérgio,Brazlândia,Cajamanga,59
+Sérgio,Brazlândia,Tomate,89
+Sérgio,Brazlândia,Mandioca,57
+Sérgio,Brazlândia,Cajamanga,58
+Sérgio,Brazlândia,Manga,71
+Sérgio,Brazlândia,Ceilândia,81
+Sérgio,Brazlândia,Abóbora italiana,74
+Sérgio,Brazlândia,Sobradinho,0
+Sérgio,Brazlândia,Planaltina,4
+Sérgio,Brazlândia,Tomate,93
+Sérgio,Brazlândia,Planaltina,8
+Sérgio,Brazlândia,Tomate,94
+Sérgio,Brazlândia,Pimentão,86
+Sérgio,Brazlândia,Planaltina,9
+Sérgio,Brazlândia,Ceilândia,100
+Sérgio,Brazlândia,Pimentão,71
+Sérgio,Brazlândia,Morango,84
+Sérgio,Brazlândia,Morango,52
+Sérgio,Brazlândia,Pimentão,60
+Sérgio,Brazlândia,Mandioca,51
+Sérgio,Brazlândia,Tomate,53
+Sérgio,Brazlândia,Paranoá,5
+Sérgio,Brazlândia,Ceilândia,57
+Sérgio,Brazlândia,Mandioca,79
+Sérgio,Brazlândia,Abóbora italiana,94
+Sérgio,Brazlândia,Morango,70
+Sérgio,Brazlândia,Pimentão,63
+Sérgio,Brazlândia,Abóbora italiana,99
+Sérgio,Brazlândia,Morango,65
+Sérgio,Brazlândia,Couve,92
+Sérgio,Brazlândia,Limão,92
+Sérgio,Brazlândia,Cajamanga,66
+Sérgio,Brazlândia,Cajamanga,61
+Sérgio,Brazlândia,Alface,77
+Sérgio,Brazlândia,Tomate,98
+Sérgio,Brazlândia,Ceilândia,52
+Sérgio,Brazlândia,Abóbora italiana,54
+Sérgio,Brazlândia,Sobradinho,4
+Sérgio,Brazlândia,Limão,88
+Sérgio,Brazlândia,Chuchu,70
+Sérgio,Brazlândia,Couve,86
+Sérgio,Brazlândia,Goiaba,65
+Sérgio,Brazlândia,Tomate,78
+Sérgio,Brazlândia,Morango,75
+Sérgio,Brazlândia,Pimentão,55
+Sérgio,Brazlândia,Goiaba,64
+Sérgio,Brazlândia,Mandioca,92
+Sérgio,Brazlândia,Ceilândia,97
+Sérgio,Brazlândia,Cajamanga,59
+Sérgio,Brazlândia,Ceilândia,66
+Sérgio,Brazlândia,Morango,66
+Sérgio,Brazlândia,Morango,50
+Sérgio,Brazlândia,Cajamanga,77
+Sérgio,Brazlândia,Planaltina,6
+Sérgio,Brazlândia,Cajamanga,63
+Sérgio,Brazlândia,Morango,99
+Sérgio,Brazlândia,Abacate,58
+Sérgio,Brazlândia,Ceilândia,89
+Sérgio,Brazlândia,Cajamanga,93
+Sérgio,Brazlândia,Sobradinho,0
+Sérgio,Brazlândia,Ceilândia,62
+Sérgio,Brazlândia,Abóbora italiana,89
+Sérgio,Brazlândia,Cajamanga,58
+Sérgio,Brazlândia,Chuchu,60
+Sérgio,Brazlândia,Paranoá,5
+Sérgio,Brazlândia,Manga,50
+Sérgio,Brazlândia,Ceilândia,99
+Sérgio,Brazlândia,Goiaba,54
+Sérgio,Brazlândia,Chuchu,71
+Sérgio,Brazlândia,Chuchu,64
+Sérgio,Brazlândia,Pimentão,60
+Sérgio,Brazlândia,Goiaba,78
+Sérgio,Brazlândia,Chuchu,50
+Sérgio,Brazlândia,Alface,73
+Sérgio,Brazlândia,Paranoá,2
+Sérgio,Brazlândia,Alface,65
+Sérgio,Brazlândia,Mandioca,83
+Sérgio,Brazlândia,Couve,58
+Sérgio,Brazlândia,Pimentão,86
+Sérgio,Brazlândia,Couve,90
+Sérgio,Brazlândia,Abacate,75
+Sérgio,Brazlândia,Morango,78
+Sérgio,Brazlândia,Banana,62
+Sérgio,Brazlândia,Abacate,73
+Sérgio,Brazlândia,Sobradinho,4
+Sérgio,Brazlândia,Couve-flor,5
+Tiago,PAD-DF,Abacate,52
+Tiago,PAD-DF,Alface,75
+Tiago,PAD-DF,Alface,64
+Tiago,PAD-DF,Abacate,75
+Tiago,PAD-DF,Alface,50
+Tiago,PAD-DF,Abacate,86
+Tiago,PAD-DF,Limão,63
+Tiago,PAD-DF,Limão,69
+Tiago,PAD-DF,Paranoá,52
+Tiago,PAD-DF,Alface,88
+Tiago,PAD-DF,Tangerina,52
+Tiago,PAD-DF,Paranoá,52
+Tiago,PAD-DF,Abacate,56
+Tiago,PAD-DF,Alface,98
+Tiago,PAD-DF,Tangerina,70
+Tiago,PAD-DF,Pimentão,65
+Tiago,PAD-DF,Uva,55
+Tiago,PAD-DF,Uva Vinífera,67
+Tiago,PAD-DF,Repolho,61
+Tiago,PAD-DF,Alface,55
+Tiago,PAD-DF,Pimentão,77
+Tiago,PAD-DF,Repolho,54
+Tiago,PAD-DF,Berinjela,60
+Tiago,PAD-DF,Maracujá Pérola,4
+Tiago,PAD-DF,Pimentão,91
+Tiago,PAD-DF,Banana,85
+Tiago,PAD-DF,Abacate,69
+Tiago,PAD-DF,Cenoura,67
+Tiago,PAD-DF,Limão,78
+Tiago,PAD-DF,Paranoá,76
+Tiago,PAD-DF,Berinjela,63
+Tiago,PAD-DF,Abacate,99
+Tiago,PAD-DF,Berinjela,57
+Tiago,PAD-DF,Milho doce,60
+Tiago,PAD-DF,Banana,72
+Tiago,PAD-DF,Maracujá,91
+Tiago,PAD-DF,Paranoá,71
+Tiago,PAD-DF,Repolho,89
+Tiago,PAD-DF,Pimentão,60
+Tiago,PAD-DF,Abacate,55
+Tiago,PAD-DF,Milho doce,62
+Tiago,PAD-DF,Limão,89
+Tiago,PAD-DF,Tangerina,80
+Tiago,PAD-DF,Uva,94
+Tiago,PAD-DF,Uva,51
+Tiago,PAD-DF,Repolho,88
+Tiago,PAD-DF,Mamão,58
+Tiago,PAD-DF,Manga,64
+Tiago,PAD-DF,Banana,59
+Tiago,PAD-DF,Uva Vinífera,96
+Tiago,PAD-DF,Milho doce,57
+Tiago,PAD-DF,Abacate,72
+Tiago,PAD-DF,Cebola,79
+Tiago,PAD-DF,Paranoá,82
+Tiago,PAD-DF,Alface,62
+Tiago,PAD-DF,Cebola,58
+Tiago,PAD-DF,Abacate,88
+Tiago,PAD-DF,Cebola,89
+Tiago,PAD-DF,Tangerina,55
+Tiago,PAD-DF,Cebola,96
+Tiago,PAD-DF,Cebola,76
+Tiago,PAD-DF,Repolho,100
+Tiago,PAD-DF,Milho doce,60
+Tiago,PAD-DF,Paranoá,96
+Tiago,PAD-DF,Uva Vinífera,76
+Tiago,PAD-DF,Uva,86
+Tiago,PAD-DF,Uva Vinífera,87
+Tiago,PAD-DF,Uva,79
+Tiago,PAD-DF,Manga,54
+Tiago,PAD-DF,Banana,83
+Tiago,PAD-DF,Mandioca,77
+Tiago,PAD-DF,Mandioca,87
+Tiago,PAD-DF,Mamão,74
+Tiago,PAD-DF,Laranja,75
+Tiago,PAD-DF,Paranoá,66
+Tiago,PAD-DF,Limão,82
+Tiago,PAD-DF,Manga,97
+Tiago,PAD-DF,Mamão,56
+Tiago,PAD-DF,Abacate,63
+Tiago,PAD-DF,Mandioca,90
+Tiago,PAD-DF,Abacate,72
+Tiago,PAD-DF,Alface,80
+Tiago,PAD-DF,Manga,68
+Tiago,PAD-DF,Paranoá,57
+Tiago,PAD-DF,Pepino,75
+Tiago,PAD-DF,Mandioca,74
+Tiago,PAD-DF,Maracujá,100
+Tiago,PAD-DF,Uva,52
+Tiago,PAD-DF,Alface,72
+Tiago,PAD-DF,Berinjela,68
+Tiago,PAD-DF,Uva Vinífera,67
+Tiago,PAD-DF,Pimentão,84
+Tiago,PAD-DF,Abacate,54
+Tiago,PAD-DF,Mandioca,74
+Tiago,PAD-DF,Mandioca,97
+Tiago,PAD-DF,Pepino,78
+Tiago,PAD-DF,Pepino,76
+Tiago,PAD-DF,Milho doce,60
+Tiago,PAD-DF,Paranoá,75
+Tiago,PAD-DF,Pepino,96
+Vinícius,Pipiripau,Goiaba,96
+Vinícius,Pipiripau,Goiaba,56
+Vinícius,Pipiripau,Mandioca,65
+Vinícius,Pipiripau,Mandioca,94
+Vinícius,Pipiripau,Banana,100
+Vinícius,Pipiripau,Limão,71
+Vinícius,Pipiripau,Banana,97
+Vinícius,Pipiripau,Goiaba,82
+Vinícius,Pipiripau,Banana,70
+Vinícius,Pipiripau,Banana,66
+Vinícius,Pipiripau,Abóbora italiana,60
+Vinícius,Pipiripau,Banana,67
+Vinícius,Pipiripau,Banana,60
+Vinícius,Pipiripau,Tomate,87
+Vinícius,Pipiripau,Batata,69
+Vinícius,Pipiripau,Pitaia,71
+Vinícius,Pipiripau,Tomate,93
+Vinícius,Pipiripau,Banana,65
+Vinícius,Pipiripau,Mandioca,82
+Vinícius,Pipiripau,Laranja,67
+Vinícius,Pipiripau,Mandioca,62
+Vinícius,Pipiripau,Abóbora italiana,68
+Vinícius,Pipiripau,Batata,85
+Vinícius,Pipiripau,Abóbora italiana,70
+Vinícius,Pipiripau,Mandioca,67
+Vinícius,Pipiripau,Tomate,82
+Vinícius,Pipiripau,Abóbora italiana,94
+Vinícius,Pipiripau,Goiaba,64
+Vinícius,Pipiripau,Mandioca,69
+Vinícius,Pipiripau,Banana,87
+Vinícius,Pipiripau,Goiaba,68
+Vinícius,Pipiripau,Abóbora italiana,58
+Vinícius,Pipiripau,Mandioca,61
+Vinícius,Pipiripau,Laranja,75
+Vinícius,Pipiripau,Beterraba,4
+Vinícius,Pipiripau,Cenoura,50
+Vinícius,Pipiripau,Beterraba,8
+Vinícius,Pipiripau,Pitaia,67
+Vinícius,Pipiripau,Pepino,57
+Vinícius,Pipiripau,Abóbora,55
+Vinícius,Pipiripau,Beterraba,2
+Vinícius,Pipiripau,Cenoura,60
+Vinícius,Pipiripau,Abóbora italiana,56
+Vinícius,Pipiripau,Pepino,61
+Vinícius,Pipiripau,Mandioca,71
+Vinícius,Pipiripau,Pepino,95
+Vinícius,Pipiripau,Cenoura,94
+Vinícius,Pipiripau,Beterraba,10
+Vinícius,Pipiripau,Pepino,75
+Vinícius,Pipiripau,Abacate,62
+Vinícius,Pipiripau,Goiaba,94
+Vinícius,Pipiripau,Limão,83
+Vinícius,Pipiripau,Abóbora,57
+Vinícius,Pipiripau,Banana,57
+Vinícius,Pipiripau,Planaltina,65
+Vinícius,Pipiripau,Alface,8
+Vinícius,Pipiripau,Beterraba,10
+Vinícius,Pipiripau,Limão,90
+Vinícius,Pipiripau,Abóbora,78
+Vinícius,Pipiripau,Abacate,92
+Vinícius,Pipiripau,Banana,68
+Vinícius,Pipiripau,Tabatinga,3
+Vinícius,Pipiripau,Alface,10
+Vinícius,Pipiripau,Pepino,59
+Vinícius,Pipiripau,Laranja,78
+Vinícius,Pipiripau,Abóbora japonesa - Tetsukabut,0
+Vinícius,Pipiripau,Abóbora italiana,98
+Vinícius,Pipiripau,Abóbora,97
+Vinícius,Pipiripau,Pepino,86
+Vinícius,Pipiripau,Abóbora italiana,79
+Vinícius,Pipiripau,Abacate,85
+Vinícius,Pipiripau,Abacate,53
+Vinícius,Pipiripau,Uva,79
+Vinícius,Pipiripau,Uva,71
+Vinícius,Pipiripau,Tangerina,74
+Vinícius,Pipiripau,Tabatinga,9
+Vinícius,Pipiripau,São Sebastião,7
+Vinícius,Pipiripau,Alface,6
+Vinícius,Pipiripau,Laranja,72
+Vinícius,Pipiripau,Planaltina,99
+Vinícius,Pipiripau,Goiaba,59
+Vinícius,Pipiripau,Cenoura,71
+Vinícius,Pipiripau,Uva,73
+Vinícius,Pipiripau,Tangerina,81
+Vinícius,Pipiripau,Pepino,97
+Vinícius,Pipiripau,Cenoura,79
+Vinícius,Pipiripau,Pepino,75
+Vinícius,Pipiripau,Pepino,85
+Vinícius,Pipiripau,Beterraba,1
+Vinícius,Pipiripau,Uva,50
+Vinícius,Pipiripau,Planaltina,80
+Vinícius,Pipiripau,Uva,78
+Vinícius,Pipiripau,Abóbora,73
+Vinícius,Pipiripau,Tomate,92
+Vinícius,Pipiripau,Tomate,80
+Vinícius,Pipiripau,Abóbora italiana,95
+Vinícius,Pipiripau,Planaltina,76
+Vinícius,Pipiripau,Abóbora,70
+Vinícius,Pipiripau,Tangerina,77
+Vinícius,Pipiripau,Abóbora,66
+Alexandre,Pipiripau,Tomate,55
+Alexandre,Pipiripau,Tomate,75
+Alexandre,Pipiripau,Berinjela,58
+Alexandre,Pipiripau,Tomate,68
+Alexandre,Pipiripau,Maracujá,71
+Alexandre,Pipiripau,Berinjela,92
+Alexandre,Pipiripau,Batata,100
+Alexandre,Pipiripau,Abóbora,73
+Alexandre,Pipiripau,Berinjela,70
+Alexandre,Pipiripau,Abóbora,56
+Alexandre,Pipiripau,Goiaba,75
+Alexandre,Pipiripau,Mandioca,93
+Alexandre,Pipiripau,Maracujá,50
+Alexandre,Pipiripau,Batata,94
+Alexandre,Pipiripau,Pitaia,74
+Alexandre,Pipiripau,Tomate,84
+Alexandre,Pipiripau,Cenoura,55
+Alexandre,Pipiripau,Tangerina,68
+Alexandre,Pipiripau,Maracujá,56
+Alexandre,Pipiripau,Maracujá,56
+Alexandre,Pipiripau,Batata,79
+Alexandre,Pipiripau,Laranja,69
+Alexandre,Pipiripau,Goiaba,85
+Alexandre,Pipiripau,Cenoura,59
+Alexandre,Pipiripau,Berinjela,97
+Alexandre,Pipiripau,Laranja,92
+Alexandre,Pipiripau,Tomate,90
+Alexandre,Pipiripau,Mandioca,84
+Alexandre,Pipiripau,Maracujá,78
+Alexandre,Pipiripau,Goiaba,84
+Alexandre,Pipiripau,Abóbora,100
+Alexandre,Pipiripau,Maracujá,75
+Alexandre,Pipiripau,Goiaba,98
+Alexandre,Pipiripau,Planaltina,81
+Alexandre,Pipiripau,Berinjela,71
+Alexandre,Pipiripau,Tomate,69
+Alexandre,Pipiripau,Batata,61
+Alexandre,Pipiripau,Tomate,96
+Alexandre,Pipiripau,Tangerina,88
+Alexandre,Pipiripau,Batata,80
+Alexandre,Pipiripau,Goiaba,77
+Alexandre,Pipiripau,Laranja,53
+Alexandre,Pipiripau,Planaltina,57
+Alexandre,Pipiripau,Abóbora,72
+Alexandre,Pipiripau,Goiaba,51
+Alexandre,Pipiripau,Berinjela,76
+Alexandre,Pipiripau,Goiaba,67
+Alexandre,Pipiripau,Laranja,89
+Alexandre,Pipiripau,Abóbora,77
+Alexandre,Pipiripau,Tomate,91
+Alexandre,Pipiripau,Laranja,61
+Alexandre,Pipiripau,Berinjela,74
+Alexandre,Pipiripau,Laranja,54
+Alexandre,Pipiripau,Maracujá,58
+Alexandre,Pipiripau,Abóbora,79
+Alexandre,Pipiripau,Limão,97
+Alexandre,Pipiripau,Pitaia,50
+Alexandre,Pipiripau,Pitaia,83
+Alexandre,Pipiripau,Mandioca,64
+Alexandre,Pipiripau,Abóbora,94
+Alexandre,Pipiripau,Abóbora italiana,52
+Alexandre,Pipiripau,Abóbora,64
+Alexandre,Pipiripau,Goiaba,58
+Alexandre,Pipiripau,Limão,91
+Alexandre,Pipiripau,Tomate,95
+Alexandre,Pipiripau,Cenoura,82
+Alexandre,Pipiripau,Abacate,57
+Alexandre,Pipiripau,Berinjela,82
+Alexandre,Pipiripau,Banana,51
+Alexandre,Pipiripau,Abacate,87
+Alexandre,Pipiripau,Berinjela,88
+Alexandre,Pipiripau,Mandioca,100
+Alexandre,Pipiripau,Batata,55
+Alexandre,Pipiripau,Tangerina,78
+Alexandre,Pipiripau,Laranja,90
+Alexandre,Pipiripau,Goiaba,57
+Alexandre,Pipiripau,Abacate,70
+Alexandre,Pipiripau,Goiaba,88
+Alexandre,Pipiripau,Banana,91
+Alexandre,Pipiripau,Tomate,80
+Alexandre,Pipiripau,Mandioca,79
+Alexandre,Pipiripau,Limão,81
+Alexandre,Pipiripau,Limão,90
+Alexandre,Pipiripau,Pimentão,71
+Alexandre,Pipiripau,Batata,60
+Alexandre,Pipiripau,Pimentão,96
+Alexandre,Pipiripau,Abacate,79
+Alexandre,Pipiripau,Batata,51
+Alexandre,Pipiripau,Batata,97
+Alexandre,Pipiripau,Tomate,90
+Alexandre,Pipiripau,Abóbora,75
+Alexandre,Pipiripau,Cenoura,98
+Alexandre,Pipiripau,Laranja,90
+Alexandre,Pipiripau,Pitaia,99
+Alexandre,Pipiripau,Abóbora italiana,56
+Alexandre,Pipiripau,Pitaia,69
+Alexandre,Pipiripau,Mandioca,76
+Alexandre,Pipiripau,Planaltina,77
+Alexandre,Pipiripau,Batata,78
+Alexandre,Pipiripau,Mandioca,51
+Gustavo,Sobradinho,Mirtilo,68
+Gustavo,Sobradinho,Tabatinga,72
+Gustavo,Sobradinho,Alface,80
+Gustavo,Sobradinho,Alface,87
+Gustavo,Sobradinho,Berinjela,53
+Gustavo,Sobradinho,Mirtilo,62
+Gustavo,Sobradinho,Couve,62
+Gustavo,Sobradinho,Pimentão,94
+Gustavo,Sobradinho,Berinjela,85
+Gustavo,Sobradinho,Chuchu,66
+Gustavo,Sobradinho,Chuchu,55
+Gustavo,Sobradinho,Tabatinga,95
+Gustavo,Sobradinho,Tabatinga,66
+Gustavo,Sobradinho,Maracujá,82
+Gustavo,Sobradinho,Tabatinga,97
+Gustavo,Sobradinho,Tomate,86
+Gustavo,Sobradinho,Maracujá,83
+Gustavo,Sobradinho,Couve,60
+Gustavo,Sobradinho,Alface,67
+Gustavo,Sobradinho,Laranja,76
+Gustavo,Sobradinho,Couve-flor,62
+Gustavo,Sobradinho,Couve,87
+Gustavo,Sobradinho,Pimentão,77
+Gustavo,Sobradinho,Alface,65
+Gustavo,Sobradinho,Maracujá,79
+Gustavo,Sobradinho,Tabatinga,91
+Gustavo,Sobradinho,Laranja,74
+Gustavo,Sobradinho,Tabatinga,90
+Gustavo,Sobradinho,Repolho,100
+Gustavo,Sobradinho,Alface,79
+Gustavo,Sobradinho,Mirtilo,58
+Gustavo,Sobradinho,Alface,72
+Gustavo,Sobradinho,Tomate,97
+Gustavo,Sobradinho,Pimentão,87
+Gustavo,Sobradinho,Berinjela,94
+Gustavo,Sobradinho,Alface,72
+Gustavo,Sobradinho,Berinjela,83
+Gustavo,Sobradinho,Tomate,50
+Gustavo,Sobradinho,Couve-flor,68
+Gustavo,Sobradinho,Tabatinga,75
+Gustavo,Sobradinho,Tomate,72
+Gustavo,Sobradinho,Repolho,55
+Gustavo,Sobradinho,Chuchu,53
+Gustavo,Sobradinho,Tomate,52
+Gustavo,Sobradinho,Alface,50
+Gustavo,Sobradinho,Banana,86
+Gustavo,Sobradinho,Pimentão,99
+Gustavo,Sobradinho,Mirtilo,69
+Gustavo,Sobradinho,Mirtilo,95
+Gustavo,Sobradinho,Tabatinga,68
+Gustavo,Sobradinho,Laranja,56
+Gustavo,Sobradinho,Alface,64
+Gustavo,Sobradinho,Laranja,76
+Gustavo,Sobradinho,Couve,87
+Gustavo,Sobradinho,Couve-flor,74
+Gustavo,Sobradinho,Laranja,53
+Gustavo,Sobradinho,Couve,82
+Gustavo,Sobradinho,Mandioca,85
+Gustavo,Sobradinho,Pimentão,59
+Gustavo,Sobradinho,Couve,67
+Gustavo,Sobradinho,Couve,83
+Gustavo,Sobradinho,Uva,94
+Gustavo,Sobradinho,Couve-flor,74
+Gustavo,Sobradinho,Couve-flor,62
+Gustavo,Sobradinho,Couve,59
+Gustavo,Sobradinho,Repolho,65
+Gustavo,Sobradinho,Brócolis - Ramoso,90
+Gustavo,Sobradinho,Berinjela,87
+Gustavo,Sobradinho,Brócolis - Ramoso,65
+Gustavo,Sobradinho,Repolho,70
+Gustavo,Sobradinho,Mandioca,65
+Gustavo,Sobradinho,Maracujá,52
+Gustavo,Sobradinho,Couve,89
+Gustavo,Sobradinho,Tomate,67
+Gustavo,Sobradinho,Alface,76
+Gustavo,Sobradinho,Limão,52
+Gustavo,Sobradinho,Mirtilo,85
+Gustavo,Sobradinho,Limão,94
+Gustavo,Sobradinho,Banana,90
+Gustavo,Sobradinho,Mirtilo,72
+Gustavo,Sobradinho,Couve,94
+Gustavo,Sobradinho,Mandioca,65
+Gustavo,Sobradinho,Limão,61
+Gustavo,Sobradinho,Alface,77
+Gustavo,Sobradinho,Maracujá,66
+Gustavo,Sobradinho,Banana,96
+Gustavo,Sobradinho,Mandioca,88
+Gustavo,Sobradinho,Laranja,52
+Gustavo,Sobradinho,Limão,54
+Gustavo,Sobradinho,Banana,75
+Gustavo,Sobradinho,Berinjela,73
+Gustavo,Sobradinho,Couve-flor,93
+Gustavo,Sobradinho,Couve-flor,92
+Gustavo,Sobradinho,Repolho,95
+Gustavo,Sobradinho,Couve-flor,57
+Gustavo,Sobradinho,Tomate,53
+Gustavo,Sobradinho,Repolho,100
+Gustavo,Sobradinho,Repolho,96
+Gustavo,Sobradinho,Berinjela,76
+Gustavo,Sobradinho,Uva,72
+Matheus,Brazlândia,Goiaba,59
+Matheus,Brazlândia,Brócolis - Cabeça Única,96
+Matheus,Brazlândia,Limão,52
+Matheus,Brazlândia,Goiaba,82
+Matheus,Brazlândia,Cajamanga,61
+Matheus,Brazlândia,Uva,50
+Matheus,Brazlândia,Goiaba,98
+Matheus,Brazlândia,Abóbora italiana,53
+Matheus,Brazlândia,Limão,60
+Matheus,Brazlândia,Limão,59
+Matheus,Brazlândia,Abóbora italiana,65
+Matheus,Brazlândia,Morango,62
+Matheus,Brazlândia,Cajamanga,79
+Matheus,Brazlândia,Morango,79
+Matheus,Brazlândia,Uva,64
+Matheus,Brazlândia,Couve,59
+Matheus,Brazlândia,Brócolis - Cabeça Única,63
+Matheus,Brazlândia,Morango,52
+Matheus,Brazlândia,Abacate,96
+Matheus,Brazlândia,Limão,81
+Matheus,Brazlândia,Manga,77
+Matheus,Brazlândia,Brócolis - Cabeça Única,77
+Matheus,Brazlândia,Couve,57
+Matheus,Brazlândia,Goiaba,63
+Matheus,Brazlândia,Uva,78
+Matheus,Brazlândia,Limão,81
+Matheus,Brazlândia,Maracujá,85
+Matheus,Brazlândia,Morango,65
+Matheus,Brazlândia,Couve,92
+Matheus,Brazlândia,Manga,56
+Matheus,Brazlândia,Goiaba,77
+Matheus,Brazlândia,Abacate,73
+Matheus,Brazlândia,Uva,52
+Matheus,Brazlândia,Goiaba,95
+Matheus,Brazlândia,Cajamanga,53
+Matheus,Brazlândia,Manga,69
+Matheus,Brazlândia,Brócolis - Cabeça Única,67
+Matheus,Brazlândia,Couve,75
+Matheus,Brazlândia,Abacate,50
+Matheus,Brazlândia,Abóbora italiana,89
+Matheus,Brazlândia,Manga,100
+Matheus,Brazlândia,Abóbora italiana,51
+Matheus,Brazlândia,Tabatinga,0
+Matheus,Brazlândia,Abóbora italiana,55
+Matheus,Brazlândia,Couve,59
+Matheus,Brazlândia,Manga,94
+Matheus,Brazlândia,Repolho,80
+Matheus,Brazlândia,Cajamanga,69
+Matheus,Brazlândia,Cajamanga,61
+Matheus,Brazlândia,Couve,100
+Matheus,Brazlândia,Pimentão,59
+Matheus,Brazlândia,Repolho,60
+Matheus,Brazlândia,Couve,88
+Matheus,Brazlândia,Maracujá,50
+Matheus,Brazlândia,Limão,90
+Matheus,Brazlândia,Pimentão,98
+Matheus,Brazlândia,Maracujá,83
+Matheus,Brazlândia,Cajamanga,51
+Matheus,Brazlândia,Manga,63
+Matheus,Brazlândia,Cajamanga,86
+Matheus,Brazlândia,Couve,50
+Matheus,Brazlândia,Goiaba,64
+Matheus,Brazlândia,Goiaba,70
+Matheus,Brazlândia,Goiaba,57
+Matheus,Brazlândia,Pimentão,87
+Matheus,Brazlândia,Repolho,95
+Matheus,Brazlândia,Atemóia,67
+Matheus,Brazlândia,Morango,51
+Matheus,Brazlândia,Tomate,57
+Matheus,Brazlândia,Tangerina,80
+Matheus,Brazlândia,Tabatinga,10
+Matheus,Brazlândia,Tangerina,90
+Matheus,Brazlândia,Tabatinga,7
+Matheus,Brazlândia,Alface,57
+Matheus,Brazlândia,Pimentão,90
+Matheus,Brazlândia,Tomate,59
+Matheus,Brazlândia,Limão,82
+Matheus,Brazlândia,Tangerina,67
+Matheus,Brazlândia,Repolho,86
+Matheus,Brazlândia,Pimentão,96
+Matheus,Brazlândia,Abacate,62
+Matheus,Brazlândia,Tomate,81
+Matheus,Brazlândia,Alface,97
+Matheus,Brazlândia,Couve,78
+Matheus,Brazlândia,Pimentão,72
+Matheus,Brazlândia,Morango,66
+Matheus,Brazlândia,Brócolis - Cabeça Única,82
+Matheus,Brazlândia,Atemóia,79
+Matheus,Brazlândia,Morango,62
+Matheus,Brazlândia,Manga,100
+Matheus,Brazlândia,Couve,75
+Matheus,Brazlândia,Uva,92
+Matheus,Brazlândia,Pimentão,60
+Matheus,Brazlândia,Tangerina,67
+Matheus,Brazlândia,Limão,77
+Matheus,Brazlândia,Tabatinga,1
+Matheus,Brazlândia,Repolho,81
+Matheus,Brazlândia,Repolho,77
+Matheus,Brazlândia,Abacate,59
+Matheus,Brazlândia,Pimentão,91
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,64
+Pedro,Rio Preto,Tomate,85
+Pedro,Rio Preto,Abacate,66
+Pedro,Rio Preto,Laranja,82
+Pedro,Rio Preto,Abóbora,53
+Pedro,Rio Preto,Abóbora,92
+Pedro,Rio Preto,Banana,66
+Pedro,Rio Preto,Pimentão,67
+Pedro,Rio Preto,Laranja,56
+Pedro,Rio Preto,Tomate,94
+Pedro,Rio Preto,Graviola,61
+Pedro,Rio Preto,Graviola,94
+Pedro,Rio Preto,Limão,75
+Pedro,Rio Preto,Batata-doce,97
+Pedro,Rio Preto,Beterraba,56
+Pedro,Rio Preto,Graviola,85
+Pedro,Rio Preto,Banana,89
+Pedro,Rio Preto,Batata-doce,63
+Pedro,Rio Preto,Batata-doce,63
+Pedro,Rio Preto,Laranja,63
+Pedro,Rio Preto,Batata-doce,59
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,80
+Pedro,Rio Preto,Beterraba,89
+Pedro,Rio Preto,Alho,97
+Pedro,Rio Preto,Repolho,71
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,79
+Pedro,Rio Preto,Batata-doce,74
+Pedro,Rio Preto,Pitaia,61
+Pedro,Rio Preto,Pitaia,89
+Pedro,Rio Preto,Pimentão,63
+Pedro,Rio Preto,Banana,66
+Pedro,Rio Preto,Beterraba,70
+Pedro,Rio Preto,Pimentão,64
+Pedro,Rio Preto,Abacate,98
+Pedro,Rio Preto,Pitaia,50
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,57
+Pedro,Rio Preto,Batata-doce,81
+Pedro,Rio Preto,Pimentão,95
+Pedro,Rio Preto,Beterraba,81
+Pedro,Rio Preto,Batata-doce,62
+Pedro,Rio Preto,Abóbora,69
+Pedro,Rio Preto,Ceilândia,1
+Pedro,Rio Preto,Repolho,75
+Pedro,Rio Preto,Manga,80
+Pedro,Rio Preto,Tangerina,60
+Pedro,Rio Preto,Batata-doce,72
+Pedro,Rio Preto,Abacate,81
+Pedro,Rio Preto,Graviola,73
+Pedro,Rio Preto,Abacate,56
+Pedro,Rio Preto,Jabuticaba,69
+Pedro,Rio Preto,Maracujá,91
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,94
+Pedro,Rio Preto,Maracujá,94
+Pedro,Rio Preto,Pitaia,83
+Pedro,Rio Preto,Maracujá,80
+Pedro,Rio Preto,Pipiripau,2
+Pedro,Rio Preto,Pimentão,78
+Pedro,Rio Preto,Tangerina,53
+Pedro,Rio Preto,Cenoura,87
+Pedro,Rio Preto,São Sebastião,74
+Pedro,Rio Preto,Pipiripau,0
+Pedro,Rio Preto,Manga,50
+Pedro,Rio Preto,São Sebastião,93
+Pedro,Rio Preto,Graviola,72
+Pedro,Rio Preto,Laranja,59
+Pedro,Rio Preto,Maracujá,67
+Pedro,Rio Preto,Abóbora,77
+Pedro,Rio Preto,Manga,93
+Pedro,Rio Preto,Jabuticaba,53
+Pedro,Rio Preto,Abóbora,71
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,74
+Pedro,Rio Preto,Abóbora japonesa - Tetsukabut,71
+Pedro,Rio Preto,São Sebastião,51
+Pedro,Rio Preto,Batata-doce,53
+Pedro,Rio Preto,Batata,5
+Pedro,Rio Preto,Cenoura,94
+Pedro,Rio Preto,Alho,71
+Pedro,Rio Preto,Tangerina,67
+Pedro,Rio Preto,Pipiripau,2
+Pedro,Rio Preto,Banana,72
+Pedro,Rio Preto,Alho,67
+Pedro,Rio Preto,Pimentão,68
+Pedro,Rio Preto,Batata-doce,77
+Pedro,Rio Preto,Pimentão,98
+Pedro,Rio Preto,Abóbora,89
+Pedro,Rio Preto,Repolho,78
+Pedro,Rio Preto,Manga,56
+Pedro,Rio Preto,Pipiripau,8
+Pedro,Rio Preto,Batata,3
+Pedro,Rio Preto,Limão,70
+Pedro,Rio Preto,Maracujá,75
+Pedro,Rio Preto,São Sebastião,71
+Pedro,Rio Preto,Beterraba,97
+Pedro,Rio Preto,Abacate,77
+Pedro,Rio Preto,Tangerina,81
+Pedro,Rio Preto,São Sebastião,100
+Pedro,Rio Preto,Abóbora,74
+Pedro,Rio Preto,Mandioca,57
+Pedro,Rio Preto,Limão,90
+Pedro,Rio Preto,Batata-doce,77
+Rodrigo,Taquara,Tangerina,71
+Rodrigo,Taquara,Vargem Bonita,72
+Rodrigo,Taquara,Chuchu,63
+Rodrigo,Taquara,Chuchu,50
+Rodrigo,Taquara,Laranja,87
+Rodrigo,Taquara,Couve-flor,88
+Rodrigo,Taquara,Pimentão,83
+Rodrigo,Taquara,Couve-flor,71
+Rodrigo,Taquara,Pimentão,61
+Rodrigo,Taquara,Caqui,51
+Rodrigo,Taquara,Chuchu,72
+Rodrigo,Taquara,Pitaia,62
+Rodrigo,Taquara,Vargem Bonita,56
+Rodrigo,Taquara,Couve-flor,69
+Rodrigo,Taquara,Pitaia,54
+Rodrigo,Taquara,Couve-flor,71
+Rodrigo,Taquara,Chuchu,66
+Rodrigo,Taquara,Laranja,73
+Rodrigo,Taquara,Caqui,65
+Rodrigo,Taquara,Mandioca,71
+Rodrigo,Taquara,Laranja,75
+Rodrigo,Taquara,Pitaia,51
+Rodrigo,Taquara,Vargem Bonita,66
+Rodrigo,Taquara,Chuchu,69
+Rodrigo,Taquara,Manga,92
+Rodrigo,Taquara,Laranja,81
+Rodrigo,Taquara,Laranja,71
+Rodrigo,Taquara,Caqui,53
+Rodrigo,Taquara,Couve-flor,62
+Rodrigo,Taquara,Tangerina,91
+Rodrigo,Taquara,Caqui,70
+Rodrigo,Taquara,Limão,59
+Rodrigo,Taquara,Chuchu,65
+Rodrigo,Taquara,Caqui,78
+Rodrigo,Taquara,Abóbora italiana,64
+Rodrigo,Taquara,Tomate,60
+Rodrigo,Taquara,Limão,88
+Rodrigo,Taquara,Tangerina,60
+Rodrigo,Taquara,Laranja,79
+Rodrigo,Taquara,Laranja,83
+Rodrigo,Taquara,Abóbora italiana,90
+Rodrigo,Taquara,Caqui,95
+Rodrigo,Taquara,Pitaia,58
+Rodrigo,Taquara,Pimentão,52
+Rodrigo,Taquara,Laranja,57
+Rodrigo,Taquara,Abóbora italiana,91
+Rodrigo,Taquara,Manga,56
+Rodrigo,Taquara,Pitaia,98
+Rodrigo,Taquara,Couve-flor,99
+Rodrigo,Taquara,Vargem Bonita,72
+Rodrigo,Taquara,Pimentão,67
+Rodrigo,Taquara,Limão,95
+Rodrigo,Taquara,Chuchu,85
+Rodrigo,Taquara,Pitaia,51
+Rodrigo,Taquara,Abacate,75
+Rodrigo,Taquara,Vargem Bonita,88
+Rodrigo,Taquara,Laranja,72
+Rodrigo,Taquara,Tomate,91
+Rodrigo,Taquara,Sobradinho,6
+Rodrigo,Taquara,Caqui,90
+Rodrigo,Taquara,Manga,71
+Rodrigo,Taquara,Vargem Bonita,71
+Rodrigo,Taquara,Tangerina,87
+Rodrigo,Taquara,Tangerina,53
+Rodrigo,Taquara,Repolho,60
+Rodrigo,Taquara,Tangerina,63
+Rodrigo,Taquara,Couve-flor,77
+Rodrigo,Taquara,Sobradinho,7
+Rodrigo,Taquara,Tomate,67
+Rodrigo,Taquara,Couve-flor,66
+Rodrigo,Taquara,Sobradinho,9
+Rodrigo,Taquara,Pimentão,95
+Rodrigo,Taquara,Tomate,77
+Rodrigo,Taquara,Pimentão,97
+Rodrigo,Taquara,Maracujá,51
+Rodrigo,Taquara,Laranja,63
+Rodrigo,Taquara,Pitaia,59
+Rodrigo,Taquara,Pimentão,76
+Rodrigo,Taquara,Abóbora italiana,91
+Rodrigo,Taquara,Caqui,66
+Rodrigo,Taquara,Abóbora italiana,79
+Rodrigo,Taquara,Tomate,82
+Rodrigo,Taquara,Maracujá,56
+Rodrigo,Taquara,Tomate,84
+Rodrigo,Taquara,Abacate,97
+Rodrigo,Taquara,Vargem Bonita,88
+Rodrigo,Taquara,Caqui,88
+Rodrigo,Taquara,Mandioca,51
+Rodrigo,Taquara,Sobradinho,9
+Rodrigo,Taquara,Manga,81
+Rodrigo,Taquara,Abacate,55
+Rodrigo,Taquara,Abóbora menina,72
+Rodrigo,Taquara,Pimentão,98
+Rodrigo,Taquara,Pimentão,70
+Rodrigo,Taquara,Repolho,66
+Rodrigo,Taquara,Caqui,76
+Rodrigo,Taquara,Abóbora italiana,69
+Rodrigo,Taquara,Laranja,55
+Rodrigo,Taquara,Laranja,51
+Rodrigo,Taquara,Manga,56
