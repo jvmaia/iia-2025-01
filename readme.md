@@ -91,6 +91,14 @@ A interface web e a API tratam os seguintes casos:
 - Parâmetros ausentes
 - Erros internos do servidor
 
+## Prints
+Recomendação:
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/ab7a38a1-e64f-4581-ba90-4aaa57c62bc8" />
+Histórico de compras:
+<img width="1552" alt="image" src="https://github.com/user-attachments/assets/fab409b7-01dc-4f26-b51c-c166609e9be5" />
+
+
+
 ## Tecnologias Utilizadas
 
 - Python 3.9
