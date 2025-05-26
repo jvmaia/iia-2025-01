@@ -47,7 +47,8 @@ logger.info('NearestNeighbors model fitted successfully')
 
 import numpy as np
 
-def recomendar_por_localidade(localidade, k_vizinhos=5, k_recs=10):
+def recomendar_por_cliente(client, k_vizinhos=5, k_recs=10):
+    localidade = client
     logger.info(f'Starting recommendation process for location: {localidade}')
     
     # 1. encontra índice da localidade
@@ -84,6 +85,15 @@ def recomendar_por_localidade(localidade, k_vizinhos=5, k_recs=10):
     logger.info('Recommendation process completed successfully')
     return recommendations
 
+def get_client_purchases(client):
+    """Get the purchase history for a specific client."""
+    if client not in localidades:
+        raise ValueError(f"Cliente '{client}' não encontrado.")
+    
+    client_purchases = df_comp[df_comp['client'] == client].copy()
+    client_purchases = client_purchases.sort_values('quantity', ascending=False)
+    return client_purchases[['product', 'quantity']].to_dict('records')
+
 # Exemplo de uso:
 logger.info('Running example recommendation')
-print(recomendar_por_localidade('Lucas', k_vizinhos=K_VIZINHOS, k_recs=K_RECS))
+print(recomendar_por_cliente('Lucas', k_vizinhos=K_VIZINHOS, k_recs=K_RECS))

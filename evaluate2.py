@@ -1,4 +1,4 @@
-from ai import K_VIZINHOS, K_RECS, recomendar_por_localidade, df_comp, knn
+from ai import K_VIZINHOS, K_RECS, recomendar_por_cliente, df_comp, knn
 import pandas as pd
 from scipy.sparse import csr_matrix
 import numpy as np
@@ -71,7 +71,7 @@ def avaliar_knn_v2(
         'recall@K':    float(np.mean(recalls))    if recalls    else 0.0
     }
 
-metrics = avaliar_knn_v2(df_comp, recomendar_por_localidade,
+metrics = avaliar_knn_v2(df_comp, recomendar_por_cliente,
                          k_vizinhos=K_VIZINHOS, k_recs=K_RECS, test_frac=0.1)
 print(metrics)
 # Ex.: {'precision@K': 0.2188, 'recall@K': 0.3808}
