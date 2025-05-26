@@ -1,39 +1,101 @@
-# Descrição
-- Extração dos dados de produção de frutíferas e olerícolas no DF
-- Obtenção de 2 arquivos após a extração e limpeza dos dados: frutirefas_formatada.csv e olericolas_formata.csv
-- Ambos os arquivos fornecem: alimentos produzidos por cada RA no DF, % total de participação da produção no DF e também total (em toneladas) da produção
-- Com isso, utilizamos o script fake_customers_generation.py para gerar 50 compras de 10 clientes diferentes
-- A geração de dados funcionou da seguinte forma, para cada cliente:
-    - Escolhemos uma RA aleatória
-    - Geramos 50 compras
-    - Caso o item da compra fosse da mesma RA do cliente, ele compraria algum valor entre 50 e 100
-    - Caso não, compraria algum valor entre 1 e 70
-- Dessa forma, adicionamos um viés na nossa geração de dados, que podemos verificar com o resultado do treinamento
+# Sistema de Recomendação de Produtos
 
-# Sistema de Recomendação (ai.py)
-- Implementação de um sistema de recomendação baseado em similaridade de usuários usando o algoritmo K-Nearest Neighbors (KNN)
-- Etapas do processamento:
-    1. Carregamento dos dados de vendas do arquivo 'sells_data.csv'
-    2. Criação de uma matriz pivot de clientes x produtos, com as quantidades compradas
-    3. Conversão para matriz esparsa para otimização de memória
-    4. Treinamento do modelo KNN usando:
-        - Métrica de similaridade por cosseno (apropriada para dados esparsos)
-        - K=5 vizinhos mais próximos
-        - Algoritmo de força bruta para busca
-    5. Implementação da função de recomendação que:
-        - Recebe uma localidade como entrada
-        - Encontra os K vizinhos mais similares
-        - Soma as compras dos vizinhos
-        - Retorna os top 10 produtos mais comprados pelos vizinhos
-- Parâmetros configuráveis:
-    - K_VIZINHOS = 5 (número de vizinhos similares)
-    - K_RECS = 10 (número de recomendações retornadas)
+Este é um sistema de recomendação de produtos baseado em similaridade de clientes, utilizando o algoritmo de K-Nearest Neighbors (KNN) com similaridade por cosseno.
 
-# Resultados da Avaliação
-- O sistema foi avaliado utilizando métricas padrão de sistemas de recomendação:
-    - Precision@K = 0.372 (37.2%): indica que 37.2% dos itens recomendados eram relevantes
-    - Recall@K = 0.472 (47.2%): indica que 47.2% dos itens relevantes foram recuperados nas recomendações
-- Estes resultados sugerem que:
-    - O sistema tem um bom equilíbrio entre precisão e recall
-    - O viés introduzido na geração dos dados (preferência por produtos da mesma RA) foi capturado pelo modelo
-    - O algoritmo KNN com similaridade por cosseno foi efetivo em identificar padrões de compra similares
+## Funcionalidades
+
+- Recomendação de produtos baseada no histórico de compras de clientes similares
+- Interface web amigável para seleção de clientes
+- Visualização das recomendações de produtos
+- Exibição do histórico de compras do cliente selecionado
+- API REST para integração com outros sistemas
+
+## Pré-requisitos
+
+- Docker instalado em sua máquina
+- Arquivo de dados `sells_data.csv` na pasta `data/` do projeto
+
+## Como Executar
+
+### Usando Docker
+
+1. Clone o repositório e navegue até a pasta do projeto
+
+2. Construa a imagem Docker:
+```bash
+docker build -t recommendation-api .
+```
+
+3. Execute o container:
+```bash
+docker run -p 5000:5000 -v $(pwd)/data:/app/data recommendation-api
+```
+
+Observações:
+- A opção `-p 5000:5000` mapeia a porta 5000 do container para a porta 5000 do seu computador
+- A opção `-v $(pwd)/data:/app/data` monta a pasta `data` do seu computador dentro do container
+- Se a porta 5000 estiver em uso, você pode usar outra porta, por exemplo: `-p 5001:5000`
+
+### Acessando a Interface Web
+
+1. Abra seu navegador e acesse:
+```
+http://localhost:5000
+```
+(ou a porta que você escolheu, exemplo: `http://localhost:5001`)
+
+2. Na interface você pode:
+   - Selecionar um cliente no menu dropdown
+   - Clicar em "Obter Recomendações" para ver as sugestões
+   - Ver a lista de produtos recomendados
+   - Consultar o histórico de compras do cliente selecionado
+
+### Usando a API
+
+A API também está disponível para integração com outros sistemas:
+
+- Endpoint: `/api/recommend`
+- Método: GET
+- Parâmetro: `client` (nome do cliente)
+- Exemplo de uso:
+```bash
+curl "http://localhost:5000/api/recommend?client=Lucas"
+```
+
+Exemplo de resposta:
+```json
+{
+    "client": "Lucas",
+    "recommendations": ["Produto1", "Produto2", "Produto3", ...]
+}
+```
+
+## Estrutura do Projeto
+
+- `app.py`: Aplicação Flask com rotas web e API
+- `ai.py`: Lógica do sistema de recomendação
+- `templates/`: Arquivos HTML da interface web
+- `data/`: Diretório para armazenar o arquivo de dados
+- `Dockerfile`: Configuração para construção da imagem Docker
+- `requirements.txt`: Dependências Python do projeto
+
+## Parâmetros do Sistema
+
+- `K_VIZINHOS`: Número de vizinhos similares considerados (padrão: 5)
+- `K_RECS`: Número de recomendações retornadas (padrão: 10)
+
+## Tratamento de Erros
+
+A interface web e a API tratam os seguintes casos:
+- Cliente não encontrado
+- Parâmetros ausentes
+- Erros internos do servidor
+
+## Tecnologias Utilizadas
+
+- Python 3.9
+- Flask
+- Pandas
+- Scikit-learn
+- Bootstrap 5
+- Docker
