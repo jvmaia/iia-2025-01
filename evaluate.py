@@ -1,3 +1,7 @@
+'''
+arquivo responsavel por avaliar o resultado do knn
+'''
+
 from ai import K_VIZINHOS, K_RECS, recomendar_por_cliente, df_comp, knn
 import pandas as pd
 from scipy.sparse import csr_matrix
