@@ -1,40 +1,41 @@
+"""
+extract.py
+
+Este script extrai tabelas de um PDF, unifica fragmentos de tabelas distribuídas em várias páginas,
+realiza limpeza básica e salva o resultado em CSV.
+"""
 import tabula
 import pandas as pd
 
-# Step 1: Extract tables from PDF
-# Note: Adjust 'pages' and 'area' based on your PDF layout
-tables = tabula.read_pdf(
-    "relatorio3.pdf",
-    pages="1-3",  # Pages containing the Major Crops table
-    multiple_tables=True,
-    lattice=True,  # Use lattice mode for grid-like tables
-    stream=True,   # Use stream mode for non-grid tables
-)
+# Configurações de entrada
+PDF_PATH = "relatorio3.pdf"          # Caminho para o PDF de entrada
+OUTPUT_CSV = "Frutiferas.csv"       # Nome do arquivo CSV de saída
+PAGES = "1-3"                       # Intervalo de páginas a serem processadas
+TABLE_READ_OPTIONS = {
+    'multiple_tables': True,        # Extrai todas as tabelas das páginas
+    'lattice': True,                # Usa modo lattice para tabelas com grade
+    'stream': True,                 # Usa modo stream para tabelas sem linhas definidas
+}
 
-# Step 2: Clean and merge extracted tables
-# (Tabula may split tables across pages; this combines them)
-major_crops_data = []
-current_header = None
+# === Extração das tabelas ===
+# Ajuste 'pages' e TABLE_READ_OPTIONS conforme o layout do seu PDF
+raw_tables = tabula.read_pdf(PDF_PATH, pages=PAGES, **TABLE_READ_OPTIONS)
 
-for table in tables:
-    df = table.copy()
+# === Combinação de fragmentos de tabela ===
+# Tabula pode dividir uma tabela única em várias partes. Aqui unimos todas em um DataFrame.
+fragments = []
+for fragment in raw_tables:
+    # Mantém apenas dados não nulos e copia o fragmento
+    df_fragment = fragment.dropna(how='all').copy()
+    fragments.append(df_fragment)
 
-    # Detect header rows (adjust based on your PDF's structure)
-    # if df.iloc[0, 0] == "Localidade / Cultura":
-    #     current_header = df.iloc[0].tolist()
-    #     df = df[1:]  # Remove header row
+# Concatena todos os fragmentos em um único DataFrame
+combined_df = pd.concat(fragments, ignore_index=True)
 
-    # if current_header is not None:
-    #     df.columns = current_header  # Apply consistent headers
-    major_crops_data.append(df)
+# === Limpeza adicional ===
+# Remove linhas totalmente vazias e redefine índices
+clean_df = combined_df.dropna(how='all').reset_index(drop=True)
 
-# Combine all fragments into one DataFrame
-final_df = pd.concat(major_crops_data, ignore_index=True)
-
-# Step 3: Clean the data
-final_df = final_df.dropna(how='all')  # Remove empty rows
-final_df = final_df.reset_index(drop=True)
-
-# Step 4: Save to CSV
-final_df.to_csv("Frutiferas.csv", index=False, encoding='utf-8-sig')
-print("Extraction complete. Saved to 'major_crops.csv'.")
+# === Exportação ===
+clean_df.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
+print(f"Extração concluída. Dados salvos em '{OUTPUT_CSV}'.")
