@@ -8,7 +8,6 @@ Gera um dataset de vendas fictícias para teste, considerando:
 - Datas randômicas dentro de um período.
 """
 
-import pandas as pd
 import random
 import pandas as pd
 

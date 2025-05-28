@@ -6,7 +6,7 @@ import numpy as np
 
 def avaliar_knn_v2(
     df_comp: pd.DataFrame,
-    recomendar_fn,  # função de recomendação (recomendar_por_cliente)
+    recomendar_fn,
     k_vizinhos: int = K_VIZINHOS,
     k_recs: int = K_RECS,
     test_frac: float = 0.1,
