@@ -10,6 +10,7 @@ Gera um dataset de vendas fictícias para teste, considerando:
 
 import pandas as pd
 import random
+import pandas as pd
 
 # === Configurações de geração ===
 NUM_ORDERS_PER_CLIENT = 100  # Quantidade de pedidos por cliente

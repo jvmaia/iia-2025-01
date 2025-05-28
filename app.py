@@ -33,6 +33,7 @@ def index():
             recommendations = recomendar_por_cliente(
                 client=client_name, k_vizinhos=K_VIZINHOS, k_recs=K_RECS
             )
+            # Obtém o histórico de compras do cliente
             purchases = get_client_purchases(client_name)
         except ValueError as e:
             # Cliente não encontrado
