@@ -1,0 +1,131 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{margin=1in}
+
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    columns=fullflexible,
+    upquote=true
+}
+
+\title{\Huge Sistema de Recomendação de Produtos}
+\author{Universidade de Brasília -- DCC \\ Projeto de IA 2025/1}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Visão Geral}
+Este projeto conecta pequenos produtores a consumidores de uma região via
+recomendação colaborativa KNN, filtragem geográfica e preferências.
+
+\section*{Funcionalidades}
+\begin{itemize}
+    \item Recomendações baseadas no histórico de clientes similares.
+    \item Interface web para seleção de clientes e exibição de recomendações.
+    \item Visualização do histórico de compras.
+    \item API REST para integração.
+\end{itemize}
+
+\section*{Pré-requisitos}
+\begin{itemize}
+    \item Docker instalado.
+    \item Arquivo \texttt{sells\_data.csv} em \texttt{data/}.
+\end{itemize}
+
+\section*{Docker}
+\begin{lstlisting}[language=bash]
+# Build da imagem
+docker build -t recommendation-api .
+
+# Executar container
+docker run -p 5000:5000 \
+  -v $(pwd)/data:/app/data \
+  recommendation-api
+\end{lstlisting}
+Obs.: se a porta 5000 estiver ocupada, use \texttt{-p 5001:5000}.
+
+\section*{Como Executar}
+
+\subsection*{Serviço principal (Flask + KNN)}
+\begin{lstlisting}[language=bash]
+python ai.py [-f path/to/best_params.json]
+python app.py
+\end{lstlisting}
+Acesse em: \url{http://localhost:5000}
+
+\subsection*{Testbench}
+\begin{itemize}
+  \item Modo finito:
+    \begin{lstlisting}[language=bash]
+python testbench.py -n 50
+    \end{lstlisting}
+    Gera \texttt{testbench\_50/logs/Exec\_\#\#/} e \texttt{testbench\_50/metrics.json}.
+  \item Modo indefinido:
+    \begin{lstlisting}[language=bash]
+python testbench.py -i
+    \end{lstlisting}
+    Atualiza continuamente o diretório \texttt{best/} até interrupção (\texttt{Ctrl+C}).
+\end{itemize}
+
+\subsection*{Grid Search}
+\begin{lstlisting}[language=bash]
+python grid_search.py --out grid_results --reps 5
+\end{lstlisting}
+Gera:
+\begin{itemize}
+  \item \texttt{grid\_results/logs/combo\_/run\_/}
+  \item \texttt{grid\_results/best\_params.json}
+  \item \texttt{grid\_results/grid\_metrics.json}
+\end{itemize}
+
+\section*{Parâmetros e Flags}
+\begin{tabular}{p{4cm} p{4cm} p{6cm}}
+\hline
+\textbf{Script} & \textbf{Flag} & \textbf{Descrição} \\
+\hline
+\texttt{ai.py} & \texttt{-f, --best-params} & Carrega hiperparâmetros de \texttt{best\_params.json}. \\
+\texttt{testbench.py} & \texttt{-n, --n\_runs} & Número de iterações finitas (padrão: 100). \\
+ & \texttt{-i, --indefinite} & Modo indefinido até \texttt{Ctrl+C}. \\
+\texttt{grid\_search.py} & \texttt{-o, --out} & Diretório base para logs/resultados (padrão: \texttt{grid\_search/}). \\
+ & \texttt{-r, --reps} & Número de runs por combinação (padrão: 10). \\
+\hline
+\end{tabular}
+
+\section*{Testes \& Validação}
+\begin{itemize}
+  \item \textbf{Precision@K}: fração de itens recomendados que são relevantes.
+  \item \textbf{Recall@K}: fração de itens relevantes que foram recomendados.
+  \item Use \texttt{testbench.py} para medir estabilidade (ex.: média de retries).
+  \item Use \texttt{grid\_search.py} para otimizar hiperparâmetros (\texttt{K\_VIZINHOS}, \texttt{K\_RECS}, \texttt{ALPHA}, etc.).
+\end{itemize}
+
+\section*{Métricas de Performance}
+O arquivo \texttt{grid\_metrics.json} contém:
+\begin{itemize}
+  \item \textbf{best}: melhores parâmetros e métricas.
+  \item \textbf{combos}: resumo de cada combinação.
+  \item \textbf{time\_metrics}: 
+    \begin{itemize}
+      \item \texttt{winner\_run\_time}: tempo do run vencedor.
+      \item \texttt{winner\_combo\_total\_time}: tempo total do combo vencedor.
+      \item \texttt{winner\_combo\_pct\_of\_grid}: percentual do grid.
+      \item \texttt{combo\_times}: tempo total e percentual de cada combo.
+      \item \texttt{total\_grid\_time}: duração completa do grid.
+    \end{itemize}
+\end{itemize}
+
+\section*{Licença}
+Distribuído sob a licença MIT. Veja \texttt{LICENSE} para mais informações.
+
+\end{document}

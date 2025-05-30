@@ -7,155 +7,223 @@ import json
 import time
 import signal
 import argparse
+import shutil
+import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Constantes
+
+# ANSI colors for level tags
+class Colors:
+    RESET = "\033[0m"
+    INFO = "\033[32m"
+    WARNING = "\033[33m"
+    ERROR = "\033[31m"
+
+
 SCRIPTS = ["fake_customers_generation.py", "ai.py", "evaluate_v2.py"]
 MAX_RETRIES = 3
 
 
+class LevelColorFormatter(logging.Formatter):
+    LEVEL_COLOR = {
+        logging.INFO: Colors.INFO,
+        logging.WARNING: Colors.WARNING,
+        logging.ERROR: Colors.ERROR,
+        logging.CRITICAL: Colors.ERROR,
+    }
+
+    def format(self, record):
+        ts = time.strftime("%H:%M:%S", self.converter(record.created))
+        lvl = record.levelname
+        color = self.LEVEL_COLOR.get(record.levelno, Colors.RESET)
+        msg = record.getMessage()
+        return f"[{ts}] [{color}{lvl}{Colors.RESET}] {msg}"
+
+
+class FlushHandler(logging.StreamHandler):
+    def emit(self, record):
+        super().emit(record)
+        self.flush()
+
+
+logger = logging.getLogger("testbench")
+logger.setLevel(logging.INFO)
+h = FlushHandler(sys.stdout)
+h.setFormatter(LevelColorFormatter())
+logger.handlers = [h]
+
+
 def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Executa o testbench N vezes, gera logs e métricas."
-    )
-    parser.add_argument(
-        "--n_runs", "-n", type=int, default=100, help="Número de iterações do testbench"
-    )
-    return parser.parse_args()
+    p = argparse.ArgumentParser(description="Testbench de recomendações")
+    g = p.add_mutually_exclusive_group()
+    g.add_argument("-n", "--n_runs", type=int, default=100, help="Número de iterações (finito)")
+    g.add_argument("-i", "--indefinite", action="store_true", help="Modo indefinido até Ctrl+C")
+    return p.parse_args()
 
 
-def setup_testbench(directory, total):
-    """Prepara o diretório de logs e limpa iterações antigas."""
-    if os.path.exists(directory):
-        for f in os.listdir(directory):
-            os.remove(os.path.join(directory, f))
-    else:
-        os.makedirs(directory)
-    print(
-        f"[BOOT] Testbench configurado: {total} iterações com até {MAX_RETRIES} tentativas cada."
-    )
+def setup_workspace(base):
+    if os.path.isdir(base):
+        shutil.rmtree(base)
+    os.makedirs(os.path.join(base, "logs"))
+    logger.info(f"Workspace criado em '{base}/'")
 
 
-def extract_metrics(path):
-    """Lê o log e retorna o dict de métricas mais recente."""
-    with open(path, "r", encoding="utf-8", errors="ignore") as f:
-        for line in reversed(f.read().splitlines()):
-            try:
-                d = ast.literal_eval(line.strip())
-                if isinstance(d, dict) and "precision@K" in d:
-                    return d
-            except (SyntaxError, ValueError):
-                continue
+def extract_metrics(logfile):
+    try:
+        with open(logfile, "r", encoding="utf-8", errors="ignore") as f:
+            lines = f.read().splitlines()
+    except Exception:
+        return None
+
+    for text in reversed(lines):
+        text = text.strip()
+        if not (text.startswith("{") and text.endswith("}")):
+            continue
+        try:
+            d = ast.literal_eval(text)
+        except (ValueError, SyntaxError):
+            continue
+        if isinstance(d, dict) and "precision@K" in d:
+            return d
     return None
 
 
-def run_single(idx, directory, total):
-    """Executa SCRIPTS na iteração idx; retorna (idx, metrics, tentativas)."""
-    log_path = os.path.join(directory, f"iteracao_{idx:02d}.log")
+def run_single(idx, logs_dir):
+    ws = os.path.join(logs_dir, f"Exec_{idx:02d}")
+    os.makedirs(ws, exist_ok=True)
+    data_dir = os.path.join(ws, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    shutil.copy(os.path.abspath("data/source.py"), os.path.join(data_dir, "source.py"))
+    logpath = os.path.join(ws, f"Exec_{idx:02d}.log")
+
     for attempt in range(1, MAX_RETRIES + 1):
-        if os.path.exists(log_path):
-            os.remove(log_path)
-        with open(log_path, "w") as log:
+        if os.path.exists(logpath):
+            os.remove(logpath)
+        with open(logpath, "w", encoding="utf-8") as log:
             for script in SCRIPTS:
-                subprocess.run([sys.executable, script], stdout=log, stderr=log)
-        metrics = extract_metrics(log_path)
-        if metrics:
-            return idx, metrics, attempt
+                subprocess.run(
+                    [sys.executable, os.path.abspath(script)], cwd=ws, stdout=log, stderr=log
+                )
+        mets = extract_metrics(logpath)
+        if mets:
+            return idx, mets, attempt
         time.sleep(1)
     return idx, {"precision@K": 0.0, "recall@K": 0.0}, MAX_RETRIES
 
 
+def load_global_best():
+    path = os.path.join("best", "metrics.json")
+    if os.path.isfile(path):
+        data = json.load(open(path, "r", encoding="utf-8"))
+        return data.get("best", {}).get("precision@K", 0.0)
+    return 0.0
+
+
+def save_best(best):
+    dst = "best"
+    if os.path.isdir(dst):
+        shutil.rmtree(dst)
+    os.makedirs(dst)
+    with open(os.path.join(dst, "metrics.json"), "w", encoding="utf-8") as f:
+        json.dump({"best": best}, f, indent=2, ensure_ascii=False)
+    logger.info("Melhor execução salva em 'best/metrics.json'")
+
+
+def print_progress(idx, total, prec, rec, elapsed):
+    prefix = f"[{idx}/{total}]" if total else f"[Run {idx}]"
+    msg = f"{Colors.INFO}{prefix}{Colors.RESET} prec@K={prec:.4f} rec@K={rec:.4f} ({elapsed:.1f}s)"
+    print(msg, end="\r", flush=True)
+
+
 def main():
     args = parse_args()
-    total = args.n_runs
-    directory = f"testbench_{total}"
+    base = "testbench_indef" if args.indefinite else f"testbench_{args.n_runs}"
+    total = None if args.indefinite else args.n_runs
+    mode = "indefinido (Ctrl+C para parar)" if args.indefinite else f"finito ({total} execuções)"
+    logger.info(f"Modo de execução: {mode}")
 
-    # sinal para interrupção
-    stop = False
+    setup_workspace(base)
+    logs_dir = os.path.join(base, "logs")
+    global_best = load_global_best()
+    best = {"Exec": None, "precision@K": global_best, "recall@K": 0.0}
+    results, stop = [], False
 
-    def handler(sig, frame):
+    def _sigint(sig, frame):
         nonlocal stop
         stop = True
+        print()  # newline after progress
+        logger.warning("Ctrl+C detectado – encerrando após run atual...")
 
-    signal.signal(signal.SIGINT, handler)
+    signal.signal(signal.SIGINT, _sigint)
 
-    setup_testbench(directory, total)
-    start_time = time.time()
-    best = {"iteracao": None, "precision@K": 0.0, "recall@K": 0.0}
-    results = []
-
+    start = time.time()
     executor = ThreadPoolExecutor(max_workers=os.cpu_count() or 1)
-    futures = {executor.submit(run_single, i, directory, total): i for i in range(1, total + 1)}
 
     try:
-        for future in as_completed(futures):
-            if stop:
-                raise KeyboardInterrupt
-            idx, metrics, tries = future.result()
-            results.append({"iteracao": idx, **metrics, "tentativas": tries})
+        if args.indefinite:
+            # start one per worker
+            pool = os.cpu_count() or 1
+            futures = {executor.submit(run_single, i + 1, logs_dir): i + 1 for i in range(pool)}
+            next_idx = pool + 1
+            while futures and not stop:
+                done = next(as_completed(futures), None)
+                if not done:
+                    break
+                run_id = futures.pop(done)
+                _, mets, tries = done.result()
+                results.append({"Exec": run_id, **mets, "retries": tries})
+                elapsed = time.time() - start
+                print_progress(run_id, None, mets["precision@K"], mets["recall@K"], elapsed)
+                if mets["precision@K"] > best["precision@K"]:
+                    best = {"Exec": run_id, **mets}
+                    save_best(best)
+                if not stop:
+                    fut = executor.submit(run_single, next_idx, logs_dir)
+                    futures[fut] = next_idx
+                    next_idx += 1
 
-            # Métricas em tempo real (única linha)
-            done = len(results)
-            precision = metrics["precision@K"]
-            recall = metrics["recall@K"]
-            elapsed = time.time() - start_time
-            attempts = sum(r["tentativas"] for r in results)
-            efficiency = (done / attempts) * 100 if attempts else 0.0
+        else:
+            futures = {executor.submit(run_single, i, logs_dir): i for i in range(1, total + 1)}
+            for fut in as_completed(futures):
+                if stop:
+                    break
+                run_id = futures[fut]
+                _, mets, tries = fut.result()
+                results.append({"Exec": run_id, **mets, "retries": tries})
+                elapsed = time.time() - start
+                print_progress(run_id, total, mets["precision@K"], mets["recall@K"], elapsed)
+                if mets["precision@K"] > best["precision@K"]:
+                    best = {"Exec": run_id, **mets}
 
-            print(
-                f"[EXEC] Iteração {idx}/{total} | precision@K={precision:.4f} | recall@K={recall:.4f} | Eficiência={efficiency:.2f}% | Custo={elapsed:.2f}s",
-                end="\r",
-                flush=True,
-            )
-
-            if precision > best["precision@K"]:
-                best = {"iteracao": idx, **metrics}
-
-    except KeyboardInterrupt:
+    finally:
         executor.shutdown(wait=False, cancel_futures=True)
-        completed = len(results)
-        print(
-            f"\n[HALT] Após {completed} iterações. Salvando métricas e renomeando diretório...",
-            flush=True,
-        )
+        print()
 
-        # salvar métricas parciais
-        elapsed = time.time() - start_time
-        attempts = sum(r["tentativas"] for r in results)
-        efficiency = (completed / attempts) * 100 if attempts else 0.0
-        partial = {
-            "best": best,
-            "elapsed_time": elapsed,
-            "efficiency": efficiency,
-            "results": results,
-        }
-        with open(os.path.join(directory, "metrics.json"), "w") as out:
-            json.dump(partial, out, indent=2, ensure_ascii=False)
+    # compute stability
+    retries = [r["retries"] for r in results]
+    stability = {
+        "avg_retries": sum(retries) / len(retries) if retries else 0.0,
+        "max_retries": max(retries) if retries else 0,
+        "with_retry": sum(1 for t in retries if t > 1),
+        "failed": sum(1 for t in retries if t == MAX_RETRIES),
+    }
 
-        # renomear pasta
-        new_name = f"testbench_{completed}"
-        if os.path.exists(new_name):
-            new_name += f"_{int(time.time())}"
-        os.rename(directory, new_name)
-        print(f"[SAVE] Diretório para '{new_name}'.", flush=True)
-        sys.exit(1)
+    final = {
+        "best": best,
+        "elapsed_time": time.time() - start,
+        "results_count": len(results),
+        "stability": stability,
+        "results": results,
+    }
+    metrics_path = os.path.join(base, "metrics.json")
+    with open(metrics_path, "w", encoding="utf-8") as f:
+        json.dump(final, f, indent=2, ensure_ascii=False)
+    logger.info(f"Métricas salvas em '{metrics_path}'")
 
-    executor.shutdown()
+    if not args.indefinite and best["Exec"] and best["precision@K"] > global_best:
+        save_best(best)
 
-    # Resumo final
-    elapsed = time.time() - start_time
-    attempts = sum(r["tentativas"] for r in results)
-    efficiency = (total / attempts) * 100 if attempts else 0.0
-
-    print(
-        f"\n[DONE] Melhor iteração {best['iteracao']:02d} – precision@K={best['precision@K']:.4f} | recall@K={best['recall@K']:.4f}"
-    )
-    print(f"[DONE] Custo total={elapsed:.2f}s | Eficiência={efficiency:.2f}%")
-
-    # salvar métricas finais
-    final = {"best": best, "elapsed_time": elapsed, "efficiency": efficiency, "results": results}
-    with open(os.path.join(directory, "metrics.json"), "w") as out:
-        json.dump(final, out, indent=2, ensure_ascii=False)
+    logger.info(f"Testbench concluído em {time.time() - start:.1f}s")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 # Custom
-sells_data.csv
+data/sells_data.csv
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__
