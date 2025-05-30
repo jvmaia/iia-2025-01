@@ -1,7 +1,7 @@
 
 # 🚀 Sistema de Recomendação de Produtos
 
-Este é um sistema de recomendação de produtos baseado na similaridade entre clientes, utilizando o algoritmo de **K-Nearest Neighbors (KNN)** com **similaridade por cosseno**.
+Este é um sistema de recomendação de produtos baseado na similaridade entre clientes, utilizando o algoritmo de **K-Nearest Neighbors (KNN)** com **similaridade por cosseno**. Acesse uma [DEMO](https://teusdv.link/IIA/)!
 
 ---
 
@@ -29,8 +29,8 @@ Este é um sistema de recomendação de produtos baseado na similaridade entre c
 1️⃣ Clone o repositório e navegue até a pasta do projeto:
 
 ```bash
-git clone <url-do-repositório>
-cd <nome-da-pasta>
+git clone https://github.com/jvmaia/iia-2025-01.git
+cd iia-2025-01
 ```
 
 2️⃣ Construa a imagem Docker:
@@ -153,4 +153,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir _issues_ ou envi
 
 ## 📄 Licença
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distribuído sob a licença UnB. Veja `LICENSE` para mais informações.
