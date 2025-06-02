@@ -1,13 +1,13 @@
 {
-  "precision@K": 0.42152,
-  "recall@K": 0.3956365873015873,
+  "precision@K": 0.44848,
+  "recall@K": 0.38163103174603175,
   "params": {
-    "K_VIZINHOS": 5,
+    "K_VIZINHOS": 20,
     "K_RECS": 5,
-    "ALPHA": 0.01,
-    "MIN_QUANTITY": 10,
+    "ALPHA": 0.0001,
+    "MIN_QUANTITY": 2,
     "MIN_PRODUCT_SUPPORT": 10,
-    "MIN_CLIENT_TRANSACTIONS": 5
+    "MIN_CLIENT_TRANSACTIONS": 10
   },
-  "time": 3.137346713542938
+  "time": 3.1243310737609864
 }

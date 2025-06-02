@@ -107,13 +107,6 @@ Exemplo de resposta:
 
 ---
 
-## ⚙️ Parâmetros do Sistema
-
-- `K_VIZINHOS` → Número de vizinhos similares considerados _(padrão: 5)_
-- `K_RECS` → Número de recomendações retornadas _(padrão: 10)_
-
----
-
 ## 🛡️ Tratamento de Erros
 
 ✅ Cliente não encontrado  
@@ -136,10 +129,11 @@ Exemplo de resposta:
 
 ## 🧰 Tecnologias Utilizadas
 
-- 🐍 Python 3.9
+- 🐍 Python3
 - 🌐 Flask
 - 📊 Pandas
 - 🤖 Scikit-learn
+- 🧵 Multi-threading
 - 🎨 Bootstrap 5
 - 🐳 Docker
 
@@ -153,4 +147,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir _issues_ ou envi
 
 ## 📄 Licença
 
-Distribuído sob a licença UnB. Veja `LICENSE` para mais informações.
+Liberado sob uma licença de uso geral no contexto da UnB.
+
+Consulte `LICENSE` para obter mais detalhes.

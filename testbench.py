@@ -89,6 +89,10 @@ def extract_metrics(logfile):
 
 
 def run_single(idx, logs_dir):
+    """
+    Executa SCRIPTS na iteração idx; retorna:
+    (idx, metrics_dict, retries, elapsed_time)
+    """
     ws = os.path.join(logs_dir, f"Exec_{idx:02d}")
     os.makedirs(ws, exist_ok=True)
     data_dir = os.path.join(ws, "data")
@@ -96,6 +100,7 @@ def run_single(idx, logs_dir):
     shutil.copy(os.path.abspath("data/source.py"), os.path.join(data_dir, "source.py"))
     logpath = os.path.join(ws, f"Exec_{idx:02d}.log")
 
+    start = time.time()
     for attempt in range(1, MAX_RETRIES + 1):
         if os.path.exists(logpath):
             os.remove(logpath)
@@ -106,9 +111,12 @@ def run_single(idx, logs_dir):
                 )
         mets = extract_metrics(logpath)
         if mets:
-            return idx, mets, attempt
+            elapsed = time.time() - start
+            return idx, mets, attempt, elapsed
         time.sleep(1)
-    return idx, {"precision@K": 0.0, "recall@K": 0.0}, MAX_RETRIES
+
+    elapsed = time.time() - start
+    return idx, {"precision@K": 0.0, "recall@K": 0.0}, MAX_RETRIES, elapsed
 
 
 def load_global_best():
@@ -119,14 +127,12 @@ def load_global_best():
     return 0.0
 
 
-def save_best(best):
+def save_best_folder(src_ws):
     dst = "best"
     if os.path.isdir(dst):
         shutil.rmtree(dst)
-    os.makedirs(dst)
-    with open(os.path.join(dst, "metrics.json"), "w", encoding="utf-8") as f:
-        json.dump({"best": best}, f, indent=2, ensure_ascii=False)
-    logger.info("Melhor execução salva em 'best/metrics.json'")
+    shutil.move(src_ws, dst)
+    logger.info(f"Melhor execução movida para '{dst}/'")
 
 
 def print_progress(idx, total, prec, rec, elapsed):
@@ -139,20 +145,23 @@ def main():
     args = parse_args()
     base = "testbench_indef" if args.indefinite else f"testbench_{args.n_runs}"
     total = None if args.indefinite else args.n_runs
-    mode = "indefinido (Ctrl+C para parar)" if args.indefinite else f"finito ({total} execuções)"
-    logger.info(f"Modo de execução: {mode}")
+    mode_desc = (
+        "indefinido (Ctrl+C para parar)" if args.indefinite else f"finito ({total} execuções)"
+    )
+    logger.info(f"Modo de execução: {mode_desc}")
 
     setup_workspace(base)
     logs_dir = os.path.join(base, "logs")
     global_best = load_global_best()
     best = {"Exec": None, "precision@K": global_best, "recall@K": 0.0}
-    results, stop = [], False
+    results = []
+    stop = False
 
     def _sigint(sig, frame):
         nonlocal stop
         stop = True
         print()  # newline after progress
-        logger.warning("Ctrl+C detectado – encerrando após run atual...")
+        logger.warning("Ctrl+C detectado – encerrando após a iteração atual...")
 
     signal.signal(signal.SIGINT, _sigint)
 
@@ -161,22 +170,52 @@ def main():
 
     try:
         if args.indefinite:
-            # start one per worker
-            pool = os.cpu_count() or 1
-            futures = {executor.submit(run_single, i + 1, logs_dir): i + 1 for i in range(pool)}
-            next_idx = pool + 1
+            # inicia uma run por CPU
+            pool_size = os.cpu_count() or 1
+            futures = {
+                executor.submit(run_single, i + 1, logs_dir): i + 1 for i in range(pool_size)
+            }
+            next_idx = pool_size + 1
+
             while futures and not stop:
-                done = next(as_completed(futures), None)
-                if not done:
+                done_future = next(as_completed(futures), None)
+                if not done_future:
                     break
-                run_id = futures.pop(done)
-                _, mets, tries = done.result()
-                results.append({"Exec": run_id, **mets, "retries": tries})
-                elapsed = time.time() - start
-                print_progress(run_id, None, mets["precision@K"], mets["recall@K"], elapsed)
+
+                run_id, mets, tries, elapsed_run = done_future.result()
+                futures.pop(done_future)
+                elapsed_total = time.time() - start
+                print_progress(run_id, None, mets["precision@K"], mets["recall@K"], elapsed_run)
+
+                # registra resultado
+                results.append(
+                    {
+                        "Exec": run_id,
+                        "precision@K": mets["precision@K"],
+                        "recall@K": mets["recall@K"],
+                        "retries": tries,
+                        "time": elapsed_run,
+                    }
+                )
+
+                # atualiza master.json
+                master = {"best": best, "elapsed_time": elapsed_total, "results": results}
+                with open(os.path.join(base, "master.json"), "w", encoding="utf-8") as mf:
+                    json.dump(master, mf, indent=2, ensure_ascii=False)
+
+                ws = os.path.join(logs_dir, f"Exec_{run_id:02d}")
                 if mets["precision@K"] > best["precision@K"]:
                     best = {"Exec": run_id, **mets}
-                    save_best(best)
+                    # move para best/
+                    if os.path.isdir("best"):
+                        shutil.rmtree("best")
+                    save_best_folder(ws)
+                else:
+                    # não é melhor → deleta pasta
+                    if os.path.isdir(ws):
+                        shutil.rmtree(ws)
+
+                # agenda próxima run
                 if not stop:
                     fut = executor.submit(run_single, next_idx, logs_dir)
                     futures[fut] = next_idx
@@ -187,19 +226,47 @@ def main():
             for fut in as_completed(futures):
                 if stop:
                     break
-                run_id = futures[fut]
-                _, mets, tries = fut.result()
-                results.append({"Exec": run_id, **mets, "retries": tries})
-                elapsed = time.time() - start
-                print_progress(run_id, total, mets["precision@K"], mets["recall@K"], elapsed)
+
+                run_id, mets, tries, elapsed_run = fut.result()
+                elapsed_total = time.time() - start
+                print_progress(run_id, total, mets["precision@K"], mets["recall@K"], elapsed_run)
+
+                # registra resultado
+                results.append(
+                    {
+                        "Exec": run_id,
+                        "precision@K": mets["precision@K"],
+                        "recall@K": mets["recall@K"],
+                        "retries": tries,
+                        "time": elapsed_run,
+                    }
+                )
+
+                # atualiza master.json
+                master = {"best": best, "elapsed_time": elapsed_total, "results": results}
+                with open(os.path.join(base, "master.json"), "w", encoding="utf-8") as mf:
+                    json.dump(master, mf, indent=2, ensure_ascii=False)
+
+                ws = os.path.join(logs_dir, f"Exec_{run_id:02d}")
                 if mets["precision@K"] > best["precision@K"]:
                     best = {"Exec": run_id, **mets}
+                    if os.path.isdir("best"):
+                        shutil.rmtree("best")
+                    save_best_folder(ws)
+                else:
+                    if os.path.isdir(ws):
+                        shutil.rmtree(ws)
 
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
         print()
 
-    # compute stability
+    # pós-processamento: exclui logs/ por completo
+    logs_folder = os.path.join(base, "logs")
+    if os.path.isdir(logs_folder):
+        shutil.rmtree(logs_folder)
+
+    # calcula estabilidade
     retries = [r["retries"] for r in results]
     stability = {
         "avg_retries": sum(retries) / len(retries) if retries else 0.0,
@@ -215,14 +282,12 @@ def main():
         "stability": stability,
         "results": results,
     }
-    metrics_path = os.path.join(base, "metrics.json")
-    with open(metrics_path, "w", encoding="utf-8") as f:
-        json.dump(final, f, indent=2, ensure_ascii=False)
-    logger.info(f"Métricas salvas em '{metrics_path}'")
 
-    if not args.indefinite and best["Exec"] and best["precision@K"] > global_best:
-        save_best(best)
+    # atualiza master.json final
+    with open(os.path.join(base, "master.json"), "w", encoding="utf-8") as mf:
+        json.dump(final, mf, indent=2, ensure_ascii=False)
 
+    logger.info(f"Métricas finais salvas em '{base}/master.json'")
     logger.info(f"Testbench concluído em {time.time() - start:.1f}s")
 
 
